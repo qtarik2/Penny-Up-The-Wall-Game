@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff41b1328bfb32647a62b55b25e2945d, type: 3}
+  m_Name: HandData
+  m_EditorClassIdentifier: 
+  _HandData:
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: 5ef6cf81af5087549969a8fe7d4dce3c, type: 2}
+    - {fileID: 2100000, guid: d1545d214dab4a24ab1876592bef98a0, type: 2}
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: 3a7d754d327655d498d06afceac60d4c, type: 2}
+    - {fileID: 2100000, guid: 08bdbdbf537f29243ac491b327ae1c2d, type: 2}
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: 59f899882f49b1144b122746cc98808a, type: 2}
+    - {fileID: 2100000, guid: e0db3c97315172f41852880784d566c2, type: 2}
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: d65642c575d26f94eafe71b7e4c667a2, type: 2}
+    - {fileID: 2100000, guid: e9d8353acdb206148bd44b5866ca62ec, type: 2}
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: 493c39ad3fefb40489036c6f4fd9a4e3, type: 2}
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: bcac6eb20314317489e38e0c96b8eb89, type: 2}
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: 9dcdcb6c37e413c4fa4fbdd8cc750d12, type: 2}
+  - HandImage: {fileID: 0}
+    Hand_Type: 
+    _handMaterial:
+    - {fileID: 2100000, guid: 303848ca7e9e42541a277948933e4012, type: 2}

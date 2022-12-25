@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: 6c86c3cbb34c6c145bc45b13acdb30e4
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Crocodile_Head_JawEndSHJnt
+  - first:
+      1: 100002
+    second: Crocodile_Head_JawSHJnt
+  - first:
+      1: 100004
+    second: Crocodile_Head_TopSHJnt
+  - first:
+      1: 100006
+    second: Crocodile_l_Clavicle_01_01SHJnt
+  - first:
+      1: 100008
+    second: Crocodile_l_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100010
+    second: Crocodile_l_FrontLeg_BallSHJnt
+  - first:
+      1: 100012
+    second: Crocodile_l_FrontLeg_HipSHJnt
+  - first:
+      1: 100014
+    second: Crocodile_l_FrontLeg_KneeSHJnt
+  - first:
+      1: 100016
+    second: Crocodile_l_FrontLeg_ToeSHJnt
+  - first:
+      1: 100018
+    second: Crocodile_l_HindLeg_AnkleSHJnt
+  - first:
+      1: 100020
+    second: Crocodile_l_HindLeg_BallSHJnt
+  - first:
+      1: 100022
+    second: Crocodile_l_HindLeg_HipSHJnt
+  - first:
+      1: 100024
+    second: Crocodile_l_HindLeg_KneeSHJnt
+  - first:
+      1: 100026
+    second: Crocodile_l_HindLeg_ToeSHJnt
+  - first:
+      1: 100028
+    second: Crocodile_MAINSHJnt
+  - first:
+      1: 100030
+    second: crocodile_mesh
+  - first:
+      1: 100032
+    second: Crocodile_Neck_01SHJnt
+  - first:
+      1: 100034
+    second: Crocodile_Neck_02SHJnt
+  - first:
+      1: 100036
+    second: Crocodile_Neck_TopSHJnt
+  - first:
+      1: 100038
+    second: Crocodile_r_Clavicle_01_01SHJnt
+  - first:
+      1: 100040
+    second: Crocodile_r_FrontLeg_AnkleSHJnt
+  - first:
+      1: 100042
+    second: Crocodile_r_FrontLeg_BallSHJnt
+  - first:
+      1: 100044
+    second: Crocodile_r_FrontLeg_HipSHJnt
+  - first:
+      1: 100046
+    second: Crocodile_r_FrontLeg_KneeSHJnt
+  - first:
+      1: 100048
+    second: Crocodile_r_FrontLeg_ToeSHJnt
+  - first:
+      1: 100050
+    second: Crocodile_r_HindLeg_AnkleSHJnt
+  - first:
+      1: 100052
+    second: Crocodile_r_HindLeg_BallSHJnt
+  - first:
+      1: 100054
+    second: Crocodile_r_HindLeg_HipSHJnt
+  - first:
+      1: 100056
+    second: Crocodile_r_HindLeg_KneeSHJnt
+  - first:
+      1: 100058
+    second: Crocodile_r_HindLeg_ToeSHJnt
+  - first:
+      1: 100060
+    second: //RootNode
+  - first:
+      1: 100062
+    second: Crocodile_ROOTSHJnt
+  - first:
+      1: 100064
+    second: Crocodile_Spine_01SHJnt
+  - first:
+      1: 100066
+    second: Crocodile_Spine_02SHJnt
+  - first:
+      1: 100068
+    second: Crocodile_Spine_03SHJnt
+  - first:
+      1: 100070
+    second: Crocodile_Spine_04SHJnt
+  - first:
+      1: 100072
+    second: Crocodile_Spine_TopSHJnt
+  - first:
+      1: 100074
+    second: Crocodile_Tail_01_01SHJnt
+  - first:
+      1: 100076
+    second: Crocodile_Tail_01_02SHJnt
+  - first:
+      1: 100078
+    second: Crocodile_Tail_01_03SHJnt
+  - first:
+      1: 100080
+    second: Crocodile_Tail_01_04SHJnt
+  - first:
+      1: 100082
+    second: Crocodile_Tail_01_05SHJnt
+  - first:
+      1: 100084
+    second: Crocodile_Tail_01_06SHJnt
+  - first:
+      1: 100086
+    second: Crocodile_Tail_01_07SHJnt
+  - first:
+      1: 100088
+    second: Crocodile_Tail_01_08SHJnt
+  - first:
+      4: 400000
+    second: Crocodile_Head_JawEndSHJnt
+  - first:
+      4: 400002
+    second: Crocodile_Head_JawSHJnt
+  - first:
+      4: 400004
+    second: Crocodile_Head_TopSHJnt
+  - first:
+      4: 400006
+    second: Crocodile_l_Clavicle_01_01SHJnt
+  - first:
+      4: 400008
+    second: Crocodile_l_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400010
+    second: Crocodile_l_FrontLeg_BallSHJnt
+  - first:
+      4: 400012
+    second: Crocodile_l_FrontLeg_HipSHJnt
+  - first:
+      4: 400014
+    second: Crocodile_l_FrontLeg_KneeSHJnt
+  - first:
+      4: 400016
+    second: Crocodile_l_FrontLeg_ToeSHJnt
+  - first:
+      4: 400018
+    second: Crocodile_l_HindLeg_AnkleSHJnt
+  - first:
+      4: 400020
+    second: Crocodile_l_HindLeg_BallSHJnt
+  - first:
+      4: 400022
+    second: Crocodile_l_HindLeg_HipSHJnt
+  - first:
+      4: 400024
+    second: Crocodile_l_HindLeg_KneeSHJnt
+  - first:
+      4: 400026
+    second: Crocodile_l_HindLeg_ToeSHJnt
+  - first:
+      4: 400028
+    second: Crocodile_MAINSHJnt
+  - first:
+      4: 400030
+    second: crocodile_mesh
+  - first:
+      4: 400032
+    second: Crocodile_Neck_01SHJnt
+  - first:
+      4: 400034
+    second: Crocodile_Neck_02SHJnt
+  - first:
+      4: 400036
+    second: Crocodile_Neck_TopSHJnt
+  - first:
+      4: 400038
+    second: Crocodile_r_Clavicle_01_01SHJnt
+  - first:
+      4: 400040
+    second: Crocodile_r_FrontLeg_AnkleSHJnt
+  - first:
+      4: 400042
+    second: Crocodile_r_FrontLeg_BallSHJnt
+  - first:
+      4: 400044
+    second: Crocodile_r_FrontLeg_HipSHJnt
+  - first:
+      4: 400046
+    second: Crocodile_r_FrontLeg_KneeSHJnt
+  - first:
+      4: 400048
+    second: Crocodile_r_FrontLeg_ToeSHJnt
+  - first:
+      4: 400050
+    second: Crocodile_r_HindLeg_AnkleSHJnt
+  - first:
+      4: 400052
+    second: Crocodile_r_HindLeg_BallSHJnt
+  - first:
+      4: 400054
+    second: Crocodile_r_HindLeg_HipSHJnt
+  - first:
+      4: 400056
+    second: Crocodile_r_HindLeg_KneeSHJnt
+  - first:
+      4: 400058
+    second: Crocodile_r_HindLeg_ToeSHJnt
+  - first:
+      4: 400060
+    second: //RootNode
+  - first:
+      4: 400062
+    second: Crocodile_ROOTSHJnt
+  - first:
+      4: 400064
+    second: Crocodile_Spine_01SHJnt
+  - first:
+      4: 400066
+    second: Crocodile_Spine_02SHJnt
+  - first:
+      4: 400068
+    second: Crocodile_Spine_03SHJnt
+  - first:
+      4: 400070
+    second: Crocodile_Spine_04SHJnt
+  - first:
+      4: 400072
+    second: Crocodile_Spine_TopSHJnt
+  - first:
+      4: 400074
+    second: Crocodile_Tail_01_01SHJnt
+  - first:
+      4: 400076
+    second: Crocodile_Tail_01_02SHJnt
+  - first:
+      4: 400078
+    second: Crocodile_Tail_01_03SHJnt
+  - first:
+      4: 400080
+    second: Crocodile_Tail_01_04SHJnt
+  - first:
+      4: 400082
+    second: Crocodile_Tail_01_05SHJnt
+  - first:
+      4: 400084
+    second: Crocodile_Tail_01_06SHJnt
+  - first:
+      4: 400086
+    second: Crocodile_Tail_01_07SHJnt
+  - first:
+      4: 400088
+    second: Crocodile_Tail_01_08SHJnt
+  - first:
+      43: 4300000
+    second: crocodile_mesh
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: crocodile_mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default1
+    second: {fileID: 2100000, guid: 5fc9397b699b2e14f8e4e43c8f3ea62f, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Crocodile_Rig(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: crocodile_mesh
+      parentName: Crocodile_Rig(Clone)
+      position: {x: -0, y: 0, z: -0.64747787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_MAINSHJnt
+      parentName: Crocodile_Rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_ROOTSHJnt
+      parentName: Crocodile_MAINSHJnt
+      position: {x: 0, y: 0.4378872, z: -0.054654777}
+      rotation: {x: -0.7071068, y: 0.0000000057123675, z: 0.0000000057123675, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Spine_01SHJnt
+      parentName: Crocodile_ROOTSHJnt
+      position: {x: 3.9443044e-33, y: 7.105427e-17, z: 0.25502095}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Spine_02SHJnt
+      parentName: Crocodile_Spine_01SHJnt
+      position: {x: -0.25502095, y: -1.1212788e-16, z: -1.0658141e-16}
+      rotation: {x: -0.7071068, y: 1.2094034e-16, z: 4.2435705e-17, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Spine_03SHJnt
+      parentName: Crocodile_Spine_02SHJnt
+      position: {x: -0.25502095, y: 3.5527136e-17, z: 1.9034436e-16}
+      rotation: {x: 0.7071068, y: 3.5526693e-17, z: -1.2148256e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Spine_04SHJnt
+      parentName: Crocodile_Spine_03SHJnt
+      position: {x: -0.25502095, y: -3.847051e-17, z: -1.4210854e-16}
+      rotation: {x: 1.4163847e-16, y: 2.220446e-16, z: 2.8605945e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Spine_TopSHJnt
+      parentName: Crocodile_Spine_04SHJnt
+      position: {x: -0.25502095, y: -9.509653e-17, z: -1.0658141e-16}
+      rotation: {x: 3.061617e-17, y: -2.220446e-16, z: 1.9714962e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_Clavicle_01_01SHJnt
+      parentName: Crocodile_Spine_TopSHJnt
+      position: {x: -7.105427e-17, y: -0.11213865, z: 1.4210854e-16}
+      rotation: {x: 0.10083523, y: -0.10083521, z: 0.55381775, w: 0.82033557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_FrontLeg_HipSHJnt
+      parentName: Crocodile_l_Clavicle_01_01SHJnt
+      position: {x: -0.118429266, y: -0.094722204, z: 0.07167506}
+      rotation: {x: 0.8074172, y: 0.2012013, z: -0.030678634, w: 0.55376387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_FrontLeg_KneeSHJnt
+      parentName: Crocodile_l_FrontLeg_HipSHJnt
+      position: {x: -0.2269207, y: -2.842171e-16, z: -1.7763567e-16}
+      rotation: {x: -0.0016948272, y: 0.051580146, z: -0.03841714, w: 0.99792826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_FrontLeg_AnkleSHJnt
+      parentName: Crocodile_l_FrontLeg_KneeSHJnt
+      position: {x: -0.20334059, y: -7.105427e-17, z: 0}
+      rotation: {x: 0.62869126, y: -0.4013858, z: -0.50390667, w: 0.43556267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_FrontLeg_BallSHJnt
+      parentName: Crocodile_l_FrontLeg_AnkleSHJnt
+      position: {x: -0.0017134544, y: -0.00085161766, z: 0.095223404}
+      rotation: {x: 0.00000023589465, y: 0.78196883, z: 0.0000003101545, w: 0.62331754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_FrontLeg_ToeSHJnt
+      parentName: Crocodile_l_FrontLeg_BallSHJnt
+      position: {x: -0.08478802, y: -0.0018093898, z: -0.032359503}
+      rotation: {x: 4.89529e-16, y: -0.11218323, z: 6.3849927e-18, w: 0.9936875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_Clavicle_01_01SHJnt
+      parentName: Crocodile_Spine_TopSHJnt
+      position: {x: -0, y: 0.11213865, z: 1.7763567e-16}
+      rotation: {x: -0.10083515, y: 0.10083519, z: 0.82033545, w: 0.55381805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_FrontLeg_HipSHJnt
+      parentName: Crocodile_r_Clavicle_01_01SHJnt
+      position: {x: 0.118429266, y: -0.094722204, z: 0.07167506}
+      rotation: {x: 0.20120138, y: 0.8074172, z: -0.55376375, w: 0.030678634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_FrontLeg_KneeSHJnt
+      parentName: Crocodile_r_FrontLeg_HipSHJnt
+      position: {x: -0.2269207, y: 0, z: -1.4210854e-16}
+      rotation: {x: -0.018540327, y: 0.031702265, z: 0.019391363, w: 0.9991373}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_FrontLeg_AnkleSHJnt
+      parentName: Crocodile_r_FrontLeg_KneeSHJnt
+      position: {x: -0.20334059, y: -2.1316282e-16, z: -2.4868996e-16}
+      rotation: {x: 0.62869126, y: 0.4013858, z: -0.50390667, w: -0.43556267}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_FrontLeg_BallSHJnt
+      parentName: Crocodile_r_FrontLeg_AnkleSHJnt
+      position: {x: -0.0017134544, y: 0.00085161766, z: 0.095223404}
+      rotation: {x: -0.0000002385967, y: 0.78196883, z: -0.00000031372338, w: 0.62331754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_FrontLeg_ToeSHJnt
+      parentName: Crocodile_r_FrontLeg_BallSHJnt
+      position: {x: -0.08478802, y: 0.0018093898, z: -0.032359503}
+      rotation: {x: 1.2663454e-16, y: -0.11218323, z: -3.6278405e-16, w: 0.9936875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Neck_01SHJnt
+      parentName: Crocodile_Spine_TopSHJnt
+      position: {x: -0.10930746, y: -1.874274e-17, z: 0.0030937244}
+      rotation: {x: 0.9995997, y: 7.8419766e-17, z: -0.028291628, w: -7.2427304e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Neck_02SHJnt
+      parentName: Crocodile_Neck_01SHJnt
+      position: {x: -0.10930746, y: 1.1318372e-16, z: 0.0030937244}
+      rotation: {x: 1.896727e-16, y: -4.0874422e-17, z: -3.5214887e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Neck_TopSHJnt
+      parentName: Crocodile_Neck_02SHJnt
+      position: {x: -0.10930746, y: -3.992646e-16, z: 0.0030937244}
+      rotation: {x: 0.99441886, y: 1.1584809e-16, z: -0.10550433, w: 7.249625e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Head_JawSHJnt
+      parentName: Crocodile_Neck_TopSHJnt
+      position: {x: -0.089218184, y: -1.964008e-15, z: 0.03963036}
+      rotation: {x: -0.32673642, y: -0.32673642, z: 0.62709117, w: 0.62709117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Head_JawEndSHJnt
+      parentName: Crocodile_Head_JawSHJnt
+      position: {x: -2.7671892e-14, y: 0.0828819, z: 0.59847045}
+      rotation: {x: 0.6970532, y: -0, z: -0, w: 0.71701944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Head_TopSHJnt
+      parentName: Crocodile_Neck_TopSHJnt
+      position: {x: -0.70144624, y: 1.977297e-14, z: -0.040118698}
+      rotation: {x: 0.009728364, y: 0.009728364, z: 0.7070399, w: 0.7070399}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_HindLeg_HipSHJnt
+      parentName: Crocodile_ROOTSHJnt
+      position: {x: -0.21598877, y: -0.054654785, z: -0.05088585}
+      rotation: {x: -0.68141437, y: -0.24774231, z: -0.58994186, w: 0.35534063}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_HindLeg_KneeSHJnt
+      parentName: Crocodile_l_HindLeg_HipSHJnt
+      position: {x: -0.22247174, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0.029852588, y: -0.063914835, z: -0.028429827, w: 0.9971036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_HindLeg_AnkleSHJnt
+      parentName: Crocodile_l_HindLeg_KneeSHJnt
+      position: {x: -0.25187394, y: 5.684342e-16, z: 2.3092638e-16}
+      rotation: {x: 0.6934682, y: -0.4937524, z: 0.5129464, w: -0.11043766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_HindLeg_BallSHJnt
+      parentName: Crocodile_l_HindLeg_AnkleSHJnt
+      position: {x: -0.04719449, y: 0.0022058168, z: 0.09598928}
+      rotation: {x: 7.5464627e-16, y: 0.7071068, z: -7.5464627e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_l_HindLeg_ToeSHJnt
+      parentName: Crocodile_l_HindLeg_BallSHJnt
+      position: {x: -0.1489341, y: 0.012608849, z: 2.4424906e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_HindLeg_HipSHJnt
+      parentName: Crocodile_ROOTSHJnt
+      position: {x: 0.21598877, y: -0.054654785, z: -0.05088585}
+      rotation: {x: 0.24774231, y: 0.68141437, z: 0.35534063, w: -0.58994186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_HindLeg_KneeSHJnt
+      parentName: Crocodile_r_HindLeg_HipSHJnt
+      position: {x: -0.22247174, y: 0, z: 2.4868996e-16}
+      rotation: {x: -0.029852659, y: -0.063914806, z: 0.028429793, w: 0.9971035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_HindLeg_AnkleSHJnt
+      parentName: Crocodile_r_HindLeg_KneeSHJnt
+      position: {x: -0.25187394, y: 1.4210854e-16, z: -1.2434498e-16}
+      rotation: {x: -0.6934682, y: -0.4937521, z: -0.5129467, w: -0.11043733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_HindLeg_BallSHJnt
+      parentName: Crocodile_r_HindLeg_AnkleSHJnt
+      position: {x: -0.04719449, y: -0.0022058168, z: 0.09598928}
+      rotation: {x: -2.655154e-16, y: 0.7071068, z: 2.655154e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_r_HindLeg_ToeSHJnt
+      parentName: Crocodile_r_HindLeg_BallSHJnt
+      position: {x: -0.1489341, y: -0.012608849, z: 1.2212454e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_01SHJnt
+      parentName: Crocodile_ROOTSHJnt
+      position: {x: -2.6108194e-16, y: -0.027781546, z: -0.33564857}
+      rotation: {x: -0.002487822, y: -0.7071024, z: 0.002487822, w: 0.7071024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_02SHJnt
+      parentName: Crocodile_Tail_01_01SHJnt
+      position: {x: -0.29153052, y: -0.031761628, z: 5.827046e-17}
+      rotation: {x: 3.397743e-17, y: 3.881345e-16, z: 0.03134942, w: 0.9995085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_03SHJnt
+      parentName: Crocodile_Tail_01_02SHJnt
+      position: {x: -0.2934538, y: -7.105427e-17, z: 5.858103e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_04SHJnt
+      parentName: Crocodile_Tail_01_03SHJnt
+      position: {x: -0.2934297, y: 0.0013189677, z: 5.859519e-17}
+      rotation: {x: 3.427769e-15, y: -6.1385874e-17, z: -0.018276164, w: 0.999833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_05SHJnt
+      parentName: Crocodile_Tail_01_04SHJnt
+      position: {x: -0.29338488, y: 0.0022297374, z: 5.86957e-17}
+      rotation: {x: 4.2132898e-17, y: 2.2159511e-16, z: -0.030905772, w: 0.9995223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_06SHJnt
+      parentName: Crocodile_Tail_01_05SHJnt
+      position: {x: -0.29343337, y: 0.0012150013, z: 5.867959e-17}
+      rotation: {x: 2.8484661e-15, y: -1.640395e-17, z: 0.034390874, w: 0.9994085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_07SHJnt
+      parentName: Crocodile_Tail_01_06SHJnt
+      position: {x: -0.29341954, y: 0.0015326224, z: 0.00035368706}
+      rotation: {x: -0.022068942, y: 0.0068577104, z: 0.045282748, w: 0.9987069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Crocodile_Tail_01_08SHJnt
+      parentName: Crocodile_Tail_01_07SHJnt
+      position: {x: -0.40350994, y: -0.0076505966, z: -1.5099033e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

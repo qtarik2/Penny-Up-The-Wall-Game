@@ -1,0 +1,1482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac11dee9d4ea42e89d523f16d4ed51c, type: 3}
+  m_Name: BossedData
+  m_EditorClassIdentifier: 
+  _totalBossesLevel:
+  - _eachLevelBosses:
+    - BossName: Butcher
+      BossImage: {fileID: 21300000, guid: e50de0e1477f3cd4bbd0e20a9895206f, type: 3}
+      BossDialogue:
+      - 'level 1 boss 1 dialogue 1       '
+      - level 1 boss 1 dialogue 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 500
+      BosseModel: {fileID: 8153420455770323387, guid: 5d007855b1ac6d44c81b9128d349ab6e,
+        type: 3}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 2f618e75c70d7344ea60a8ed54babb9c, type: 3}
+      - {fileID: 8300000, guid: 25d4cade4908fec49ba67d3d4c4a179f, type: 3}
+      - {fileID: 8300000, guid: 9b03d029a8a471843b2f8b3a6ef01ff1, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+    - BossName: Business Women
+      BossImage: {fileID: 21300000, guid: 77061bfc8fc581d4ab1cef32715cbf5d, type: 3}
+      BossDialogue:
+      - 'level 1 boss 2 '
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 00504318654efff42be547936003765b, type: 2}
+      gander: 1
+      AnimationSide: right
+      bet: 1000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: a2748af1d5f6a3e499529125c3bd80fa, type: 3}
+      - {fileID: 8300000, guid: f621e82b78fef334ba2ad3a6eed0ddc2, type: 3}
+      - {fileID: 8300000, guid: cc76d02a73a6e784fa76f323777b2a12, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+    - BossName: Policeman
+      BossImage: {fileID: 21300000, guid: 80a2244dd316f034db89220f31cfff2b, type: 3}
+      BossDialogue:
+      - level 1 boss 3 dialoge
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 1500
+      BosseModel: {fileID: 9135258730521512764, guid: 900f0396ec454084796ffc17373bb92c,
+        type: 3}
+      bossAudioClips:
+      - {fileID: 8300000, guid: f643a94c44f5ccc49afa10335aff6314, type: 3}
+      - {fileID: 8300000, guid: 7798f83a55991e34288698c0bb8ccdf0, type: 3}
+      - {fileID: 8300000, guid: 9b3e66a5766057e43ab860644372d2b8, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+    - BossName: Sexy Biker
+      BossImage: {fileID: 21300000, guid: d882b571929863f44ac9dabd78c2a5b0, type: 3}
+      BossDialogue:
+      - level 1 boss 4 dialogues
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: left
+      bet: 2000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: c47c637af1164684ea2fceb4fe25d79d, type: 3}
+      - {fileID: 8300000, guid: bbaf22a0b03e6b24599c518eb192d9f1, type: 3}
+      - {fileID: 8300000, guid: f4d78616f5d2293468401b0f2f165624, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+    - BossName: Gangster
+      BossImage: {fileID: 21300000, guid: c7a9119e2b26a6341bb306f9eb67542e, type: 3}
+      BossDialogue:
+      - level 1 boss5 dialogues
+      - get Well Soon
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 2500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 7e2eff2c71afd0f458c531c2272dc678, type: 3}
+      - {fileID: 8300000, guid: efffc7d95aa094d4487ae0ac2d4cbb4f, type: 3}
+      - {fileID: 8300000, guid: eee953028bbf5db4b8f9c6886ffd6c44, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: Yoga Man
+      BossImage: {fileID: 21300000, guid: f24adcf64745aba41baf94cee9655dcf, type: 3}
+      BossDialogue:
+      - level 2 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 4000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: dc595f9d2c26445429e6b8adb5066929, type: 3}
+      - {fileID: 8300000, guid: 9d6af14f05233a748822873a662b8053, type: 3}
+      - {fileID: 8300000, guid: a6909b732b4e7054381d7494a1719497, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+    - BossName: Indian Chief
+      BossImage: {fileID: 21300000, guid: 76fc0024f1411a44f8d76bf0048aeb57, type: 3}
+      BossDialogue:
+      - level 2 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 5500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: cea329cc2d7db26429e29b32249c3abf, type: 3}
+      - {fileID: 8300000, guid: ae56bfd322513d844988900b6dcc08aa, type: 3}
+      - {fileID: 8300000, guid: 1d631d6b343558d46ac39911840e02df, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+    - BossName: 'Indian Cricket Player '
+      BossImage: {fileID: 21300000, guid: 4aa7c540e07f8fc40b5ed42f8356f0a5, type: 3}
+      BossDialogue:
+      - level 2 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 7000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: b851d4f8d9b69e942b71c102a28a06b3, type: 3}
+      - {fileID: 8300000, guid: 23a79054cb874b543b1f5b0dfed5fdb8, type: 3}
+      - {fileID: 8300000, guid: 041c894780af9684ca203d730f9a7acd, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+    - BossName: Indian Women
+      BossImage: {fileID: 21300000, guid: d29024f46cdca134db6a0952405983e4, type: 3}
+      BossDialogue:
+      - level 2 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: e9f1f16a3defe774fab46daca53099ed, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 8500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: af14b8bb7e146f547b34ec86a1446313, type: 3}
+      - {fileID: 8300000, guid: 28039d371b10a6c478a3ecbdee1f148b, type: 3}
+      - {fileID: 8300000, guid: 89beb986a9048e14a94a9d1879e9dea3, type: 3}
+      - {fileID: 8300000, guid: 5563018670f7317429d67b4d7d439d42, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+    - BossName: Mafia boss
+      BossImage: {fileID: 21300000, guid: d4758fa79208b9140a910736bb89f12d, type: 3}
+      BossDialogue:
+      - level 2 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 10000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 2b9eafecd90fe8e49b77f4ea8c7f44bc, type: 3}
+      - {fileID: 8300000, guid: 58a6642578b63b94ab811189e43e4da2, type: 3}
+      - {fileID: 8300000, guid: 21f8fe251d452574f92139de1249053d, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: Turkish-Sultan
+      BossImage: {fileID: 21300000, guid: bd669644a17475d44868112582e37b33, type: 3}
+      BossDialogue:
+      - level 3 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 12000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 7e14cdc2592a13040a4dbe76fba8b623, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+      - {fileID: 4950551206978051872, guid: a4720aa5918efa347a3305df6cfadb3f, type: 3}
+    - BossName: Turkish Wrestler
+      BossImage: {fileID: 21300000, guid: 4446acaeed443a44cb41c20c5de38df4, type: 3}
+      BossDialogue:
+      - level 3 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 14000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: c4e3b20d4c84e5d42ab524878b0ff160, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+      - {fileID: 1057837148058865614, guid: 06d839c0cfb0bc84fbba01011aa2ac26, type: 3}
+    - BossName: Turkish-Barber
+      BossImage: {fileID: 21300000, guid: 319550fc514b7a04084342ac6982091d, type: 3}
+      BossDialogue:
+      - Level 3 boss dialogue 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 16000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 0212d27b740383143b8ca3159200b75d, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+      - {fileID: 4950551206978051872, guid: a4720aa5918efa347a3305df6cfadb3f, type: 3}
+    - BossName: Turkish-Belly-Dancer
+      BossImage: {fileID: 21300000, guid: c07bb238a7fa5954bacd66202a475287, type: 3}
+      BossDialogue:
+      - level 3 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 744eeb80c36e76142b8f885dc22b4402, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 18000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: b1b679de90e458e48acccb1d08e1e2c6, type: 3}
+      - {fileID: 8300000, guid: 4b5c2d00297097944809cf2896611e21, type: 3}
+      - {fileID: 8300000, guid: 75d69e27c184cf24aad4c25e58aabc41, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+      - {fileID: 4950551206978051872, guid: a4720aa5918efa347a3305df6cfadb3f, type: 3}
+    - BossName: Turkish Sultanate Princess
+      BossImage: {fileID: 21300000, guid: 4be4a819a8089754893da1ee6a234acc, type: 3}
+      BossDialogue:
+      - level 3 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: right
+      bet: 20000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: e807ce2b91328e14aa707fbbe7689299, type: 3}
+      - {fileID: 8300000, guid: ff8d9e5973631084aa09be70a1da7eec, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+      - {fileID: 4950551206978051872, guid: a4720aa5918efa347a3305df6cfadb3f, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: Surfer women
+      BossImage: {fileID: 21300000, guid: 3ec7db5bc69fd2d47931ee935f1aa4f4, type: 3}
+      BossDialogue:
+      - level 4 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 744eeb80c36e76142b8f885dc22b4402, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 22500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 405a9f0ec00311f499fd875342b14901, type: 3}
+      - {fileID: 8300000, guid: 99ae99c1e754c34429fa506d82937a63, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 9091413180567418218, guid: aa93ccb659cbb1a41b8fc3a1a4f10786, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4063444915957075153, guid: 401fe38a92b1d5f4c8b1350ffdd3838f, type: 3}
+    - BossName: 'Safari Tour Guide '
+      BossImage: {fileID: 21300000, guid: 4b8e4a18935d88147b10b3a358858a9a, type: 3}
+      BossDialogue:
+      - level 4 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 25000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 2cd2cd74ad105b24ba9d2f784caf4330, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 9091413180567418218, guid: aa93ccb659cbb1a41b8fc3a1a4f10786, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4063444915957075153, guid: 401fe38a92b1d5f4c8b1350ffdd3838f, type: 3}
+    - BossName: Hippi Backpacker Women
+      BossImage: {fileID: 21300000, guid: f1947a32c12b4b94887d37f7c9be7f1a, type: 3}
+      BossDialogue:
+      - level 4 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 00504318654efff42be547936003765b, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 27500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 2fb5a0d56e2b41143be4d4bff7477670, type: 3}
+      - {fileID: 8300000, guid: 18c0ef73df2fb9a4b8200fae8118aa25, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 9091413180567418218, guid: aa93ccb659cbb1a41b8fc3a1a4f10786, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4063444915957075153, guid: 401fe38a92b1d5f4c8b1350ffdd3838f, type: 3}
+    - BossName: 'Aboriginal Australians '
+      BossImage: {fileID: 21300000, guid: 1c3b78619c5c3ca4a9ab916081e78bd2, type: 3}
+      BossDialogue:
+      - level 4 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 30000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: d6fbc1d21b78a02429dfde9d2c087674, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 9091413180567418218, guid: aa93ccb659cbb1a41b8fc3a1a4f10786, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4063444915957075153, guid: 401fe38a92b1d5f4c8b1350ffdd3838f, type: 3}
+    - BossName: Australian stunt man
+      BossImage: {fileID: 21300000, guid: 8d760412aec077d4f97de7e3ae8b26d5, type: 3}
+      BossDialogue:
+      - level 4 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 32500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 8f9b7f819a109534aaf56726d6fd2ab2, type: 3}
+      - {fileID: 8300000, guid: 06487eee488f45443a268cd741978420, type: 3}
+      - {fileID: 8300000, guid: dc6e5e63a359fe240871bf3ec0145462, type: 3}
+      - {fileID: 8300000, guid: 5afce48ddd894444eb53d9c20759badb, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 9091413180567418218, guid: aa93ccb659cbb1a41b8fc3a1a4f10786, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 4063444915957075153, guid: 401fe38a92b1d5f4c8b1350ffdd3838f, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: French Artist Painter
+      BossImage: {fileID: 21300000, guid: f5d62b68a9bf91f4193ce2f8f917b5df, type: 3}
+      BossDialogue:
+      - level 5 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 35500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: eefb00c632676334eac5affe30ac3980, type: 3}
+      - {fileID: 8300000, guid: 47b2f838d7228324db5a1b72e02f9e98, type: 3}
+      - {fileID: 8300000, guid: eb05682d44b13d94a80060dc0ea04780, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+    - BossName: French Women Model
+      BossImage: {fileID: 21300000, guid: 666ea0206bac2444b900dee126a33477, type: 3}
+      BossDialogue:
+      - level 5 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 38500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 6f8bae1dc60db394082de19e752bd814, type: 3}
+      - {fileID: 8300000, guid: 20ecbeedc54e6d44e89e97f8ca53e1fc, type: 3}
+      - {fileID: 8300000, guid: e423328d88655a64da0ffbef20040a7e, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+    - BossName: French Skier
+      BossImage: {fileID: 21300000, guid: 7bd4c10fae333764aaa1dd4f91b1c066, type: 3}
+      BossDialogue:
+      - level 5 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 41500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 69c3c84cca7f1964b96e800f9465bb73, type: 3}
+      - {fileID: 8300000, guid: 985d1f123121bb741ab194e89caad59d, type: 3}
+      - {fileID: 8300000, guid: d24161280e6aa834994f600eecb2a68c, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+    - BossName: French Waiter
+      BossImage: {fileID: 21300000, guid: f7403d43a6272924d83881e52adf0367, type: 3}
+      BossDialogue:
+      - level 5 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 44500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 36e6145eb573cd444afc63b9ffcab568, type: 3}
+      - {fileID: 8300000, guid: 28ae4aceb25592b49a9aee8f19cadbd2, type: 3}
+      - {fileID: 8300000, guid: cd6b8f886530e6844bb37e61ecba67dc, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+    - BossName: Free Runner
+      BossImage: {fileID: 21300000, guid: 4f5ba6ac9c69865439cfb4812a87e2fb, type: 3}
+      BossDialogue:
+      - level 5 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 47500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 2675949da4570364fabe8938cbb2b39b, type: 3}
+      - {fileID: 8300000, guid: 830dc338bc428544e8109b97438e5830, type: 3}
+      - {fileID: 8300000, guid: a977a3f991970fe4894e0aa8bc067cea, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: Brazilian Footballer
+      BossImage: {fileID: 21300000, guid: 437f7feb5090d2847ba4ea01c8047a80, type: 3}
+      BossDialogue:
+      - 'level 6 boss 1 '
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 51000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 1f354113b061a604680164b19c7c2a3a, type: 3}
+      - {fileID: 8300000, guid: 20e1b59a6d5356348a79ef235da8bca8, type: 3}
+      - {fileID: 8300000, guid: 71b9bc63ad3e3c942ae6ae5d835925d6, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 4125313155315365537, guid: bc535ef2747e3a746976e4b86f110168, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+    - BossName: Brazilian Carnival Girl
+      BossImage: {fileID: 21300000, guid: da7b7459aa5b95d4091688c1ce6b3498, type: 3}
+      BossDialogue:
+      - level 6 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: right
+      bet: 54500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: eaefc93ffeec6ea4c85f270816bd2b68, type: 3}
+      - {fileID: 8300000, guid: ce5c4ae948ee86e4e8348e1a9e1622d4, type: 3}
+      - {fileID: 8300000, guid: 2483d7708d883e34eb5cfa7a7dced5ab, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 4125313155315365537, guid: bc535ef2747e3a746976e4b86f110168, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+    - BossName: Capoeira Master
+      BossImage: {fileID: 21300000, guid: 247505f13e8007c4facc43fd056c4a38, type: 3}
+      BossDialogue:
+      - level 6 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 58000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: aecb4b0f8a5e9a84e970ff1425eb4ae2, type: 3}
+      - {fileID: 8300000, guid: d4279e07db937e74cb380cefa8066992, type: 3}
+      - {fileID: 8300000, guid: 1bb6ca33d1d14be47a9cff22489a3bad, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 4125313155315365537, guid: bc535ef2747e3a746976e4b86f110168, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+    - BossName: Indigenous man of the amazon rainforest
+      BossImage: {fileID: 21300000, guid: 7c846b012b96b684bb2bafac47270032, type: 3}
+      BossDialogue:
+      - level 6 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 61500
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: eda374254445d354e9e220aa459cba2d, type: 3}
+      - {fileID: 8300000, guid: ed6785f58b3cf64419693e70b1a6a343, type: 3}
+      - {fileID: 8300000, guid: 7875e62c85a46cb41b5ad1561ee2174e, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 4125313155315365537, guid: bc535ef2747e3a746976e4b86f110168, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+    - BossName: 'Brazillan Women Beach Volley Ball '
+      BossImage: {fileID: 21300000, guid: 9835ed7291b62c94b8b4fdf8bf3f1b36, type: 3}
+      BossDialogue:
+      - level 6 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 65000
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: c83e3fdbe3dae824b8a29890ae92987c, type: 3}
+      - {fileID: 8300000, guid: 1a21e0a8dc9b8554b81b35d08950c73b, type: 3}
+      - {fileID: 8300000, guid: e9f68460c1b9ddb409c4b8c9f0d03743, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 4125313155315365537, guid: bc535ef2747e3a746976e4b86f110168, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: 'Girl on Vesper Bike  '
+      BossImage: {fileID: 21300000, guid: 271d4fcaef4420b4aa950156b0048e4a, type: 3}
+      BossDialogue:
+      - 'level 7 boss 1 '
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: e9f1f16a3defe774fab46daca53099ed, type: 2}
+      gander: 1
+      AnimationSide: left
+      bet: 690
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: b469bc4776aea5f4fb41fb25f36c288a, type: 3}
+      - {fileID: 8300000, guid: 633fadc3fd7a35a449d9e40ddec05255, type: 3}
+      - {fileID: 8300000, guid: 80a538f1e1863264b8d3ce5d30d18a95, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 5034985410725533563, guid: 80c01aee0fc040a428dfdc1c58494f26, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+    - BossName: ' Italian Gladiator Warrior  '
+      BossImage: {fileID: 21300000, guid: d11fa0bd2bf456a488f6cc98734e875a, type: 3}
+      BossDialogue:
+      - level 7 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 730
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: ae494810a5f5a88409f566471e38c236, type: 3}
+      - {fileID: 8300000, guid: 0e2a4458354ca8e49ac2db47fe61869b, type: 3}
+      - {fileID: 8300000, guid: 9a1939aa5a34b9e40aacb038f9b1c09d, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 5034985410725533563, guid: 80c01aee0fc040a428dfdc1c58494f26, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+    - BossName: Italian Mafia Boss
+      BossImage: {fileID: 21300000, guid: 6427c4cf32474bb41be8f54ee6ddfb2e, type: 3}
+      BossDialogue:
+      - 'level 7 boss 3 '
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 770
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 5f33024afb602de4891fb01d7f77376d, type: 3}
+      - {fileID: 8300000, guid: 6149562756fff1f42a546b701f5e33c6, type: 3}
+      - {fileID: 8300000, guid: 44827f8b5b35e6d40bfd1d0dfd72a8cc, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 5034985410725533563, guid: 80c01aee0fc040a428dfdc1c58494f26, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+    - BossName: Italian Tailor
+      BossImage: {fileID: 21300000, guid: fd09f20a054095d4f8fec234bdc86596, type: 3}
+      BossDialogue:
+      - level 7 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 810
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: a44a0139ec6e8cc4491d490bd341a0f5, type: 3}
+      - {fileID: 8300000, guid: 2ecb67b3d40f18f49ba78ac72432a0dd, type: 3}
+      - {fileID: 8300000, guid: 7ba3cd77d5d4f9a4f96ae229338557c7, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 5034985410725533563, guid: 80c01aee0fc040a428dfdc1c58494f26, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+    - BossName: Italian Female Opera Single
+      BossImage: {fileID: 21300000, guid: da63466408191324aaa2e0f919570ed1, type: 3}
+      BossDialogue:
+      - 'level 7 boss 5 '
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 744eeb80c36e76142b8f885dc22b4402, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 850
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: dc0ac092d641b6348b54519fe5f88f41, type: 3}
+      - {fileID: 8300000, guid: 14d3f7c3a798c6e4b8145daaa2c31610, type: 3}
+      - {fileID: 8300000, guid: a2df49d315863e14394d774ddea15877, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 5034985410725533563, guid: 80c01aee0fc040a428dfdc1c58494f26, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: Russian Lieutenant
+      BossImage: {fileID: 21300000, guid: b37d33e8f0288a149b8822bab01c4056, type: 3}
+      BossDialogue:
+      - level 8 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 895
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 188de093cb76c974581783f2994584ee, type: 3}
+      - {fileID: 8300000, guid: 3edf349233fc7bd4c9ef582e4915ca8d, type: 3}
+      - {fileID: 8300000, guid: d325617e5f5be2c47be67b2d8c5cd5a0, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3911154442414283433, guid: 0d44d3b8c70895d40a39c69167be30e5, type: 3}
+      - {fileID: 5753485717981539351, guid: 0885398b2c89816429e2b5e4212b7cc5, type: 3}
+      - {fileID: 2556754875100814732, guid: c08496599d06f094da20de09fe0e69b4, type: 3}
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+    - BossName: Russian Mafia
+      BossImage: {fileID: 21300000, guid: 56058bbaca8ab1149a762c71a2661538, type: 3}
+      BossDialogue:
+      - level 8 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 940
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 3cf5b642f9d34494e996ef4020d8d41b, type: 3}
+      - {fileID: 8300000, guid: fc9788ba30bca19469cec6233c955e4e, type: 3}
+      - {fileID: 8300000, guid: 10bffc5935aea854b854c52036ef530e, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3911154442414283433, guid: 0d44d3b8c70895d40a39c69167be30e5, type: 3}
+      - {fileID: 5753485717981539351, guid: 0885398b2c89816429e2b5e4212b7cc5, type: 3}
+      - {fileID: 2556754875100814732, guid: c08496599d06f094da20de09fe0e69b4, type: 3}
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+    - BossName: Russian Women Spy
+      BossImage: {fileID: 21300000, guid: 3d521b494b5bffb49a0b6929b3a2c313, type: 3}
+      BossDialogue:
+      - level 8 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 493c39ad3fefb40489036c6f4fd9a4e3, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 985
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 8f33c071a6146fe41b2ce9e56fde7dbb, type: 3}
+      - {fileID: 8300000, guid: b484f3e1f3c2a4140969367348023983, type: 3}
+      - {fileID: 8300000, guid: a49ab25d5e8c0f34fa8d672039b20135, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3911154442414283433, guid: 0d44d3b8c70895d40a39c69167be30e5, type: 3}
+      - {fileID: 5753485717981539351, guid: 0885398b2c89816429e2b5e4212b7cc5, type: 3}
+      - {fileID: 2556754875100814732, guid: c08496599d06f094da20de09fe0e69b4, type: 3}
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+    - BossName: 'Russian nuclear scientist  '
+      BossImage: {fileID: 21300000, guid: dd11dd1463ecdf5438e762d96303433e, type: 3}
+      BossDialogue:
+      - level 8 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 1030
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 233b517338163eb46a14f669f3ec2d57, type: 3}
+      - {fileID: 8300000, guid: 7d1296ad9eb1e264da6c3c5e805a0932, type: 3}
+      - {fileID: 8300000, guid: cebc604163d228443a03a3c55eb96038, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3911154442414283433, guid: 0d44d3b8c70895d40a39c69167be30e5, type: 3}
+      - {fileID: 5753485717981539351, guid: 0885398b2c89816429e2b5e4212b7cc5, type: 3}
+      - {fileID: 2556754875100814732, guid: c08496599d06f094da20de09fe0e69b4, type: 3}
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+    - BossName: 'Women Astronaut '
+      BossImage: {fileID: 21300000, guid: 1ad16ad11d5fc8a4d8d06e08e58f484d, type: 3}
+      BossDialogue:
+      - 'level 8 boss 5 '
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: e9f1f16a3defe774fab46daca53099ed, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 1075
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 4a6c8b0f329ae5146966192870038b77, type: 3}
+      - {fileID: 8300000, guid: 555a69d74891c05419c19084e0f24e0c, type: 3}
+      - {fileID: 8300000, guid: e5764e099ae8a5b4caeba674f174cf50, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3911154442414283433, guid: 0d44d3b8c70895d40a39c69167be30e5, type: 3}
+      - {fileID: 5753485717981539351, guid: 0885398b2c89816429e2b5e4212b7cc5, type: 3}
+      - {fileID: 2556754875100814732, guid: c08496599d06f094da20de09fe0e69b4, type: 3}
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: Bull Fighter
+      BossImage: {fileID: 21300000, guid: 9436b75d3880da44ca14a84f1a509f27, type: 3}
+      BossDialogue:
+      - level 9 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 5
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 816d6bf01742fb64b94da8aec6a3b02e, type: 3}
+      - {fileID: 8300000, guid: a7c5ff1cdfc455245b6f1b30eaf6a09f, type: 3}
+      - {fileID: 8300000, guid: efcd0ff0c35d8ea449b30d4421a89779, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 6024289253658797792, guid: d089f4b996471f94982b898643589221, type: 3}
+    - BossName: 'Paella Maker Fat Chef  '
+      BossImage: {fileID: 21300000, guid: 8bd5da26ebdee3b4a885e064c0fa4521, type: 3}
+      BossDialogue:
+      - level 9 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 1175
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 94483675673409144ac7fcb72bda6052, type: 3}
+      - {fileID: 8300000, guid: 16f7ba06d2134d44db3131378c486299, type: 3}
+      - {fileID: 8300000, guid: f2496c55ab452b0439cbb1dfb33a80c7, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 6024289253658797792, guid: d089f4b996471f94982b898643589221, type: 3}
+    - BossName: Spanish Football Player
+      BossImage: {fileID: 21300000, guid: a9cfdd3835e33ba4d809f3f66661140f, type: 3}
+      BossDialogue:
+      - level 9 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: 
+      bet: 1225
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 61fff5434fe630641ae78ea019611043, type: 3}
+      - {fileID: 8300000, guid: 42c66620f8b79e240839ed667f9af04e, type: 3}
+      - {fileID: 8300000, guid: 6d1d4ba8eaa080b4f8f1765d97bfd3f0, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 6024289253658797792, guid: d089f4b996471f94982b898643589221, type: 3}
+    - BossName: Flamenco Dancer
+      BossImage: {fileID: 21300000, guid: 867533aab44e1c744939bda6fe237630, type: 3}
+      BossDialogue:
+      - level 9 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: e9f1f16a3defe774fab46daca53099ed, type: 2}
+      gander: 1
+      AnimationSide: right
+      bet: 1275
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 37e8e506a01525e4ca76bb898bba0b67, type: 3}
+      - {fileID: 8300000, guid: d53b16c1d781eb343bdc356c048bd16b, type: 3}
+      - {fileID: 8300000, guid: 59aaad8c54a5768429eb134b9057b36f, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 6024289253658797792, guid: d089f4b996471f94982b898643589221, type: 3}
+    - BossName: El CID Warrior
+      BossImage: {fileID: 21300000, guid: 4163c0a1de3633a4f8fe3b72c1babca6, type: 3}
+      BossDialogue:
+      - level 9 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 1325
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 50e39fff38d1da948881a7ac7200a01e, type: 3}
+      - {fileID: 8300000, guid: efb2e65c1f97a9a4f812a12ffacc733a, type: 3}
+      - {fileID: 8300000, guid: efb40bc0638761047a2f4c17ea4374cd, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+      - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
+      - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
+      - {fileID: 6024289253658797792, guid: d089f4b996471f94982b898643589221, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: Royal Canadian Mounted Officer
+      BossImage: {fileID: 21300000, guid: 16ccdea72222de148ba16b1ca9486039, type: 3}
+      BossDialogue:
+      - level 10 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 1380
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 62d76423cda3782468fbe1ef01c95ded, type: 3}
+      - {fileID: 8300000, guid: 096ffcf57c01afc42b8f68b207508f21, type: 3}
+      - {fileID: 8300000, guid: 15bdab11debbc12409b33a6f6c050841, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+    - BossName: 'Ice Hockey Player  '
+      BossImage: {fileID: 21300000, guid: 0e2fb83fb09dd3146acfdf04a00838c0, type: 3}
+      BossDialogue:
+      - level 10 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 1435
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: e393bd26676d0844884f21b57bc31d94, type: 3}
+      - {fileID: 8300000, guid: d45b0fb365739a94683b3aed643cfdb4, type: 3}
+      - {fileID: 8300000, guid: 776bd79befbbc3b42923a493b8160539, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+    - BossName: Canadian Skier Women
+      BossImage: {fileID: 21300000, guid: 70886f71b80a8c348935354ddd3e7df0, type: 3}
+      BossDialogue:
+      - level 10 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 1490
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: de9e4c22723a2c84bb215257ec71d281, type: 3}
+      - {fileID: 8300000, guid: 386d61eadb59b2d4f9651a628f0de5eb, type: 3}
+      - {fileID: 8300000, guid: a3d152dd7a9219c469b8b77902f0579b, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+    - BossName: Canadian Fisher (Dungarees)
+      BossImage: {fileID: 21300000, guid: 2811ccd2e2ab46348bff388b3fac3850, type: 3}
+      BossDialogue:
+      - level 10 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 1545
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 4e9bcd3feb2843f4ba4b1e873a2fbe1d, type: 3}
+      - {fileID: 8300000, guid: e539c15a4ee2dc34fb74034a387bf850, type: 3}
+      - {fileID: 8300000, guid: b5e0b3114e372334c9458a4644023bba, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+    - BossName: Canadian Cowgirl
+      BossImage: {fileID: 21300000, guid: 22ca929e6720c4f41bb2c839b3ce2018, type: 3}
+      BossDialogue:
+      - level 10 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 744eeb80c36e76142b8f885dc22b4402, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 1600
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 1ee0ef6e4864434409ca69d1fbd6e479, type: 3}
+      - {fileID: 8300000, guid: bd2c0e1e1e333914e95ed47877dd8064, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: 'Bavarian Women  '
+      BossImage: {fileID: 21300000, guid: 6e765149bf105854ea3b66181fd6d086, type: 3}
+      BossDialogue:
+      - level 11 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 00504318654efff42be547936003765b, type: 2}
+      gander: 1
+      AnimationSide: right
+      bet: 1660
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: e1bcfedfe9ca6594f9f17fd4e551d488, type: 3}
+      - {fileID: 8300000, guid: 3f294ed8f738b344ca390315c712fb93, type: 3}
+      - {fileID: 8300000, guid: 72bb512a5b2714f4dbe5f595098ff7df, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8806590553401888637, guid: c8823da0bec69c14785eb3198bdbee8f, type: 3}
+      - {fileID: 9222589325940398101, guid: 09cc5de37e6e2bf40bc3a65a96bebb26, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+    - BossName: Bavarian Man
+      BossImage: {fileID: 21300000, guid: 6be7f19b1c89c2044894e5061ed65043, type: 3}
+      BossDialogue:
+      - level 11 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 1720
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: a343b6c68f95b6a4383bd4a51186bb68, type: 3}
+      - {fileID: 8300000, guid: fd058442d6e9c264f85a6ec1a341199b, type: 3}
+      - {fileID: 8300000, guid: 58cae40ce2c542d4eac6bf8e142856cb, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8806590553401888637, guid: c8823da0bec69c14785eb3198bdbee8f, type: 3}
+      - {fileID: 9222589325940398101, guid: 09cc5de37e6e2bf40bc3a65a96bebb26, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+    - BossName: 'Racing Driving  '
+      BossImage: {fileID: 21300000, guid: 9dd4fc406c7992549bf8960f5cdf6a83, type: 3}
+      BossDialogue:
+      - level 11 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 1780
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 65f24307a0cb25a44a5769e1e78a252e, type: 3}
+      - {fileID: 8300000, guid: 73287cc028ad5b9429fd69c0eace378b, type: 3}
+      - {fileID: 8300000, guid: 55b08c14e36f3d34ba74b320d4189d08, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8806590553401888637, guid: c8823da0bec69c14785eb3198bdbee8f, type: 3}
+      - {fileID: 9222589325940398101, guid: 09cc5de37e6e2bf40bc3a65a96bebb26, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+    - BossName: Nutty German Proffessor
+      BossImage: {fileID: 21300000, guid: 66a1704e8c663f5409c5bb4a157ed2a2, type: 3}
+      BossDialogue:
+      - level 11 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 1840
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: da98bfc92d52c214d893b17611531824, type: 3}
+      - {fileID: 8300000, guid: 806e0c70433480d4a90475ceaa5158e0, type: 3}
+      - {fileID: 8300000, guid: ce12e19c1be823840a89cc6279816dfa, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8806590553401888637, guid: c8823da0bec69c14785eb3198bdbee8f, type: 3}
+      - {fileID: 9222589325940398101, guid: 09cc5de37e6e2bf40bc3a65a96bebb26, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+    - BossName: German Women Gymnastic
+      BossImage: {fileID: 21300000, guid: 3a88d265f9c660649ba870fdb3ac638a, type: 3}
+      BossDialogue:
+      - level 11 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 00504318654efff42be547936003765b, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 1900
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 7407b1c7a72e43641b80dcc59e1b98d3, type: 3}
+      - {fileID: 8300000, guid: a0bf4aaf2e1e4a247a6ddf399d307e3d, type: 3}
+      - {fileID: 8300000, guid: 82edf71e7c6b55c46ab73b4a22843878, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8806590553401888637, guid: c8823da0bec69c14785eb3198bdbee8f, type: 3}
+      - {fileID: 9222589325940398101, guid: 09cc5de37e6e2bf40bc3a65a96bebb26, type: 3}
+      - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: South Korean Warrior (Hwarang)
+      BossImage: {fileID: 21300000, guid: 45fd3584c37d6594ebff44d9a37c7a46, type: 3}
+      BossDialogue:
+      - level 12 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 1965
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 0af52a046db5d714f9272c0f4a673394, type: 3}
+      - {fileID: 8300000, guid: 588d9ab83149a704bad8b2aa4e56ce91, type: 3}
+      - {fileID: 8300000, guid: 7c9e96a336718224a84e5ec6b313694e, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 3725322340418300683, guid: 92ce10e47f61ec745aaa60b8822402fd, type: 3}
+      - {fileID: 4937416406997536200, guid: a092d2fa390054d46b3b5514ad166a1f, type: 3}
+      - {fileID: 7740335243909742765, guid: d81504d3aa9918e4e8a188d712a56540, type: 3}
+      - {fileID: 7474032676746333764, guid: 4904534a463010c4196b53f1eb9e2205, type: 3}
+    - BossName: Hanbok Women
+      BossImage: {fileID: 21300000, guid: b0ef649c60befb74e9b68143b7695565, type: 3}
+      BossDialogue:
+      - level 12 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: right
+      bet: 2030
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 6cec0e42e18587146b389b868f393319, type: 3}
+      - {fileID: 8300000, guid: 61e91f433e0743b42a8b1d9adfcb2b7f, type: 3}
+      - {fileID: 8300000, guid: a57b605fdc9642d408b2ad92291000bd, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 3725322340418300683, guid: 92ce10e47f61ec745aaa60b8822402fd, type: 3}
+      - {fileID: 4937416406997536200, guid: a092d2fa390054d46b3b5514ad166a1f, type: 3}
+      - {fileID: 7740335243909742765, guid: d81504d3aa9918e4e8a188d712a56540, type: 3}
+      - {fileID: 7474032676746333764, guid: 4904534a463010c4196b53f1eb9e2205, type: 3}
+    - BossName: Kkangpae Mafia Boss
+      BossImage: {fileID: 21300000, guid: aa2d904a16534ac4491be16c84e11a8b, type: 3}
+      BossDialogue:
+      - level 12 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 2095
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 8ab5d2be9e1f2b1449398533b5f6c91f, type: 3}
+      - {fileID: 8300000, guid: 319c9e17795eb174492a62eb4824d52d, type: 3}
+      - {fileID: 8300000, guid: 08a30d81f095c8d4488ad59c5398cca4, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 3725322340418300683, guid: 92ce10e47f61ec745aaa60b8822402fd, type: 3}
+      - {fileID: 4937416406997536200, guid: a092d2fa390054d46b3b5514ad166a1f, type: 3}
+      - {fileID: 7740335243909742765, guid: d81504d3aa9918e4e8a188d712a56540, type: 3}
+      - {fileID: 7474032676746333764, guid: 4904534a463010c4196b53f1eb9e2205, type: 3}
+    - BossName: South Korean Ssireum
+      BossImage: {fileID: 21300000, guid: 1150e0be7db78eb4ead4a7b6f45d5032, type: 3}
+      BossDialogue:
+      - level 12 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 2160
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: c268a820a4110a9448a3a483c9aedc01, type: 3}
+      - {fileID: 8300000, guid: 194f9ef6d9e094c42bf61493a6a13373, type: 3}
+      - {fileID: 8300000, guid: fb60a79af30e7684b8728bdb47534145, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 3725322340418300683, guid: 92ce10e47f61ec745aaa60b8822402fd, type: 3}
+      - {fileID: 4937416406997536200, guid: a092d2fa390054d46b3b5514ad166a1f, type: 3}
+      - {fileID: 7740335243909742765, guid: d81504d3aa9918e4e8a188d712a56540, type: 3}
+      - {fileID: 7474032676746333764, guid: 4904534a463010c4196b53f1eb9e2205, type: 3}
+    - BossName: South Korean Breakdancer
+      BossImage: {fileID: 21300000, guid: fbce9698b38f9a54886f5bdf56733057, type: 3}
+      BossDialogue:
+      - level 12 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 2225
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: d14e19fcac572df4a809962abf97f402, type: 3}
+      - {fileID: 8300000, guid: a70f660fd9078e14e950176c931185da, type: 3}
+      - {fileID: 8300000, guid: 7fd353a3b94104f4a9ff27ef6a32545d, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
+      - {fileID: 3725322340418300683, guid: 92ce10e47f61ec745aaa60b8822402fd, type: 3}
+      - {fileID: 4937416406997536200, guid: a092d2fa390054d46b3b5514ad166a1f, type: 3}
+      - {fileID: 7740335243909742765, guid: d81504d3aa9918e4e8a188d712a56540, type: 3}
+      - {fileID: 7474032676746333764, guid: 4904534a463010c4196b53f1eb9e2205, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: School Girl
+      BossImage: {fileID: 21300000, guid: b113d72caa070f745b53ee91a663253e, type: 3}
+      BossDialogue:
+      - level 13 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: e9f1f16a3defe774fab46daca53099ed, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 2295
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 11680dec1589f1f4683d76806df5edf1, type: 3}
+      - {fileID: 8300000, guid: 5b17300406d43104d8dcd791b487ce78, type: 3}
+      - {fileID: 8300000, guid: 7c2d0275781f76841b3eb4429fad8483, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+    - BossName: Japanese Drifter
+      BossImage: {fileID: 21300000, guid: bc7411fce213a044ba6f3d09409d64ba, type: 3}
+      BossDialogue:
+      - level 13 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 2365
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 6532c826ba0a72843b7d8833453cfae5, type: 3}
+      - {fileID: 8300000, guid: 3d7d281d66d492d49a1838fefe49b886, type: 3}
+      - {fileID: 8300000, guid: b3edcca904ee3864285e2f8d188607a3, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+    - BossName: 'Sushi Chief  '
+      BossImage: {fileID: 21300000, guid: cedd27625e90b7e45847a46026db6942, type: 3}
+      BossDialogue:
+      - level 13 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 2435
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 3baf52c8deb60034c80fd4d31b421b24, type: 3}
+      - {fileID: 8300000, guid: 99cc45b4c34315e46be898ea65a4f25f, type: 3}
+      - {fileID: 8300000, guid: 627aa47fd9ad6124abfd47d1a5f246c4, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+    - BossName: Sumo Wrestler
+      BossImage: {fileID: 21300000, guid: 6b8256ebb1be88542a804be2e5be551d, type: 3}
+      BossDialogue:
+      - level 13 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 2505
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: b851160595c1c37499a896d006082a8c, type: 3}
+      - {fileID: 8300000, guid: 9cf62f5167d024647984456dddd7e86d, type: 3}
+      - {fileID: 8300000, guid: 0dcc35c1c33fe4a47b4adbdb1b28fd91, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+    - BossName: Samurai Warrior
+      BossImage: {fileID: 21300000, guid: f1f5deb6432866e4fb29246e08c94e27, type: 3}
+      BossDialogue:
+      - level 13 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 2575
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 854970b7e6a0d8b41a30f176df85e2e4, type: 3}
+      - {fileID: 8300000, guid: 1d51af9cbda77fe4097db7f6f07b9da4, type: 3}
+      - {fileID: 8300000, guid: f0a22d8f007dac64b9ddf0fe2fd17c79, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: 'Town Sherif  '
+      BossImage: {fileID: 21300000, guid: 4443b15756e6c8345b38dc35332c73e9, type: 3}
+      BossDialogue:
+      - level 14 boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 424feee6d6a17e54e8d1ca3f55d47c06, type: 2}
+      - {fileID: 2100000, guid: aebad0233a615694482a72da3b096319, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 2650
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 6fd8d9c91c4639146838a4d336e49c7f, type: 3}
+      - {fileID: 8300000, guid: 39e25d110c9a68040975728e09225e10, type: 3}
+      - {fileID: 8300000, guid: 3d22d3e3c1a1d0544b419c16aa6ca6bb, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+      - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+    - BossName: 'Hitman  '
+      BossImage: {fileID: 21300000, guid: 317fd64f6a7922443a748a2a2c12c157, type: 3}
+      BossDialogue:
+      - level 14 boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 2fe866dc93784254e9101db60ad2098e, type: 2}
+      - {fileID: 2100000, guid: d94ed8773dd93494a9bd5ed3ee4a75b4, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 2725
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 2879c062bde66d040a00b028496621ce, type: 3}
+      - {fileID: 8300000, guid: 74efc7bdff67d674b93e052e2b5d4dc9, type: 3}
+      - {fileID: 8300000, guid: 9ad2ac553146bba469b74505689b952e, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+      - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+    - BossName: 'Motorbike gang leader  '
+      BossImage: {fileID: 21300000, guid: ce4234ea57f236b45a31c24333bb4ffc, type: 3}
+      BossDialogue:
+      - level 14 boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 2800
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 4ce5851817758a94ab8afcaa7af3a885, type: 3}
+      - {fileID: 8300000, guid: b9b9ea333148761448204620cc3cf065, type: 3}
+      - {fileID: 8300000, guid: 4b9e4015d572f45439efd15f9e994566, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+      - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+    - BossName: 'Cheerleader '
+      BossImage: {fileID: 21300000, guid: 38a7a2dcaabb3b841ae3cb400e789220, type: 3}
+      BossDialogue:
+      - level 14 boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 744eeb80c36e76142b8f885dc22b4402, type: 2}
+      gander: 1
+      AnimationSide: left
+      bet: 2875
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 0811760918d2268418739a7af5e55f5c, type: 3}
+      - {fileID: 8300000, guid: cf82dff725bfd61418c2c0a0416c99b6, type: 3}
+      - {fileID: 8300000, guid: 3fe74d7a86de46041bfb2effa9af1744, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+      - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+    - BossName: Sexy Women Lawyer Glasses
+      BossImage: {fileID: 21300000, guid: 6e84e24a6b7d81741b990f76b0557fb7, type: 3}
+      BossDialogue:
+      - level 14 boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 00504318654efff42be547936003765b, type: 2}
+      gander: 1
+      AnimationSide: bottom
+      bet: 2950
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: d507133ff298fe649845ac86387c1a5c, type: 3}
+      - {fileID: 8300000, guid: 2db0dd3d8c3916a4f9f7d1776e522d7e, type: 3}
+      - {fileID: 8300000, guid: bf7f376564c617c40b9730f14d368498, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 8407393587240837603, guid: 1cd70cfec617d2b48a934f169e16a8dd, type: 3}
+      - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
+      - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
+      - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
+    _UnlockedBossNo: 0
+  - _eachLevelBosses:
+    - BossName: 'Kung Fu Man  '
+      BossImage: {fileID: 21300000, guid: 97571b59ad599f249a7ed0d6cbbdba2d, type: 3}
+      BossDialogue:
+      - level 15  boss 1
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: right
+      bet: 3030
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 820592536093acb4384c49b1d7128838, type: 3}
+      - {fileID: 8300000, guid: 65e6eaae192ea0749a1ada56532f2664, type: 3}
+      - {fileID: 8300000, guid: 4339aec4bf3e3424cac2ee26dccf5082, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7859090343478901625, guid: 6bfdc8f8c8371eb4d8db15aafea78d14, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+      - {fileID: 7440382596464283720, guid: 53f4212f5f06f7b47ba09ac2064043ba, type: 3}
+    - BossName: Policewomen
+      BossImage: {fileID: 21300000, guid: cc9030bc021ef40418295f54efd5fd7c, type: 3}
+      BossDialogue:
+      - level 15  boss 2
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: c4e0de5853ab7bb4c875cd88479fdb48, type: 2}
+      gander: 1
+      AnimationSide: leff
+      bet: 3110
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 1db87f1ee45272f43a1cbd9ce53d4d93, type: 3}
+      - {fileID: 8300000, guid: fc03f460226d9ce4a8479bd1a85b0283, type: 3}
+      - {fileID: 8300000, guid: 0b03b14ba1ce06347819b50c41a52122, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7859090343478901625, guid: 6bfdc8f8c8371eb4d8db15aafea78d14, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+      - {fileID: 7440382596464283720, guid: 53f4212f5f06f7b47ba09ac2064043ba, type: 3}
+    - BossName: Mad Chinese Chief
+      BossImage: {fileID: 21300000, guid: d4a6744150d437443b852d619d9dab61, type: 3}
+      BossDialogue:
+      - level 15  boss 3
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: 3ecc5c99faddc1f44ae2c04072becc84, type: 2}
+      - {fileID: 2100000, guid: 53d270e81967ac847af17a3ffa468439, type: 2}
+      gander: 0
+      AnimationSide: bottom
+      bet: 3190
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: 5e20f5e253167f640a59b20bf461af7e, type: 3}
+      - {fileID: 8300000, guid: 245bc5c73535631418ab802d02b78b70, type: 3}
+      - {fileID: 8300000, guid: 72f97d4ca213dcd4884872fdb1b20784, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7859090343478901625, guid: 6bfdc8f8c8371eb4d8db15aafea78d14, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+      - {fileID: 7440382596464283720, guid: 53f4212f5f06f7b47ba09ac2064043ba, type: 3}
+    - BossName: 'Chinese Women Warrior  '
+      BossImage: {fileID: 21300000, guid: 1155a7d51604c2640b71a23876f9f90c, type: 3}
+      BossDialogue:
+      - level 15  boss 4
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: e9f1f16a3defe774fab46daca53099ed, type: 2}
+      gander: 1
+      AnimationSide: right
+      bet: 3270
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: de51658f5eaef124fa982d3ba7cfcfbe, type: 3}
+      - {fileID: 8300000, guid: 83a7340707f3f1c4497830cc8ec7d459, type: 3}
+      - {fileID: 8300000, guid: d83a5334e5f77594ba6322926ad0bd9d, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7859090343478901625, guid: 6bfdc8f8c8371eb4d8db15aafea78d14, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+      - {fileID: 7440382596464283720, guid: 53f4212f5f06f7b47ba09ac2064043ba, type: 3}
+    - BossName: Chinese Tattoo Triad
+      BossImage: {fileID: 21300000, guid: 96a33578a17c65d41bc6f543b58dcab2, type: 3}
+      BossDialogue:
+      - level 15  boss 5
+      Hand_material_of_boss:
+      - {fileID: 2100000, guid: a9852ed50b6a4804db00a5a730a5f58b, type: 2}
+      - {fileID: 2100000, guid: 0188e9c14449d8646bf59ce4ac8d1385, type: 2}
+      gander: 0
+      AnimationSide: left
+      bet: 3350
+      BosseModel: {fileID: 0}
+      bossAudioClips:
+      - {fileID: 8300000, guid: f1e900ca2be0ff54896846e7e84a8319, type: 3}
+      - {fileID: 8300000, guid: a07fb3f24b6a0ed4aa4ef2bcddd32018, type: 3}
+      - {fileID: 8300000, guid: 75869a3fe430b4545b1f2876fc61a10e, type: 3}
+      each_Level_Obstacles:
+      - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
+      - {fileID: 7859090343478901625, guid: 6bfdc8f8c8371eb4d8db15aafea78d14, type: 3}
+      - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
+      - {fileID: 7440382596464283720, guid: 53f4212f5f06f7b47ba09ac2064043ba, type: 3}
+    _UnlockedBossNo: 0

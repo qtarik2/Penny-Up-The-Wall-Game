@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48df2e4af6fe4020a444aa2642a30d6, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  _LevelData:
+  - LevelName: UK
+    LevelNumber: 1
+    LevelImage: {fileID: 21300000, guid: 2d31303c1242040d3969d7c77a8b8c1c, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: e262e591f6c2b4fad81cdf9b75c389c9, type: 3}
+    Price: 1000
+  - LevelName: INDIA
+    LevelNumber: 2
+    LevelImage: {fileID: 21300000, guid: 221168fbbd10c4c72894cf5d42494117, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 7ec567a779380449d925ac217192a32c, type: 3}
+    Price: 2000
+  - LevelName: TURKEY
+    LevelNumber: 3
+    LevelImage: {fileID: 21300000, guid: f99b8ba3afcd04129bb9ea00763d53ae, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 6899cd534a0b54e1db31fe59372475f8, type: 3}
+    Price: 5000
+  - LevelName: AUSTRALIA
+    LevelNumber: 4
+    LevelImage: {fileID: 21300000, guid: 8934a6868e3fc4002af32ec65797360f, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 534bce74c99f649db88097e6d5814b1b, type: 3}
+    Price: 10000
+  - LevelName: FRANCE
+    LevelNumber: 5
+    LevelImage: {fileID: 21300000, guid: 44780be479b0a4b689774cb76c346f34, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 7d9cbb61ab3df479aaa1d7e07c5cba6e, type: 3}
+    Price: 90000
+  - LevelName: BRAZIL
+    LevelNumber: 6
+    LevelImage: {fileID: 21300000, guid: 84d8aadf8520a44d8aec9733a6e47a7a, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 04aaf9c82914b47a09129e1e2809444f, type: 3}
+    Price: 150000
+  - LevelName: ITALY
+    LevelNumber: 7
+    LevelImage: {fileID: 21300000, guid: 0f19478ec75a14f499ea255a60b59bed, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: c4e82da4d3d194ef5a4af36d83b25f96, type: 3}
+    Price: 950000
+  - LevelName: RUSSIA
+    LevelNumber: 8
+    LevelImage: {fileID: 21300000, guid: 1d245aa61cae9440aa8e7827c83bfa14, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 79f2a6e8a1c0c4fb39a2964e25d96014, type: 3}
+    Price: 2000000
+  - LevelName: SPAIN
+    LevelNumber: 9
+    LevelImage: {fileID: 21300000, guid: c566cd9295c3c422bb54d32da1ab63a1, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 4a4a92e3b845e4f5788649072ad4a625, type: 3}
+    Price: 9000000
+  - LevelName: CANADA
+    LevelNumber: 10
+    LevelImage: {fileID: 21300000, guid: c42a3d572a5044a048ea9188c550e33d, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 1108fe2a868b947079d5a16b6a904bbd, type: 3}
+    Price: 10000000
+  - LevelName: GERMANY
+    LevelNumber: 11
+    LevelImage: {fileID: 21300000, guid: ce5e950e88b7c464c9b3059821bb7df3, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: b5d1dbdbcef5a4cefb631f4cb732d321, type: 3}
+    Price: 90000000
+  - LevelName: SK
+    LevelNumber: 12
+    LevelImage: {fileID: 21300000, guid: 81a902821c6e24b70aea84596e7bfd79, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 152661b936ffa471a9c301c16f54f6b4, type: 3}
+    Price: 200000000
+  - LevelName: JAPAN
+    LevelNumber: 13
+    LevelImage: {fileID: 21300000, guid: 74c9f9fe75c464062a24ffe890e45748, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 18a1cdd24b9d145deba751ecad7ffbd4, type: 3}
+    Price: 90000000
+  - LevelName: US
+    LevelNumber: 14
+    LevelImage: {fileID: 21300000, guid: fe5b3aff703954955aa28c6ac7f3d921, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 788048eecf8e81744816d6d45b2c8665, type: 3}
+    Price: 200000000
+  - LevelName: CHINA
+    LevelNumber: 15
+    LevelImage: {fileID: 21300000, guid: 0120590a42fe845ceaf36dd416ed0751, type: 3}
+    LockImage: {fileID: 21300000, guid: b93abc9b31efe4b90905874f12513ce7, type: 3}
+    UnlockImage: {fileID: 21300000, guid: 927ac95c5096f4d69a9a4e9cfe925dbd, type: 3}
+    LevelNameImage: {fileID: 21300000, guid: 0355835a299014a6494a0e84ac9f87cc, type: 3}
+    Price: 500000000

@@ -1,0 +1,2429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141442546711847222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4565537457552859710}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail8_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4565537457552859710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141442546711847222}
+  m_LocalRotation: {x: -0.0000100019715, y: 0.00000064865503, z: 0.026257697, w: 0.99965525}
+  m_LocalPosition: {x: -0.1336194, y: 0.009401377, z: 0.00000036853524}
+  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1639182828091748707}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0011491552, y: 0.00005197913, z: 0.15207505}
+--- !u!1 &284263347618589657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5339085516506244252}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail5_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5339085516506244252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284263347618589657}
+  m_LocalRotation: {x: -0.00000056198104, y: -0.000001429991, z: 0.20090286, w: 0.9796112}
+  m_LocalPosition: {x: -0.095126435, y: -0.05543326, z: -0.00000014768065}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 1894221104592476359}
+  m_Father: {fileID: 8221141924619348039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000030164327, y: -0.0001734617, z: 20.56892}
+--- !u!1 &528055718775301250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818941202035460106}
+  m_Layer: 9
+  m_Name: kangaroo_r_Index3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5818941202035460106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528055718775301250}
+  m_LocalRotation: {x: -0.00000051121776, y: 0.00000047145488, z: 0.04043093, w: 0.99918234}
+  m_LocalPosition: {x: 0.01869503, y: 0.0008502388, z: 0.000000057220458}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1642058888363020812}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00006070364, y: 0.00005186865, z: 4.634306}
+--- !u!1 &704052976605656110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4011367961666416152}
+  m_Layer: 9
+  m_Name: kangaroo_Spine1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4011367961666416152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704052976605656110}
+  m_LocalRotation: {x: -0.0000005272832, y: -0.0000002530597, z: 0.9412908, w: -0.33759686}
+  m_LocalPosition: {x: 0.11248639, y: -0.057811465, z: 0.008816142}
+  m_LocalScale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+  m_Children:
+  - {fileID: 4329401312775884506}
+  m_Father: {fileID: 7097481082418834971}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.000034463676, y: -0.00005178738, z: -158.7218}
+--- !u!1 &822931880575322463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754810262586697965}
+  m_Layer: 9
+  m_Name: kangaroo_l_Forearm_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754810262586697965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822931880575322463}
+  m_LocalRotation: {x: -0.13734159, y: 0.14457333, z: 0.95781416, w: 0.20694913}
+  m_LocalPosition: {x: -0.006676291, y: -0.05521775, z: 0.022220597}
+  m_LocalScale: {x: 1.0000004, y: 1.0000005, z: 1}
+  m_Children:
+  - {fileID: 3938853248941005514}
+  m_Father: {fileID: 1678717755719239440}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -19.248007, y: -14.792477, z: -1.4441528}
+--- !u!1 &1054857060797685977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4329401312775884506}
+  m_Layer: 9
+  m_Name: kangaroo_Spine2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4329401312775884506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054857060797685977}
+  m_LocalRotation: {x: -0.000000018268548, y: -0.000000006702801, z: 0.35190567, w: 0.9360355}
+  m_LocalPosition: {x: -0.124833845, y: 0.13683157, z: 0.00000008153545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 157594788505417440}
+  m_Father: {fileID: 4011367961666416152}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000054071897, y: -0.0000020937205, z: 41.272217}
+--- !u!1 &1153350708327464190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7626319986923195345}
+  m_Layer: 9
+  m_Name: kangaroo_r_Ankle_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7626319986923195345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153350708327464190}
+  m_LocalRotation: {x: -0.0016610002, y: 0.012770018, z: -0.81664526, w: 0.5769962}
+  m_LocalPosition: {x: 0.39968598, y: -0.15223128, z: -0.0001638702}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+  m_Children:
+  - {fileID: 5043921436194116184}
+  m_Father: {fileID: 8396384414313119563}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.008863811, y: 0.08812981, z: -18.645363}
+--- !u!1 &1222579631699809083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3369378772738626182}
+  m_Layer: 9
+  m_Name: kangaroo_l_Pinky1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3369378772738626182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222579631699809083}
+  m_LocalRotation: {x: -0.096104555, y: -0.21756904, z: 0.299152, w: 0.92408645}
+  m_LocalPosition: {x: -0.05849077, y: -0.00028226138, z: -0.030858297}
+  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 1.0000001}
+  m_Children:
+  - {fileID: 5986140863893255051}
+  m_Father: {fileID: 4145773660854668218}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -2.719443, y: -27.395048, z: 36.53928}
+--- !u!1 &1310046477349120877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4978611956546233264}
+  m_Layer: 9
+  m_Name: kangaroo_l_Thigh_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4978611956546233264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310046477349120877}
+  m_LocalRotation: {x: 0.000000026837814, y: 0.0000000118427055, z: 0.9148866, w: -0.4037109}
+  m_LocalPosition: {x: -0.0013297237, y: 0.0028175812, z: -0.12557615}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 5026959609151205548}
+  m_Father: {fileID: 7097481082418834971}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000025923068, y: 0.0000023653793, z: -132.37924}
+--- !u!1 &1320478584766514156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5986140863893255051}
+  m_Layer: 9
+  m_Name: kangaroo_l_Pinky2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5986140863893255051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320478584766514156}
+  m_LocalRotation: {x: -0.000000007577439, y: 0.0000000073215287, z: 0.01717386, w: 0.99985254}
+  m_LocalPosition: {x: -0.010564766, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+  m_Children:
+  - {fileID: 2556259193992582638}
+  m_Father: {fileID: 3369378772738626182}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000009213941, y: 0.0000008601743, z: 1.9680759}
+--- !u!1 &1499010431036022501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3133068995245002260}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3133068995245002260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499010431036022501}
+  m_LocalRotation: {x: -0.00000023394263, y: 0.00000035451643, z: -0.05372053, w: 0.998556}
+  m_LocalPosition: {x: -0.11793683, y: -0.018198472, z: -0.000000058387432}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8221141924619348039}
+  m_Father: {fileID: 6506644101824962484}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00002324973, y: 0.00004113382, z: -8.662188}
+--- !u!1 &1537810225642924671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8689567136966607480}
+  m_Layer: 9
+  m_Name: kangaroo_l_Ear1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8689567136966607480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537810225642924671}
+  m_LocalRotation: {x: -0.12699771, y: 0.69561493, z: 0.537035, w: -0.45998353}
+  m_LocalPosition: {x: 0.08232848, y: 0.0429552, z: -0.028632395}
+  m_LocalScale: {x: 0.99999976, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 4348483440973608012}
+  m_Father: {fileID: 3987423839575658826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -39.072655, y: -90.00126, z: -59.76482}
+--- !u!1 &1756437963896548081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2556259193992582638}
+  m_Layer: 9
+  m_Name: kangaroo_l_Pinky3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2556259193992582638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756437963896548081}
+  m_LocalRotation: {x: -0.0000016630692, y: 0.000015680207, z: 0.016717128, w: 0.9998603}
+  m_LocalPosition: {x: -0.014158153, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 5986140863893255051}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00022089078, y: 0.0017930679, z: 1.9157312}
+--- !u!1 &1796109590174824774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9013580740591240165}
+  m_Layer: 9
+  m_Name: kangaroo_l_Middle3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9013580740591240165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796109590174824774}
+  m_LocalRotation: {x: -0.0000011734721, y: 0.0000147593955, z: 0.032014616, w: 0.9994874}
+  m_LocalPosition: {x: -0.018435268, y: -0.000000009536743, z: 0.000000019073486}
+  m_LocalScale: {x: 1.0000004, y: 1.0000005, z: 1}
+  m_Children: []
+  m_Father: {fileID: 806207354558006920}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00018878671, y: 0.001685796, z: 3.6692314}
+--- !u!1 &2117750799062547040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149890373704158775}
+  m_Layer: 9
+  m_Name: kangaroo_r_Forearm_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149890373704158775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117750799062547040}
+  m_LocalRotation: {x: -0.1429874, y: 0.088053085, z: 0.97052526, w: 0.17286411}
+  m_LocalPosition: {x: 0.0059552533, y: 0.05558503, z: -0.020452878}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 7580034657986191161}
+  m_Father: {fileID: 7324994756767455151}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -12.614427, y: -14.803272, z: -168.34448}
+--- !u!1 &2156625845703177129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3987423839575658826}
+  m_Layer: 9
+  m_Name: kangaroo_Head_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3987423839575658826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2156625845703177129}
+  m_LocalRotation: {x: -0.000004998331, y: 0.0000048631055, z: 0.71673566, w: 0.69734496}
+  m_LocalPosition: {x: -0.07789944, y: 0.012480259, z: 0.000000045270003}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1}
+  m_Children:
+  - {fileID: 8689567136966607480}
+  - {fileID: 8861036915256884333}
+  - {fileID: 7694626809735263738}
+  - {fileID: 1618995336807574326}
+  m_Father: {fileID: 7474312271527055109}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0007990681, y: -0.000022204727, z: 91.57124}
+--- !u!1 &2177826949891629016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618995336807574326}
+  m_Layer: 9
+  m_Name: kangaroo_r_Ear_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1618995336807574326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2177826949891629016}
+  m_LocalRotation: {x: 0.6769456, y: 0.20429352, z: 0.5173982, w: 0.4819833}
+  m_LocalPosition: {x: 0.072441824, y: 0.047813416, z: 0.063203655}
+  m_LocalScale: {x: 0.9999994, y: 0.99999976, z: 0.9999993}
+  m_Children: []
+  m_Father: {fileID: 3987423839575658826}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 26.177326, y: 89.99887, z: 120.235886}
+--- !u!1 &2195322843203780948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8089400560293397599}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8089400560293397599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2195322843203780948}
+  m_LocalRotation: {x: -0.0000002061837, y: 0.00000024614266, z: -0.2583371, w: 0.96605486}
+  m_LocalPosition: {x: -0.110389285, y: 0.12704395, z: -0.0036021988}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 6506644101824962484}
+  m_Father: {fileID: 7097481082418834971}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.000002351949, y: 0.000039104616, z: -53.9666}
+--- !u!1 &2260194425851972918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3108428095687653429}
+  m_Layer: 9
+  m_Name: kangaroo_l_Index1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3108428095687653429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2260194425851972918}
+  m_LocalRotation: {x: 0.08390391, y: 0.18703799, z: 0.309417, w: 0.92856777}
+  m_LocalPosition: {x: -0.07187004, y: -0.0014486336, z: 0.018286714}
+  m_LocalScale: {x: 0.99999994, y: 1.0000002, z: 0.9999999}
+  m_Children:
+  - {fileID: 3879805218763299812}
+  m_Father: {fileID: 4145773660854668218}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.29677, y: 23.553078, z: 37.33707}
+--- !u!1 &2429466462099555774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8141614111680879853}
+  m_Layer: 9
+  m_Name: kangaroo_l_Ring3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8141614111680879853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2429466462099555774}
+  m_LocalRotation: {x: -0.0000042279353, y: 0.00021643974, z: 0.022119582, w: 0.9997553}
+  m_LocalPosition: {x: -0.018847646, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 502067103165334865}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0010327776, y: 0.024785606, z: 2.5349236}
+--- !u!1 &2742184202521797135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2483754810485689683}
+  m_Layer: 9
+  m_Name: kangaroo_r_Ring3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2483754810485689683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2742184202521797135}
+  m_LocalRotation: {x: -0.000006094498, y: 0.0002165557, z: 0.035840087, w: 0.9993575}
+  m_LocalPosition: {x: 0.018840475, y: 0.00051740644, z: 0.000000076293944}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 3098825715366177242}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.001587335, y: 0.024774225, z: 4.107851}
+--- !u!1 &2855324634349641835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 502067103165334865}
+  m_Layer: 9
+  m_Name: kangaroo_l_Ring2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &502067103165334865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2855324634349641835}
+  m_LocalRotation: {x: -0.000000474927, y: -0.000000014668672, z: 0.0034322499, w: 0.9999941}
+  m_LocalPosition: {x: -0.018711204, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+  m_Children:
+  - {fileID: 8141614111680879853}
+  m_Father: {fileID: 3987928040144845977}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000054125543, y: -0.0000019498011, z: 0.3933075}
+--- !u!1 &3028398371332157936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7694626809735263738}
+  m_Layer: 9
+  m_Name: kangaroo_r_Ear1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7694626809735263738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3028398371332157936}
+  m_LocalRotation: {x: 0.6956059, y: 0.12698238, z: 0.46000138, w: 0.53703517}
+  m_LocalPosition: {x: 0.082326345, y: 0.042954724, z: 0.04345278}
+  m_LocalScale: {x: 0.9999997, y: 1, z: 0.99999976}
+  m_Children:
+  - {fileID: 797535612885706166}
+  m_Father: {fileID: 3987423839575658826}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 39.072655, y: 89.99881, z: 120.2358}
+--- !u!1 &3219191392259402849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7687543234174457693}
+  m_Layer: 9
+  m_Name: kangaroo_l_Clav_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7687543234174457693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219191392259402849}
+  m_LocalRotation: {x: -0.5245543, y: -0.47417578, z: -0.13431327, w: 0.69423354}
+  m_LocalPosition: {x: -0.021161199, y: -0.042972025, z: -0.076071955}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 1678717755719239440}
+  m_Father: {fileID: 157594788505417440}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -58.83744, y: -89.99995, z: 36.93794}
+--- !u!1 &3279978205102063277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8221141924619348039}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail4_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8221141924619348039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3279978205102063277}
+  m_LocalRotation: {x: -0.0000010538471, y: 0.0000005119711, z: 0.06756574, w: 0.9977148}
+  m_LocalPosition: {x: -0.08723763, y: -0.044540424, z: -0.00000008800567}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 5339085516506244252}
+  m_Father: {fileID: 3133068995245002260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00012444993, y: 0.00005037413, z: 5.1377563}
+--- !u!1 &3554340464363867083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3879805218763299812}
+  m_Layer: 9
+  m_Name: kangaroo_l_Index2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3879805218763299812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3554340464363867083}
+  m_LocalRotation: {x: 8.466433e-11, y: 0.000000014900923, z: -0.005681726, w: 0.99998385}
+  m_LocalPosition: {x: -0.013941268, y: 0.000000009536743, z: -0.000000009536743}
+  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 894088203328097938}
+  m_Father: {fileID: 3108428095687653429}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000002025639, y: 0.0000017825046, z: -0.6510815}
+--- !u!1 &3800062294087518251
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678717755719239440}
+  m_Layer: 9
+  m_Name: kangaroo_l_Shoulder_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678717755719239440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800062294087518251}
+  m_LocalRotation: {x: 0.13248536, y: -0.67628145, z: -0.35352004, w: 0.6325461}
+  m_LocalPosition: {x: -0.048202228, y: 0.0033449642, z: -0.052108593}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_Children:
+  - {fileID: 754810262586697965}
+  - {fileID: 4475869154837495533}
+  m_Father: {fileID: 7687543234174457693}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -18.092493, y: -86.973816, z: -41.22474}
+--- !u!1 &3855676660829382472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3938853248941005514}
+  m_Layer: 9
+  m_Name: kangaroo_l_Wrist_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3938853248941005514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855676660829382472}
+  m_LocalRotation: {x: 0.68585837, y: -0.18639582, z: -0.18448709, w: 0.6788368}
+  m_LocalPosition: {x: -0.21856573, y: 0.000000076293944, z: 0.000000095367426}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 4145773660854668218}
+  m_Father: {fileID: 754810262586697965}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 59.586746, y: -91.16473, z: -91.004456}
+--- !u!1 &3975063585819599117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5921076711745581023}
+  m_Layer: 9
+  m_Name: kangaroo_r_Pinky3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5921076711745581023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3975063585819599117}
+  m_LocalRotation: {x: 0.0000018503988, y: 0.00001590289, z: 0.016715478, w: 0.9998603}
+  m_LocalPosition: {x: 0.014158229, y: -0.00000017166137, z: -0.000000057220458}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1.0000004}
+  m_Children: []
+  m_Father: {fileID: 7469392802837825900}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00018148079, y: 0.0018253879, z: 1.9155418}
+--- !u!1 &4438044367197820123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8526858432669622720}
+  m_Layer: 9
+  m_Name: kangaroo_r_Ring1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8526858432669622720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4438044367197820123}
+  m_LocalRotation: {x: -0.03260615, y: -0.07022694, z: 0.32388908, w: 0.9429215}
+  m_LocalPosition: {x: 0.072760314, y: 0.0001038599, z: 0.01609992}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+  m_Children:
+  - {fileID: 3098825715366177242}
+  m_Father: {fileID: 5317188358722637628}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.9166918, y: -8.834344, z: 37.98552}
+--- !u!1 &4594392165840104773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4541727055160086469}
+  m_Layer: 9
+  m_Name: kangaroo_l_Ankle_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4541727055160086469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4594392165840104773}
+  m_LocalRotation: {x: -0.0030690436, y: -0.014628862, z: -0.8556053, w: 0.5174131}
+  m_LocalPosition: {x: -0.3996863, y: 0.15223123, z: -0.01047742}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 6570786173963477210}
+  m_Father: {fileID: 5026959609151205548}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.40974736, y: -0.057486996, z: -9.933943}
+--- !u!1 &4848987952267097853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7580034657986191161}
+  m_Layer: 9
+  m_Name: kangaroo_r_Wrist_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7580034657986191161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4848987952267097853}
+  m_LocalRotation: {x: 0.68585885, y: -0.18639532, z: -0.1844874, w: 0.6788364}
+  m_LocalPosition: {x: 0.21856582, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 5317188358722637628}
+  m_Father: {fileID: 1149890373704158775}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 59.586758, y: -91.16483, z: -91.00462}
+--- !u!1 &4891428082458639035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4687752968567158740}
+  m_Layer: 9
+  m_Name: kangaroo_r_Middle3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687752968567158740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891428082458639035}
+  m_LocalRotation: {x: -0.0000009615686, y: 0.000014892916, z: 0.032014415, w: 0.99948746}
+  m_LocalPosition: {x: 0.018425865, y: -0.0005953693, z: -0.0000004005432}
+  m_LocalScale: {x: 0.9999998, y: 1.0000001, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 8730930958811888887}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00016463165, y: 0.0017019016, z: 3.6692083}
+--- !u!1 &4905800189410866399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8730930958811888887}
+  m_Layer: 9
+  m_Name: kangaroo_r_Middle2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8730930958811888887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4905800189410866399}
+  m_LocalRotation: {x: 0.00000031696138, y: -0.00000033146222, z: 0.012109152, w: 0.9999267}
+  m_LocalPosition: {x: 0.01805374, y: 0.000000114440915, z: 0.00000020980835}
+  m_LocalScale: {x: 1.0000002, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 4687752968567158740}
+  m_Father: {fileID: 4995615336964055091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00003705362, y: -0.000037848917, z: 1.3876407}
+--- !u!1 &4912172956976180610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7324994756767455151}
+  m_Layer: 9
+  m_Name: kangaroo_r_Shoulder_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7324994756767455151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4912172956976180610}
+  m_LocalRotation: {x: 0.022856338, y: -0.6538798, z: -0.28008446, w: 0.70247525}
+  m_LocalPosition: {x: 0.048432637, y: -0.0036061343, z: 0.052020505}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+  m_Children:
+  - {fileID: 1149890373704158775}
+  m_Father: {fileID: 7127138018230025594}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -19.52214, y: -81.22174, z: -26.693647}
+--- !u!1 &4954929403074204460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6506644101824962484}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6506644101824962484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4954929403074204460}
+  m_LocalRotation: {x: -0.0000009425743, y: 0.000000038784535, z: -0.09701142, w: 0.9952833}
+  m_LocalPosition: {x: -0.18304054, y: 0.037285786, z: 0.000000051450183}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 3133068995245002260}
+  m_Father: {fileID: 8089400560293397599}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00010202432, y: 0.000036312245, z: -24.71612}
+--- !u!1 &5254086036062665214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5317188358722637628}
+  m_Layer: 9
+  m_Name: kangaroo_r_Hand_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5317188358722637628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254086036062665214}
+  m_LocalRotation: {x: 0.66180176, y: -0.2524076, z: 0.2586415, w: 0.6568207}
+  m_LocalPosition: {x: 0.000004310608, y: -0.0000008392334, z: -0.00000015258789}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+  m_Children:
+  - {fileID: 4733988247096254580}
+  - {fileID: 4995615336964055091}
+  - {fileID: 4854568213027422460}
+  - {fileID: 8526858432669622720}
+  - {fileID: 3666994202257636903}
+  m_Father: {fileID: 7580034657986191161}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.3538, y: 107.441315, z: 149.81029}
+--- !u!1 &5276593035525898717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1639182828091748707}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail7_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1639182828091748707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5276593035525898717}
+  m_LocalRotation: {x: -0.000010366702, y: -0.000003466378, z: 0.13243622, w: 0.9911915}
+  m_LocalPosition: {x: -0.11955301, y: -0.012308155, z: -0.00000015015476}
+  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 1}
+  m_Children:
+  - {fileID: 4565537457552859710}
+  m_Father: {fileID: 1894221104592476359}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0011248665, y: -0.0005510446, z: 12.610183}
+--- !u!1 &5294392981885742728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2371922423641249008}
+  m_Layer: 9
+  m_Name: kangaroo_r_Thumb3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2371922423641249008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5294392981885742728}
+  m_LocalRotation: {x: 0.00000076781095, y: 0.00000015448161, z: -0.0025801742, w: 0.99999666}
+  m_LocalPosition: {x: 0.0065291594, y: -0.00025061608, z: -0.00000014305114}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 8042411043865818120}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00008787515, y: 0.000017572658, z: -0.2956664}
+--- !u!1 &5408379214599413014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7474312271527055109}
+  m_Layer: 9
+  m_Name: kangaroo_Neck2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7474312271527055109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5408379214599413014}
+  m_LocalRotation: {x: 0.000002253189, y: 0.000003103785, z: -0.52921057, w: 0.84849054}
+  m_LocalPosition: {x: -0.03083844, y: 0.032289077, z: 0.000000119095574}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 3987423839575658826}
+  m_Father: {fileID: 5353142333766485080}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00039216835, y: 0.00017009275, z: -53.897766}
+--- !u!1 &5432470906505565899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6570786173963477210}
+  m_Layer: 9
+  m_Name: kangaroo_l_Toe_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6570786173963477210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5432470906505565899}
+  m_LocalRotation: {x: -0.0000016273176, y: 0.00007200928, z: -0.00388896, w: 0.99999243}
+  m_LocalPosition: {x: -0.28927535, y: 0.004812844, z: -0.0070977616}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4541727055160086469}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0001544641, y: 0.0082522, z: -0.44564292}
+--- !u!1 &5534036682811295685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4995615336964055091}
+  m_Layer: 9
+  m_Name: kangaroo_r_Middle1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4995615336964055091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534036682811295685}
+  m_LocalRotation: {x: 0.009159913, y: 0.020547058, z: 0.3148262, w: 0.9488827}
+  m_LocalPosition: {x: 0.08126104, y: 0.0005060339, z: -0.0023150921}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000001}
+  m_Children:
+  - {fileID: 8730930958811888887}
+  m_Father: {fileID: 5317188358722637628}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.25473, y: 2.5655017, z: 36.71596}
+--- !u!1 &5543215854711236696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4475869154837495533}
+  m_Layer: 9
+  m_Name: kangaroo_l_ShoulderRoll_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475869154837495533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5543215854711236696}
+  m_LocalRotation: {x: -0.2334317, y: -0.000000053585538, z: 0.00000016336814, w: 0.9723732}
+  m_LocalPosition: {x: -0.000000038146972, y: 0.000000076293944, z: 0.000000009536743}
+  m_LocalScale: {x: 1, y: 0.9999997, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1678717755719239440}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -26.998388, y: -0.000011444964, z: 0.00002233665}
+--- !u!1 &5555940392604598464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4145773660854668218}
+  m_Layer: 9
+  m_Name: kangaroo_l_Hand_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4145773660854668218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5555940392604598464}
+  m_LocalRotation: {x: 0.70873684, y: -0.04575539, z: 0.051875994, w: 0.7020737}
+  m_LocalPosition: {x: -0, y: 0.0000000667572, z: 0.0000000023841857}
+  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 1.0000005}
+  m_Children:
+  - {fileID: 3108428095687653429}
+  - {fileID: 3825515083296193523}
+  - {fileID: 3369378772738626182}
+  - {fileID: 3987928040144845977}
+  - {fileID: 6999249088380635113}
+  m_Father: {fileID: 3938853248941005514}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.266975, y: 133.47153, z: 141.38875}
+--- !u!1 &5559110686228900288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4788890021521526956}
+  m_Layer: 9
+  m_Name: kangaroo_l_Thumb3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4788890021521526956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5559110686228900288}
+  m_LocalRotation: {x: -0.0000007767494, y: 0.000000009172632, z: 0.0025790422, w: 0.99999666}
+  m_LocalPosition: {x: -0.0065342137, y: 0, z: 0.0000000035762786}
+  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1186724095936002855}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00008889959, y: 0.0000008576642, z: 0.295537}
+--- !u!1 &5872638107906558279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8396384414313119563}
+  m_Layer: 9
+  m_Name: kangaroo_r_Knee_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8396384414313119563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872638107906558279}
+  m_LocalRotation: {x: -0.0018962517, y: 0.07819292, z: 0.45244548, w: 0.88835543}
+  m_LocalPosition: {x: 0.17328155, y: -0.058711153, z: -0.000000089206814}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 7626319986923195345}
+  m_Father: {fileID: 9026485903748463020}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000078082085, y: 0.0000060796738, z: 77.24719}
+--- !u!1 &5934558613504109834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6999249088380635113}
+  m_Layer: 9
+  m_Name: kangaroo_l_Thumb1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6999249088380635113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5934558613504109834}
+  m_LocalRotation: {x: -0.68684864, y: 0.17294103, z: 0.12929934, w: 0.6939827}
+  m_LocalPosition: {x: -0.053401355, y: -0.00013987302, z: 0.031679306}
+  m_LocalScale: {x: 0.99999994, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 1186724095936002855}
+  m_Father: {fileID: 4145773660854668218}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -86.41624, y: 93.06233, z: -68.369644}
+--- !u!1 &6036348895564207668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3825515083296193523}
+  m_Layer: 9
+  m_Name: kangaroo_l_Middle1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3825515083296193523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036348895564207668}
+  m_LocalRotation: {x: 0.009160194, y: 0.020546755, z: 0.3148267, w: 0.9488825}
+  m_LocalPosition: {x: -0.08125912, y: -0.00050611736, z: 0.002315483}
+  m_LocalScale: {x: 1, y: 1.0000004, z: 0.99999976}
+  m_Children:
+  - {fileID: 806207354558006920}
+  m_Father: {fileID: 4145773660854668218}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.25476974, y: 2.5654795, z: 36.716026}
+--- !u!1 &6072923155354089002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642058888363020812}
+  m_Layer: 9
+  m_Name: kangaroo_r_Index2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642058888363020812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6072923155354089002}
+  m_LocalRotation: {x: -0.00000030458364, y: -0.00000038229405, z: -0.017045127, w: 0.99985474}
+  m_LocalPosition: {x: 0.013941326, y: 0.000000038146972, z: 0.000000009536743}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 5818941202035460106}
+  m_Father: {fileID: 4733988247096254580}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000035869747, y: -0.000043093394, z: -1.9533222}
+--- !u!1 &6075950977578670596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3666994202257636903}
+  m_Layer: 9
+  m_Name: kangaroo_r_Thumb1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3666994202257636903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6075950977578670596}
+  m_LocalRotation: {x: -0.69739145, y: 0.2548352, z: 0.04608413, w: 0.6682668}
+  m_LocalPosition: {x: 0.053402748, y: 0.00013965844, z: -0.031678885}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 8042411043865818120}
+  m_Father: {fileID: 5317188358722637628}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -72.85751, y: 110.36896, z: -85.51616}
+--- !u!1 &6183418853765304614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7127138018230025594}
+  m_Layer: 9
+  m_Name: kangaroo_r_Clav_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7127138018230025594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183418853765304614}
+  m_LocalRotation: {x: 0.47417602, y: -0.52455425, z: 0.6942333, w: 0.13431346}
+  m_LocalPosition: {x: -0.020893402, y: -0.042928897, z: 0.072198264}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.99999994}
+  m_Children:
+  - {fileID: 7324994756767455151}
+  m_Father: {fileID: 157594788505417440}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 58.837433, y: 90.00001, z: -143.06204}
+--- !u!1 &6674934532447479494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5353142333766485080}
+  m_Layer: 9
+  m_Name: kangaroo_Neck1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5353142333766485080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674934532447479494}
+  m_LocalRotation: {x: -0.0000034771997, y: -0.00000007533363, z: -0.35234082, w: 0.9358718}
+  m_LocalPosition: {x: -0.029085808, y: 0.07983089, z: 0.00000019619273}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7474312271527055109}
+  m_Father: {fileID: 157594788505417440}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.0003854259, y: 0.00010918184, z: -44.976383}
+--- !u!1 &6747035380392908615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7097481082418834971}
+  m_Layer: 9
+  m_Name: Kangaroo_Pelvis_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7097481082418834971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6747035380392908615}
+  m_LocalRotation: {x: 0.7018363, y: -0.086174875, z: 0.70183593, w: -0.086174496}
+  m_LocalPosition: {x: -0.012328461, y: 0.59017754, z: -0.51575947}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 4978611956546233264}
+  - {fileID: 9026485903748463020}
+  - {fileID: 4011367961666416152}
+  - {fileID: 8089400560293397599}
+  m_Father: {fileID: 8764437410370032856}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.000026893867, y: 90.00002, z: -165.99998}
+--- !u!1 &6788419997896814030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894088203328097938}
+  m_Layer: 9
+  m_Name: kangaroo_l_Index3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &894088203328097938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6788419997896814030}
+  m_LocalRotation: {x: -0.00000026860403, y: 0.000000004044157, z: 0.04043241, w: 0.9991823}
+  m_LocalPosition: {x: -0.018714618, y: -0.000000009536743, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 3879805218763299812}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000030784566, y: -0.0000008158088, z: 4.6344757}
+--- !u!1 &6831572638764696232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9026485903748463020}
+  m_Layer: 9
+  m_Name: kangaroo_r_Thigh_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9026485903748463020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6831572638764696232}
+  m_LocalRotation: {x: 0.0000003050373, y: 0.00000013460343, z: 0.40371084, w: 0.91488665}
+  m_LocalPosition: {x: -0.0013297292, y: 0.0028177928, z: 0.12999523}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 8396384414313119563}
+  m_Father: {fileID: 7097481082418834971}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.00002554309, y: 0.000028122306, z: 47.62073}
+--- !u!1 &6972049827454177601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5043921436194116184}
+  m_Layer: 9
+  m_Name: kangaroo_r_Toe_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5043921436194116184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6972049827454177601}
+  m_LocalRotation: {x: -0.000011362768, y: -0.00073362223, z: -0.012237537, w: 0.99992484}
+  m_LocalPosition: {x: 0.2892588, y: -0.004858346, z: 0.0073231556}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7626319986923195345}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0023305824, y: -0.084044665, z: -1.4023516}
+--- !u!1 &7174298928958886323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5026959609151205548}
+  m_Layer: 9
+  m_Name: kangaroo_l_Knee_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5026959609151205548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7174298928958886323}
+  m_LocalRotation: {x: -0.003261965, y: 0.10848342, z: 0.51818776, w: 0.8483526}
+  m_LocalPosition: {x: -0.17328177, y: 0.05871126, z: -0.00000005496705}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_Children:
+  - {fileID: 4541727055160086469}
+  m_Father: {fileID: 4978611956546233264}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.8093061, y: 0.18111086, z: 84.28279}
+--- !u!1 &7541861307721130357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4854568213027422460}
+  m_Layer: 9
+  m_Name: kangaroo_r_Pinky1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4854568213027422460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7541861307721130357}
+  m_LocalRotation: {x: -0.09610459, y: -0.21756865, z: 0.29915124, w: 0.92408675}
+  m_LocalPosition: {x: 0.058485564, y: 0.00028265474, z: 0.030857686}
+  m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+  m_Children:
+  - {fileID: 7469392802837825900}
+  m_Father: {fileID: 5317188358722637628}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -2.7194822, y: -27.395006, z: 36.539196}
+--- !u!1 &7629233129633871856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4733988247096254580}
+  m_Layer: 9
+  m_Name: kangaroo_r_Index1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4733988247096254580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7629233129633871856}
+  m_LocalRotation: {x: 0.08390411, y: 0.18703823, z: 0.3094176, w: 0.92856747}
+  m_LocalPosition: {x: 0.07186752, y: 0.001448667, z: -0.018287152}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+  m_Children:
+  - {fileID: 1642058888363020812}
+  m_Father: {fileID: 5317188358722637628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.2967668, y: 23.553114, z: 37.337147}
+--- !u!1 &7640686650333140023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3098825715366177242}
+  m_Layer: 9
+  m_Name: kangaroo_r_Ring2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3098825715366177242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7640686650333140023}
+  m_LocalRotation: {x: 0.00000046801983, y: 0.00000014368092, z: -0.003431966, w: 0.9999941}
+  m_LocalPosition: {x: 0.018711166, y: -0.000000028610229, z: 0.000000057220458}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 2483754810485689683}
+  m_Father: {fileID: 8526858432669622720}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000053364263, y: 0.00001632538, z: -0.39327487}
+--- !u!1 &7675292856872719648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2476874543271169008}
+  - component: {fileID: 7183218928232922587}
+  m_Layer: 9
+  m_Name: Kangaroo_Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2476874543271169008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7675292856872719648}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8764437410370032856}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &7183218928232922587
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7675292856872719648}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6ee55005a1dd0ed4399b5a574f978474, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4516187504836019865, guid: d4849986ea6438f4fa56076d08311faf, type: 3}
+  m_Bones:
+  - {fileID: 7097481082418834971}
+  - {fileID: 8089400560293397599}
+  - {fileID: 6506644101824962484}
+  - {fileID: 3133068995245002260}
+  - {fileID: 8221141924619348039}
+  - {fileID: 5339085516506244252}
+  - {fileID: 1894221104592476359}
+  - {fileID: 1639182828091748707}
+  - {fileID: 9026485903748463020}
+  - {fileID: 8396384414313119563}
+  - {fileID: 7626319986923195345}
+  - {fileID: 5043921436194116184}
+  - {fileID: 4978611956546233264}
+  - {fileID: 5026959609151205548}
+  - {fileID: 4541727055160086469}
+  - {fileID: 6570786173963477210}
+  - {fileID: 4011367961666416152}
+  - {fileID: 4329401312775884506}
+  - {fileID: 157594788505417440}
+  - {fileID: 5353142333766485080}
+  - {fileID: 7474312271527055109}
+  - {fileID: 3987423839575658826}
+  - {fileID: 8689567136966607480}
+  - {fileID: 7694626809735263738}
+  - {fileID: 7127138018230025594}
+  - {fileID: 7324994756767455151}
+  - {fileID: 1149890373704158775}
+  - {fileID: 7580034657986191161}
+  - {fileID: 5317188358722637628}
+  - {fileID: 7687543234174457693}
+  - {fileID: 1678717755719239440}
+  - {fileID: 754810262586697965}
+  - {fileID: 3938853248941005514}
+  - {fileID: 4145773660854668218}
+  - {fileID: 4475869154837495533}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 7097481082418834971}
+  m_AABB:
+    m_Center: {x: -0.0708226, y: 0.12452148, z: -0.0037275255}
+    m_Extent: {x: 0.84969646, y: 0.54207087, z: 0.25032848}
+  m_DirtyAABB: 0
+--- !u!1 &7747213520104729374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7469392802837825900}
+  m_Layer: 9
+  m_Name: kangaroo_r_Pinky2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7469392802837825900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7747213520104729374}
+  m_LocalRotation: {x: 0.00000023620802, y: 0.00000013073614, z: 0.017175466, w: 0.99985254}
+  m_LocalPosition: {x: 0.010564728, y: 0.000000076293944, z: 0.000000095367426}
+  m_LocalScale: {x: 1.0000001, y: 0.9999998, z: 0.99999976}
+  m_Children:
+  - {fileID: 5921076711745581023}
+  m_Father: {fileID: 4854568213027422460}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000026642969, y: 0.000015452082, z: 1.9682598}
+--- !u!1 &7780191496809164954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 157594788505417440}
+  m_Layer: 9
+  m_Name: kangaroo_Spine3_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &157594788505417440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780191496809164954}
+  m_LocalRotation: {x: 0.000000038104044, y: -0.00000019278667, z: -0.27348986, w: 0.9618749}
+  m_LocalPosition: {x: -0.03611929, y: 0.1625617, z: 0.00000016063055}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 7687543234174457693}
+  - {fileID: 5353142333766485080}
+  - {fileID: 7127138018230025594}
+  m_Father: {fileID: 4329401312775884506}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000018419308, y: -0.000022443644, z: -31.744078}
+--- !u!1 &7810783178740126513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1186724095936002855}
+  m_Layer: 9
+  m_Name: kangaroo_l_Thumb2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1186724095936002855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7810783178740126513}
+  m_LocalRotation: {x: -0.000000715328, y: 0.000000013330106, z: 0.00480039, w: 0.9999885}
+  m_LocalPosition: {x: -0.010007209, y: -0.000000028610229, z: -0.0000000047683715}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.9999999}
+  m_Children:
+  - {fileID: 4788890021521526956}
+  m_Father: {fileID: 6999249088380635113}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00008222679, y: 0.0000011838661, z: 0.5500865}
+--- !u!1 &7913925761544100497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797535612885706166}
+  m_Layer: 9
+  m_Name: kangaroo_r_Ear2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797535612885706166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7913925761544100497}
+  m_LocalRotation: {x: 0.0000002412574, y: -0.00000032374467, z: 0.008740252, w: 0.9999618}
+  m_LocalPosition: {x: 0.078304134, y: -0.0000001490336, z: 0.048113093}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7694626809735263738}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000027857217, y: -0.000037133992, z: 1.0015718}
+--- !u!1 &7915977321148139507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3987928040144845977}
+  m_Layer: 9
+  m_Name: kangaroo_l_Ring1_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3987928040144845977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915977321148139507}
+  m_LocalRotation: {x: -0.03260598, y: -0.07022754, z: 0.32388818, w: 0.94292176}
+  m_LocalPosition: {x: -0.07275776, y: -0.00010380745, z: -0.016099242}
+  m_LocalScale: {x: 1.0000004, y: 0.99999946, z: 0.99999994}
+  m_Children:
+  - {fileID: 502067103165334865}
+  m_Father: {fileID: 4145773660854668218}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -0.91665906, y: -8.834403, z: 37.985413}
+--- !u!1 &8280529611003022946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8764437410370032856}
+  - component: {fileID: 9091413181931675735}
+  - component: {fileID: 6104386065673743630}
+  - component: {fileID: 9091413181931675734}
+  m_Layer: 9
+  m_Name: Kangaroo_Anm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8764437410370032856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280529611003022946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2476874543271169008}
+  - {fileID: 7097481082418834971}
+  m_Father: {fileID: 9091413180567418221}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!95 &9091413181931675735
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280529611003022946}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b37f8d6d7ccfe2043967402496e23af0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!195 &6104386065673743630
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280529611003022946}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 2
+  m_Acceleration: 30
+  avoidancePriority: 50
+  m_AngularSpeed: 350
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.56
+  m_BaseOffset: -0.13
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &9091413181931675734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280529611003022946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a308d8abffb366f49be39096e42452ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentstate: 0
+--- !u!1 &8285587053020260945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1894221104592476359}
+  m_Layer: 9
+  m_Name: Kangaroo_Tail6_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1894221104592476359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8285587053020260945}
+  m_LocalRotation: {x: -0.0000066242746, y: -0.0000006990481, z: 0.11795016, w: 0.9930195}
+  m_LocalPosition: {x: -0.13302782, y: -0.033427, z: -0.000000109532365}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1}
+  m_Children:
+  - {fileID: 1639182828091748707}
+  m_Father: {fileID: 5339085516506244252}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00074433873, y: -0.00016908016, z: 10.937031}
+--- !u!1 &8560689146784543756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4348483440973608012}
+  m_Layer: 9
+  m_Name: kangaroo_l_Ear2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4348483440973608012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8560689146784543756}
+  m_LocalRotation: {x: 6.292889e-13, y: -2.529695e-13, z: 0.008740102, w: 0.9999618}
+  m_LocalPosition: {x: -0.07830433, y: -0.0000001863612, z: -0.048113048}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8689567136966607480}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 7.554317e-11, y: -2.9603507e-11, z: 1.0015545}
+--- !u!1 &8846611211200055807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806207354558006920}
+  m_Layer: 9
+  m_Name: kangaroo_l_Middle2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806207354558006920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8846611211200055807}
+  m_LocalRotation: {x: 0.000000022381634, y: -0.0000000073603137, z: 0.0040358193,
+    w: 0.9999919}
+  m_LocalPosition: {x: -0.01805376, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 9013580740591240165}
+  m_Father: {fileID: 3825515083296193523}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000026810367, y: -0.00000086969794, z: 0.46247172}
+--- !u!1 &8908596558066370977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8042411043865818120}
+  m_Layer: 9
+  m_Name: kangaroo_r_Thumb2_bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8042411043865818120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8908596558066370977}
+  m_LocalRotation: {x: -0.0000035781604, y: 0.000000104956115, z: 0.014397607, w: 0.99989635}
+  m_LocalPosition: {x: 0.0100072855, y: -0.000000085830685, z: 0.0000000667572}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 2371922423641249008}
+  m_Father: {fileID: 3666994202257636903}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0004100772, y: 0.0000063916036, z: 1.6499013}
+--- !u!1 &9078876469245414994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8861036915256884333}
+  m_Layer: 9
+  m_Name: kangaroo_l_Ear_ctrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8861036915256884333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9078876469245414994}
+  m_LocalRotation: {x: 0.20430793, y: -0.6769546, z: -0.4819829, w: 0.51738113}
+  m_LocalPosition: {x: 0.07244484, y: 0.04781395, z: -0.06319671}
+  m_LocalScale: {x: 0.9999995, y: 0.99999976, z: 0.99999946}
+  m_Children: []
+  m_Father: {fileID: 3987423839575658826}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -26.177338, y: -90.00118, z: -59.76491}
+--- !u!1 &9091413180567418218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9091413180567418221}
+  - component: {fileID: 9091413180567418220}
+  m_Layer: 9
+  m_Name: Kangaroo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9091413180567418221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091413180567418218}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 3.4099894, y: 0.995, z: 3.319885}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8764437410370032856}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &9091413180567418220
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091413180567418218}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d12207429d6e34546b54cf09a94f4165, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: fb32adee4e6c3c8468cfc07b4b673153
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: asp_viper_exp8
+  - first:
+      1: 100002
+    second: Viper_Back_01_01SHJnt
+  - first:
+      1: 100004
+    second: Viper_Back_01_02SHJnt
+  - first:
+      1: 100006
+    second: Viper_Back_01_03SHJnt
+  - first:
+      1: 100008
+    second: Viper_Back_01_04SHJnt
+  - first:
+      1: 100010
+    second: Viper_Back_01_05SHJnt
+  - first:
+      1: 100012
+    second: Viper_Back_01_06SHJnt
+  - first:
+      1: 100014
+    second: Viper_Back_01_07SHJnt
+  - first:
+      1: 100016
+    second: Viper_Back_01_08SHJnt
+  - first:
+      1: 100018
+    second: Viper_Back_01_09SHJnt
+  - first:
+      1: 100020
+    second: Viper_Back_01_10SHJnt
+  - first:
+      1: 100022
+    second: Viper_Front_01_01SHJnt
+  - first:
+      1: 100024
+    second: Viper_Front_01_02SHJnt
+  - first:
+      1: 100026
+    second: Viper_Front_01_03SHJnt
+  - first:
+      1: 100028
+    second: Viper_Front_01_04SHJnt
+  - first:
+      1: 100030
+    second: Viper_Front_01_05SHJnt
+  - first:
+      1: 100032
+    second: Viper_Front_01_06SHJnt
+  - first:
+      1: 100034
+    second: Viper_Front_01_07SHJnt
+  - first:
+      1: 100036
+    second: Viper_Front_01_08SHJnt
+  - first:
+      1: 100038
+    second: Viper_Front_01_09SHJnt
+  - first:
+      1: 100040
+    second: Viper_Front_01_10SHJnt
+  - first:
+      1: 100042
+    second: Viper_Front_01_11SHJnt
+  - first:
+      1: 100044
+    second: Viper_Head_JawEndSHJnt
+  - first:
+      1: 100046
+    second: Viper_Head_JawSHJnt
+  - first:
+      1: 100048
+    second: Viper_Head_TopSHJnt
+  - first:
+      1: 100050
+    second: Viper_l_Fang_01_01SHJnt
+  - first:
+      1: 100052
+    second: Viper_MAINSHJnt
+  - first:
+      1: 100054
+    second: Viper_Neck_01SHJnt
+  - first:
+      1: 100056
+    second: Viper_Neck_02SHJnt
+  - first:
+      1: 100058
+    second: Viper_Neck_TopSHJnt
+  - first:
+      1: 100060
+    second: Viper_r_Fang_01_01SHJnt
+  - first:
+      1: 100062
+    second: //RootNode
+  - first:
+      1: 100064
+    second: Viper_ROOTSHJnt
+  - first:
+      1: 100066
+    second: Viper_Tongue_01_01SHJnt
+  - first:
+      1: 100068
+    second: Viper_Tongue_01_02SHJnt
+  - first:
+      1: 100070
+    second: Viper_Tongue_01_03SHJnt
+  - first:
+      1: 100072
+    second: Viper_Tongue_01_04SHJnt
+  - first:
+      4: 400000
+    second: asp_viper_exp8
+  - first:
+      4: 400002
+    second: Viper_Back_01_01SHJnt
+  - first:
+      4: 400004
+    second: Viper_Back_01_02SHJnt
+  - first:
+      4: 400006
+    second: Viper_Back_01_03SHJnt
+  - first:
+      4: 400008
+    second: Viper_Back_01_04SHJnt
+  - first:
+      4: 400010
+    second: Viper_Back_01_05SHJnt
+  - first:
+      4: 400012
+    second: Viper_Back_01_06SHJnt
+  - first:
+      4: 400014
+    second: Viper_Back_01_07SHJnt
+  - first:
+      4: 400016
+    second: Viper_Back_01_08SHJnt
+  - first:
+      4: 400018
+    second: Viper_Back_01_09SHJnt
+  - first:
+      4: 400020
+    second: Viper_Back_01_10SHJnt
+  - first:
+      4: 400022
+    second: Viper_Front_01_01SHJnt
+  - first:
+      4: 400024
+    second: Viper_Front_01_02SHJnt
+  - first:
+      4: 400026
+    second: Viper_Front_01_03SHJnt
+  - first:
+      4: 400028
+    second: Viper_Front_01_04SHJnt
+  - first:
+      4: 400030
+    second: Viper_Front_01_05SHJnt
+  - first:
+      4: 400032
+    second: Viper_Front_01_06SHJnt
+  - first:
+      4: 400034
+    second: Viper_Front_01_07SHJnt
+  - first:
+      4: 400036
+    second: Viper_Front_01_08SHJnt
+  - first:
+      4: 400038
+    second: Viper_Front_01_09SHJnt
+  - first:
+      4: 400040
+    second: Viper_Front_01_10SHJnt
+  - first:
+      4: 400042
+    second: Viper_Front_01_11SHJnt
+  - first:
+      4: 400044
+    second: Viper_Head_JawEndSHJnt
+  - first:
+      4: 400046
+    second: Viper_Head_JawSHJnt
+  - first:
+      4: 400048
+    second: Viper_Head_TopSHJnt
+  - first:
+      4: 400050
+    second: Viper_l_Fang_01_01SHJnt
+  - first:
+      4: 400052
+    second: Viper_MAINSHJnt
+  - first:
+      4: 400054
+    second: Viper_Neck_01SHJnt
+  - first:
+      4: 400056
+    second: Viper_Neck_02SHJnt
+  - first:
+      4: 400058
+    second: Viper_Neck_TopSHJnt
+  - first:
+      4: 400060
+    second: Viper_r_Fang_01_01SHJnt
+  - first:
+      4: 400062
+    second: //RootNode
+  - first:
+      4: 400064
+    second: Viper_ROOTSHJnt
+  - first:
+      4: 400066
+    second: Viper_Tongue_01_01SHJnt
+  - first:
+      4: 400068
+    second: Viper_Tongue_01_02SHJnt
+  - first:
+      4: 400070
+    second: Viper_Tongue_01_03SHJnt
+  - first:
+      4: 400072
+    second: Viper_Tongue_01_04SHJnt
+  - first:
+      43: 4300000
+    second: asp_viper_exp8
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: asp_viper_exp8
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default1
+    second: {fileID: 2100000, guid: 828a369f2e8f14d4aa25ad43d65b60b8, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'RightUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Viper_Rig(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: asp_viper_exp8
+      parentName: Viper_Rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000005338508, y: 0.7071068, z: 0.7071068, w: 0.00000005338508}
+      scale: {x: 0.98611283, y: 0.98611283, z: 0.98611283}
+    - name: Viper_MAINSHJnt
+      parentName: Viper_Rig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_ROOTSHJnt
+      parentName: Viper_MAINSHJnt
+      position: {x: -0, y: 0.026916862, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_01SHJnt
+      parentName: Viper_ROOTSHJnt
+      position: {x: -1.1557807e-16, y: 4.4408918e-17, z: 0.047583155}
+      rotation: {x: -0.37732252, y: 0.5980199, z: -0.37732244, w: 0.5980199}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_02SHJnt
+      parentName: Viper_Front_01_01SHJnt
+      position: {x: -0.05877992, y: 2.6645352e-17, z: 7.250126e-18}
+      rotation: {x: 5.3936833e-18, y: 1.1144664e-16, z: 0.0054003, w: 0.99998546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_03SHJnt
+      parentName: Viper_Front_01_02SHJnt
+      position: {x: -0.05877992, y: 8.881784e-18, z: 7.24632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_04SHJnt
+      parentName: Viper_Front_01_03SHJnt
+      position: {x: -0.05877992, y: -4.440892e-18, z: 7.24632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_05SHJnt
+      parentName: Viper_Front_01_04SHJnt
+      position: {x: -0.05877992, y: 2.2204459e-17, z: 7.24632e-18}
+      rotation: {x: 0.000000072875984, y: 0.605294, z: 0.00000006705522, w: 0.796002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_06SHJnt
+      parentName: Viper_Front_01_05SHJnt
+      position: {x: -0.05877992, y: 0, z: 7.24632e-18}
+      rotation: {x: 0.000000006247439, y: 0.098271266, z: 0.000000022486425, w: 0.9951597}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_07SHJnt
+      parentName: Viper_Front_01_06SHJnt
+      position: {x: -0.05877992, y: 0, z: 7.24632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_08SHJnt
+      parentName: Viper_Front_01_07SHJnt
+      position: {x: -0.05877992, y: 1.7763568e-17, z: 7.24632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_09SHJnt
+      parentName: Viper_Front_01_08SHJnt
+      position: {x: -0.05877992, y: 4.440892e-18, z: 7.24632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_10SHJnt
+      parentName: Viper_Front_01_09SHJnt
+      position: {x: -0.05877992, y: 4.440892e-18, z: 7.24632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Front_01_11SHJnt
+      parentName: Viper_Front_01_10SHJnt
+      position: {x: -0.05877992, y: 0, z: 7.24632e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Neck_01SHJnt
+      parentName: Viper_Front_01_11SHJnt
+      position: {x: -0.012931402, y: 0.00008955313, z: -8.899904e-18}
+      rotation: {x: -0.70710254, y: 0.0024484056, z: -0.0024484056, w: 0.70710254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Neck_02SHJnt
+      parentName: Viper_Neck_01SHJnt
+      position: {x: -0.012931706, y: 1.4766502e-15, z: -7.1498363e-16}
+      rotation: {x: -1.4735966e-16, y: 2.8563347e-14, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Neck_TopSHJnt
+      parentName: Viper_Neck_02SHJnt
+      position: {x: -0.012931706, y: -1.7805488e-16, z: -4.440892e-16}
+      rotation: {x: 1, y: 1.7225465e-16, z: 1.4432684e-14, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Head_JawSHJnt
+      parentName: Viper_Neck_TopSHJnt
+      position: {x: -0.020303447, y: 1.6393105e-14, z: 0.0009216809}
+      rotation: {x: 0.5118773, y: 0.5118773, z: -0.48783362, w: -0.48783362}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Head_JawEndSHJnt
+      parentName: Viper_Head_JawSHJnt
+      position: {x: 4.139202e-13, y: -0.028587537, z: 0.06363498}
+      rotation: {x: 0.79590976, y: 0, z: 0, w: 0.6054153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Head_TopSHJnt
+      parentName: Viper_Neck_TopSHJnt
+      position: {x: -0.09628485, y: -2.735605e-13, z: -0.016799994}
+      rotation: {x: -0.07530091, y: -0.07530091, z: 0.7030859, w: 0.7030859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Tongue_01_01SHJnt
+      parentName: Viper_Head_TopSHJnt
+      position: {x: 4.2164303e-13, y: -0.062036857, z: 0.013052448}
+      rotation: {x: -0.44376603, y: 0.5505195, z: -0.44376603, w: 0.5505195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Tongue_01_02SHJnt
+      parentName: Viper_Tongue_01_01SHJnt
+      position: {x: -0.017215246, y: 1.9317881e-16, z: 2.1562214e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Tongue_01_03SHJnt
+      parentName: Viper_Tongue_01_02SHJnt
+      position: {x: -0.017215246, y: 1.8207657e-16, z: 2.1562214e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Tongue_01_04SHJnt
+      parentName: Viper_Tongue_01_03SHJnt
+      position: {x: -0.017215246, y: 7.9936054e-17, z: 2.1562214e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_l_Fang_01_01SHJnt
+      parentName: Viper_Head_TopSHJnt
+      position: {x: -0.0068168435, y: -0.01480176, z: 0.017116332}
+      rotation: {x: 0.2334022, y: 0.6674754, z: 0.2334022, w: 0.6674754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_r_Fang_01_01SHJnt
+      parentName: Viper_Head_TopSHJnt
+      position: {x: 0.0075339614, y: -0.01480176, z: 0.017116332}
+      rotation: {x: 0.2334022, y: -0.6674754, z: -0.2334022, w: 0.6674754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_01SHJnt
+      parentName: Viper_ROOTSHJnt
+      position: {x: -9.470515e-17, y: 7.105427e-17, z: -0.032552484}
+      rotation: {x: -0.44753113, y: -0.5249286, z: 0.44684207, w: 0.56964725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_02SHJnt
+      parentName: Viper_Back_01_01SHJnt
+      position: {x: -0.08005687, y: 3.5527136e-17, z: -1.7776196e-17}
+      rotation: {x: -1.7630025e-18, y: -1.0758931e-16, z: 0.015405133, w: 0.9998813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_03SHJnt
+      parentName: Viper_Back_01_02SHJnt
+      position: {x: -0.08005687, y: -8.881784e-18, z: -1.7767757e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_04SHJnt
+      parentName: Viper_Back_01_03SHJnt
+      position: {x: -0.08005687, y: 1.3322676e-17, z: -1.7767757e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_05SHJnt
+      parentName: Viper_Back_01_04SHJnt
+      position: {x: -0.08005687, y: -4.440892e-18, z: -1.7767757e-17}
+      rotation: {x: 0.65100825, y: 0.74465126, z: -0.07661904, w: 0.12574682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_06SHJnt
+      parentName: Viper_Back_01_05SHJnt
+      position: {x: -0.08005687, y: 2.2204459e-17, z: -1.7767757e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_07SHJnt
+      parentName: Viper_Back_01_06SHJnt
+      position: {x: -0.08005687, y: 4.440892e-18, z: -1.7767757e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_08SHJnt
+      parentName: Viper_Back_01_07SHJnt
+      position: {x: -0.08005687, y: 4.440892e-18, z: -1.7767757e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_09SHJnt
+      parentName: Viper_Back_01_08SHJnt
+      position: {x: -0.08005687, y: 0, z: -1.7767757e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Viper_Back_01_10SHJnt
+      parentName: Viper_Back_01_09SHJnt
+      position: {x: -0.0573978, y: 1.3322676e-17, z: -1.2738824e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
