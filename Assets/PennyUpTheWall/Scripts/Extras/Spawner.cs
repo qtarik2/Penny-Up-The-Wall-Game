@@ -20,7 +20,6 @@ public class Spawner : MonoBehaviour
     public GameObject SpawnedObject;
     public GameObject SpawnPos,SpawnPos_F;
     public GameObject playerModel;
-    public GameObject lastPivot;
     public UnityEvent PennyDestroyed;
 
     public void Start()

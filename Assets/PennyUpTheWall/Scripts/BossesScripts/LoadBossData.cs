@@ -65,7 +65,11 @@ public class LoadBossData : MonoBehaviour
         _Boss_number = CurrentBossNo;
         //Boss Image In For dialoge panel show
         DialogueManager.instance.boss_image_for_load.sprite = _bossesData._totalBossesLevel[CurrentLevelNo]._eachLevelBosses[CurrentBossNo].BossImage;
+        DialogueManager.instance.boss_name_for_load = _bossesData._totalBossesLevel[CurrentLevelNo]._eachLevelBosses[CurrentBossNo].BossName;
+        PowerBar.instance.bossNow = CurrentBossNo;
         LevelSelection.instance.boss_Now.text = "Boss : " + (CurrentBossNo + 1);
+        DialogueManager.instance.bossnow = CurrentBossNo;
+        DialogueManager.instance.levelnow = _level_Number;
         LevelSelection.instance.level_Now.text = LevelSelection.instance._levelsData._LevelData[_level_Number].LevelName;
         if (LevelSelection.instance.nowModel != null) { Destroy(LevelSelection.instance.nowModel.gameObject); }
         if (_bossesData._totalBossesLevel[CurrentLevelNo]._eachLevelBosses[CurrentBossNo].BosseModel != null) { LevelSelection.instance.nowModel = Instantiate(_bossesData._totalBossesLevel[CurrentLevelNo]._eachLevelBosses[CurrentBossNo].BosseModel, LevelSelection.instance.All_Character.transform); }
@@ -144,7 +148,6 @@ public class LoadBossData : MonoBehaviour
             DialogueManager.instance.show(true);
             if (index_of_dialog == 0)
             {
-                SideAnimetionPlay(_bossesData._totalBossesLevel[_level_Number]._eachLevelBosses[_Boss_number].BossDialogue[0]);
                 index_of_dialog++;
                 Invoke("Wait", 4.5f);
                 Complete = false;
@@ -162,7 +165,6 @@ public class LoadBossData : MonoBehaviour
             Complete = true;
             DialogueManager.instance.Dialogue.text = "";
             // DialogueManager.instance.show(false);
-            SideAnimetionPlayFalse();
             return;
         }
     }

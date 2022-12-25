@@ -114,7 +114,7 @@ MonoBehaviour:
     _UnlockedBossNo: 0
   - _eachLevelBosses:
     - BossName: Yoga Man
-      BossImage: {fileID: 21300000, guid: f24adcf64745aba41baf94cee9655dcf, type: 3}
+      BossImage: {fileID: 21300000, guid: 281afa5f9b7730f4f8472c33f14851cb, type: 3}
       BossDialogue:
       - level 2 boss 1
       Hand_material_of_boss:
@@ -134,7 +134,7 @@ MonoBehaviour:
       - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
       - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
     - BossName: Indian Chief
-      BossImage: {fileID: 21300000, guid: 76fc0024f1411a44f8d76bf0048aeb57, type: 3}
+      BossImage: {fileID: 21300000, guid: eb3ce21a5fd269f4d869c374cee656a2, type: 3}
       BossDialogue:
       - level 2 boss 2
       Hand_material_of_boss:
@@ -153,7 +153,7 @@ MonoBehaviour:
       - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
       - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
       - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
-    - BossName: 'Indian Cricket Player '
+    - BossName: Indian Cricket Player
       BossImage: {fileID: 21300000, guid: 4aa7c540e07f8fc40b5ed42f8356f0a5, type: 3}
       BossDialogue:
       - level 2 boss 3
@@ -213,7 +213,7 @@ MonoBehaviour:
       - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
       - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
       - {fileID: 952771218597216624, guid: 77ae09c4ed364ac45823e65cef63f7fc, type: 3}
-    _UnlockedBossNo: 0
+    _UnlockedBossNo: 4
   - _eachLevelBosses:
     - BossName: Turkish-Sultan
       BossImage: {fileID: 21300000, guid: bd669644a17475d44868112582e37b33, type: 3}
@@ -330,7 +330,7 @@ MonoBehaviour:
       - {fileID: 9091413180567418218, guid: aa93ccb659cbb1a41b8fc3a1a4f10786, type: 3}
       - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
       - {fileID: 4063444915957075153, guid: 401fe38a92b1d5f4c8b1350ffdd3838f, type: 3}
-    - BossName: 'Safari Tour Guide '
+    - BossName: Safari Tour Guide
       BossImage: {fileID: 21300000, guid: 4b8e4a18935d88147b10b3a358858a9a, type: 3}
       BossDialogue:
       - level 4 boss 2
@@ -364,7 +364,7 @@ MonoBehaviour:
       - {fileID: 9091413180567418218, guid: aa93ccb659cbb1a41b8fc3a1a4f10786, type: 3}
       - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
       - {fileID: 4063444915957075153, guid: 401fe38a92b1d5f4c8b1350ffdd3838f, type: 3}
-    - BossName: 'Aboriginal Australians '
+    - BossName: Aboriginal Australians
       BossImage: {fileID: 21300000, guid: 1c3b78619c5c3ca4a9ab916081e78bd2, type: 3}
       BossDialogue:
       - level 4 boss 4
@@ -574,7 +574,7 @@ MonoBehaviour:
       - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
       - {fileID: 4125313155315365537, guid: bc535ef2747e3a746976e4b86f110168, type: 3}
       - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
-    - BossName: 'Brazillan Women Beach Volley Ball '
+    - BossName: Brazillan Women Beach Volley Ball
       BossImage: {fileID: 21300000, guid: 9835ed7291b62c94b8b4fdf8bf3f1b36, type: 3}
       BossDialogue:
       - level 6 boss 5
@@ -594,7 +594,7 @@ MonoBehaviour:
       - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
     _UnlockedBossNo: 0
   - _eachLevelBosses:
-    - BossName: 'Girl on Vesper Bike  '
+    - BossName: Girl on Vesper Bike
       BossImage: {fileID: 21300000, guid: 271d4fcaef4420b4aa950156b0048e4a, type: 3}
       BossDialogue:
       - 'level 7 boss 1 '
@@ -612,7 +612,7 @@ MonoBehaviour:
       - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
       - {fileID: 5034985410725533563, guid: 80c01aee0fc040a428dfdc1c58494f26, type: 3}
       - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
-    - BossName: ' Italian Gladiator Warrior  '
+    - BossName: Italian Gladiator Warrior
       BossImage: {fileID: 21300000, guid: d11fa0bd2bf456a488f6cc98734e875a, type: 3}
       BossDialogue:
       - level 7 boss 2
@@ -748,7 +748,7 @@ MonoBehaviour:
       - {fileID: 5753485717981539351, guid: 0885398b2c89816429e2b5e4212b7cc5, type: 3}
       - {fileID: 2556754875100814732, guid: c08496599d06f094da20de09fe0e69b4, type: 3}
       - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
-    - BossName: 'Russian nuclear scientist  '
+    - BossName: Russian nuclear scientist
       BossImage: {fileID: 21300000, guid: dd11dd1463ecdf5438e762d96303433e, type: 3}
       BossDialogue:
       - level 8 boss 4
@@ -768,7 +768,7 @@ MonoBehaviour:
       - {fileID: 5753485717981539351, guid: 0885398b2c89816429e2b5e4212b7cc5, type: 3}
       - {fileID: 2556754875100814732, guid: c08496599d06f094da20de09fe0e69b4, type: 3}
       - {fileID: 8131183358832576095, guid: cf022e4d973fd5240bebfa44e18c8674, type: 3}
-    - BossName: 'Women Astronaut '
+    - BossName: Women Astronaut
       BossImage: {fileID: 21300000, guid: 1ad16ad11d5fc8a4d8d06e08e58f484d, type: 3}
       BossDialogue:
       - 'level 8 boss 5 '
@@ -809,7 +809,7 @@ MonoBehaviour:
       - {fileID: 1169954214266006110, guid: 37225d9715ef2b546aa70a6b5f611bc1, type: 3}
       - {fileID: 2666972310938121948, guid: 2eb5cd88acf7de34f8df6872f2033f0f, type: 3}
       - {fileID: 6024289253658797792, guid: d089f4b996471f94982b898643589221, type: 3}
-    - BossName: 'Paella Maker Fat Chef  '
+    - BossName: Paella Maker Fat Chef
       BossImage: {fileID: 21300000, guid: 8bd5da26ebdee3b4a885e064c0fa4521, type: 3}
       BossDialogue:
       - level 9 boss 2
@@ -909,7 +909,7 @@ MonoBehaviour:
       - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
       - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
       - {fileID: 646381051331698128, guid: 876c7fc3c78f4454abbf73f326712965, type: 3}
-    - BossName: 'Ice Hockey Player  '
+    - BossName: Ice Hockey Player
       BossImage: {fileID: 21300000, guid: 0e2fb83fb09dd3146acfdf04a00838c0, type: 3}
       BossDialogue:
       - level 10 boss 2
@@ -984,7 +984,7 @@ MonoBehaviour:
       - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
     _UnlockedBossNo: 0
   - _eachLevelBosses:
-    - BossName: 'Bavarian Women  '
+    - BossName: Bavarian Women
       BossImage: {fileID: 21300000, guid: 6e765149bf105854ea3b66181fd6d086, type: 3}
       BossDialogue:
       - level 11 boss 1
@@ -1021,7 +1021,7 @@ MonoBehaviour:
       - {fileID: 8806590553401888637, guid: c8823da0bec69c14785eb3198bdbee8f, type: 3}
       - {fileID: 9222589325940398101, guid: 09cc5de37e6e2bf40bc3a65a96bebb26, type: 3}
       - {fileID: 3642543323236880189, guid: 329893a538d7a0144adda9297dcb6832, type: 3}
-    - BossName: 'Racing Driving  '
+    - BossName: Racing Driving
       BossImage: {fileID: 21300000, guid: 9dd4fc406c7992549bf8960f5cdf6a83, type: 3}
       BossDialogue:
       - level 11 boss 3
@@ -1222,7 +1222,7 @@ MonoBehaviour:
       - {fileID: 4667260013343554643, guid: 6537868be8919734c81fef3aa3260052, type: 3}
       - {fileID: 946036247807999753, guid: 2b481e60b8cddbb43b4d6afd879cb38a, type: 3}
       - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
-    - BossName: 'Sushi Chief  '
+    - BossName: Sushi Chief
       BossImage: {fileID: 21300000, guid: cedd27625e90b7e45847a46026db6942, type: 3}
       BossDialogue:
       - level 13 boss 3
@@ -1281,7 +1281,7 @@ MonoBehaviour:
       - {fileID: 7148668366043501469, guid: 803adeee6234fc34893fadbac4157e34, type: 3}
     _UnlockedBossNo: 0
   - _eachLevelBosses:
-    - BossName: 'Town Sherif  '
+    - BossName: Town Sherif
       BossImage: {fileID: 21300000, guid: 4443b15756e6c8345b38dc35332c73e9, type: 3}
       BossDialogue:
       - level 14 boss 1
@@ -1301,7 +1301,7 @@ MonoBehaviour:
       - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
       - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
       - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
-    - BossName: 'Hitman  '
+    - BossName: Hitman
       BossImage: {fileID: 21300000, guid: 317fd64f6a7922443a748a2a2c12c157, type: 3}
       BossDialogue:
       - level 14 boss 2
@@ -1321,7 +1321,7 @@ MonoBehaviour:
       - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
       - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
       - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
-    - BossName: 'Motorbike gang leader  '
+    - BossName: Motorbike gang leader
       BossImage: {fileID: 21300000, guid: ce4234ea57f236b45a31c24333bb4ffc, type: 3}
       BossDialogue:
       - level 14 boss 3
@@ -1341,7 +1341,7 @@ MonoBehaviour:
       - {fileID: 1759963606453970130, guid: 5f0310e07ab407e4194355d41304d0ab, type: 3}
       - {fileID: 4328266974710338885, guid: f97ff12a25206d945a4c199b78a7cdcc, type: 3}
       - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
-    - BossName: 'Cheerleader '
+    - BossName: Cheerleader
       BossImage: {fileID: 21300000, guid: 38a7a2dcaabb3b841ae3cb400e789220, type: 3}
       BossDialogue:
       - level 14 boss 4
@@ -1381,7 +1381,7 @@ MonoBehaviour:
       - {fileID: 8222392488575750119, guid: ee3664e576379c84c97b5515913c8008, type: 3}
     _UnlockedBossNo: 0
   - _eachLevelBosses:
-    - BossName: 'Kung Fu Man  '
+    - BossName: Kung Fu Man
       BossImage: {fileID: 21300000, guid: 97571b59ad599f249a7ed0d6cbbdba2d, type: 3}
       BossDialogue:
       - level 15  boss 1
@@ -1440,7 +1440,7 @@ MonoBehaviour:
       - {fileID: 7859090343478901625, guid: 6bfdc8f8c8371eb4d8db15aafea78d14, type: 3}
       - {fileID: 5809967392263781721, guid: d9649316eae28f24aa0e958e09dc14d5, type: 3}
       - {fileID: 7440382596464283720, guid: 53f4212f5f06f7b47ba09ac2064043ba, type: 3}
-    - BossName: 'Chinese Women Warrior  '
+    - BossName: Chinese Women Warrior
       BossImage: {fileID: 21300000, guid: 1155a7d51604c2640b71a23876f9f90c, type: 3}
       BossDialogue:
       - level 15  boss 4

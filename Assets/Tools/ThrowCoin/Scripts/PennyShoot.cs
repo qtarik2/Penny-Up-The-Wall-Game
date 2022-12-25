@@ -20,13 +20,21 @@ public class PennyShoot : MonoBehaviour
 
     public TouchInput touchInput;
 
+    public bool up;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         touchInput = FindObjectOfType<TouchInput>();
         touchInput.pennyShoot = this;
     }
-
+    private void LateUpdate()
+    {
+        if(up && GetComponent<Rigidbody>().velocity.y > -3)
+        {
+            transform.position += new Vector3(0,0.05f,0);
+        }
+    }
     public void OnDown()
     {
         mousePressDownPos = Input.mousePosition;
@@ -59,6 +67,7 @@ public class PennyShoot : MonoBehaviour
 
         Vector3 forcing = new Vector3(Force.x, Force.y, Force.y);
         rb.AddForce(-(forceV / 2) * PowerBar.instance.SetSpeed);
+        up = true;
         isShoot = true;
     }
 

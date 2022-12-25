@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using Coffee.UIExtensions;
 using System.Collections;
+using UnityEngine.SceneManagement;
 /// <summary>
 /// This Script is attached to LevelSelection Gameobject in Hierarchy
 /// </summary>
 public class LevelSelection : MonoBehaviour
 {
+    public Transform[] birdPoints;
     [SerializeField] GameObject[] LevelButtons;//List of all level buttons in content child
     [SerializeField] GameObject[] QMLevelButtons;//List of all QM level buttons in content child
     [SerializeField] public LevelData _levelsData;    //Reference to scriptable data object (LevelData)
@@ -46,6 +48,7 @@ public class LevelSelection : MonoBehaviour
 
     void Start()
     {
+        GameManager.instance.gameStates = GameStates.Playing;
         //Load Unlocked Level Data
         LoadUnlockedLevel();
         //Clear All level boss numbers
@@ -70,7 +73,7 @@ public class LevelSelection : MonoBehaviour
             {
                 levelPriceTxt=(levelPrice/1000000).ToString("0")+"M";
             }
-            QMLevelButtons[i].transform.GetChild(4).GetChild(0).GetChild(0).GetComponent<Text>().text=levelPriceTxt;
+            QMLevelButtons[i].transform.GetChild(4).GetChild(0).GetChild(0).GetComponent<Text>().text = levelPriceTxt;
         }
     }
     public void ClearBossNumber()
@@ -234,24 +237,28 @@ public class LevelSelection : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.instance.gameStates == GameStates.Playing) { SFX_Holder.Audio.weatherSFXVolume = 1f; SFX_Holder.Audio.ambientSFXVolume = .5f; }
-        else { SFX_Holder.Audio.weatherSFXVolume = 0f; SFX_Holder.Audio.ambientSFXVolume = 0f; }
+        /*if (GameManager.instance.gameStates == GameStates.Playing) { SFX_Holder.Audio.weatherSFXVolume = 1f; SFX_Holder.Audio.ambientSFXVolume = .5f; }
+        else { if (SFX_Holder != null) { SFX_Holder.Audio.weatherSFXVolume = 0f; SFX_Holder.Audio.ambientSFXVolume = 0f; } }*/
 
-        if (scaled || losgra.activeInHierarchy == true || pausegra.activeInHierarchy == true)
+        if(losgra != null)
         {
-            Time.timeScale = 0;
-            AudioListener.pause = true;
+            if (scaled || losgra.activeInHierarchy == true || pausegra.activeInHierarchy == true)
+            {
+                Time.timeScale = 0;
+                AudioListener.pause = true;
+            }
         }
+
         else { Time.timeScale = 1; AudioListener.pause = false; }
     }
     public void SetEnvironmentActive(int _sceneNo)
     {
-       // Debug.Log("Active scene name: " + _allScenes[_sceneNo].gameObject.name);
-        _allScenes[_sceneNo].gameObject.SetActive(true);
+        // Debug.Log("Active scene name: " + _allScenes[_sceneNo].gameObject.name);
+        _allScenes[_sceneNo].SetActive(true);
         // _allScenes.Where(t => t != null && !t.Equals(_sceneNo)).ToList().ForEach(g => g.SetActive(false));
         for (int i = 0; i < _allScenes.Count; i++)
         {
-            if (i != _sceneNo) { _allScenes[i].gameObject.SetActive(false); }
+            if (i != _sceneNo) { _allScenes[i].SetActive(false); }
         }
     }
 

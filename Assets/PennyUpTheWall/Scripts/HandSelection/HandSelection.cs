@@ -39,7 +39,8 @@ public class HandSelection : MonoBehaviour
         }
     }
     public void handed(string handed) {
-            PlayerPrefs.SetString("Handed",handed);
+        PlayerPrefs.SetString("Handed",handed);
+
         if (handed== "Left") {
             All_Player_Side.transform.localScale = new Vector3(-1f,1f,1f);
             GameObject.FindGameObjectWithTag("All_Players").transform.localScale= All_Player_Side.transform.localScale;
@@ -57,7 +58,7 @@ public class HandSelection : MonoBehaviour
         if (gander.Equals("male")) {
             PlayerPrefs.SetInt(PlayerPrefs.GetString("gander"),hand_number);
             print("Hand Number   " + PlayerPrefs.GetInt(PlayerPrefs.GetString("gander")));
-            player_hand_M.GetComponent<SkinnedMeshRenderer>().materials=_hand_textur._HandData[PlayerPrefs.GetInt(PlayerPrefs.GetString("gander"))]._handMaterial;
+            player_hand_M.GetComponent<SkinnedMeshRenderer>().materials = _hand_textur._HandData[PlayerPrefs.GetInt(PlayerPrefs.GetString("gander"))]._handMaterial;
             Debug.Log(PlayerPrefs.GetInt(PlayerPrefs.GetString("gander")));
             panel.SetActive(false);
             UIManager.instance.SetActivePanel(4);

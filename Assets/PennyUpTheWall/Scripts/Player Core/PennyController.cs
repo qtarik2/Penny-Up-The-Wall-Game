@@ -39,6 +39,11 @@ public class PennyController : MonoBehaviour, IPennyController
     //Singleton reference to access this script
     #region Singleton
     public static PennyController instance;
+    public Animator thol;
+    public Transform camPos;
+
+    float t = 0f;
+    bool startfalsing;
 
     private void Awake()
     {
@@ -67,11 +72,12 @@ public class PennyController : MonoBehaviour, IPennyController
         touchInput.pennyController = this;
         UIManager.instance.bossImage.fillAmount = 1f;
         UIManager.instance.userImage.fillAmount = 1f;
+        t = 0f;
         //  _LineRendrer = GameObject.Find("NewLine").GetComponent<LineRenderer>();
         test = transform.GetChild(0).transform.gameObject;
+        test.transform.parent = null;
         test.GetComponent<CameraController>().player = gameObject;
-        Spawner.instance.lastPivot = transform.GetChild(0).transform.gameObject;
-        test.transform.SetParent(null);
+        //test.transform.parent = null;
         //text = GameObject.FindGameObjectWithTag("distance");
         //Storing rigidbody reference to rb variable
         rb = this.GetComponent<Rigidbody>();
@@ -93,6 +99,7 @@ public class PennyController : MonoBehaviour, IPennyController
         if (playe_state == state.boss)
         {
             PowerBar.instance.accuracyTxt.transform.SetParent(PowerBar.instance.transform);
+            PowerBar.instance.accuracyTxt.gameObject.SetActive(false);
             touchInput.enabled = false;
             PowerBar.instance.gameObject.GetComponent<CanvasGroup>().alpha = 0f;
             UIManager.instance._swipeHand.gameObject.SetActive(false);
@@ -138,7 +145,9 @@ public class PennyController : MonoBehaviour, IPennyController
         }
         if (playe_state == state.user)
         {
+            GameManager.instance.gameStates = GameStates.Playing;
             PowerBar.instance.accuracyTxt.transform.SetParent(PowerBar.instance.transform.parent);
+            PowerBar.instance.accuracyTxt.gameObject.SetActive(false);
             touchInput.enabled = true;
             PowerBar.instance.gameObject.GetComponent<CanvasGroup>().alpha = 1f;
             if (PlayerPrefs.GetString("gander") == "male")
@@ -177,17 +186,20 @@ public class PennyController : MonoBehaviour, IPennyController
         if (isShoot && !collisonOccured)
             transform.RotateAround(transform.position, Vector3.right, 540 * Time.deltaTime);
 
-        
+        if (startfalsing) { transform.localEulerAngles = Vector3.zero; }
+
         if (playe_state == state.boss)
         {
+            t = Time.deltaTime;
             UIManager.instance._swipeHand.gameObject.SetActive(false);
-            if(UIManager.instance.bossImage.transform.gameObject.activeInHierarchy == true && !stopCrountimeBoss) { UIManager.instance.bossImage.fillAmount -= ((waitForForfeit / 2) * 0.01f) * Time.deltaTime; }
+            if(UIManager.instance.bossImage.transform.gameObject.activeInHierarchy == true && !stopCrountimeBoss) { UIManager.instance.bossImage.fillAmount -= ((waitForForfeit / 2) * 0.01f) * t; }
             if(UIManager.instance.bossImage.fillAmount == 0f) { forfeit(); }
         }
 
         if(playe_state == state.user)
         {
-            if (UIManager.instance.userImage.transform.gameObject.activeInHierarchy == true && !stopCrountimeUser) {UIManager.instance.userImage.fillAmount -= ((waitForForfeit / 2) * 0.01f) * Time.deltaTime;}
+            t = Time.deltaTime;
+            if (UIManager.instance.userImage.transform.gameObject.activeInHierarchy == true && !stopCrountimeUser) {UIManager.instance.userImage.fillAmount -= ((waitForForfeit / 2) * 0.01f) * t;}
             if (UIManager.instance.userImage.fillAmount == 0f) { forfeit(); }
         }
     }
@@ -203,7 +215,6 @@ public class PennyController : MonoBehaviour, IPennyController
             return;
         if (GameManager.instance.gameStates == GameStates.IgnoreTouches || playe_state == state.boss)
             return;
-
         // getting touch position when you touch the screen
         mousedownPosition = Input.mousePosition;
 
@@ -246,7 +257,7 @@ public class PennyController : MonoBehaviour, IPennyController
 
         //UN-comment for swipe controls
         //Vector3 forceV = (new Vector3(-direction.x * throwForceInXandY, -direction.y * throwForceInXandY, throwForceInZ / timeInterval));
-
+        //da3
 
         //check if not already shooted(iShoot is false)
         if (!isShoot)//Call DrawTrajectory script function to draw trajectory and pass derived force,Rigidbody and penny clone current position
@@ -287,6 +298,7 @@ public class PennyController : MonoBehaviour, IPennyController
                 return;
             if (GameManager.instance.gameStates == GameStates.IgnoreTouches || playe_state == state.boss)
                 return;
+
             /*if (PlayerPrefs.GetString("gander") == "female") { Camera.main.transform.SetParent(Spawner.instance.SpawnPos_F.transform); }
             else { Camera.main.transform.SetParent(Spawner.instance.SpawnPos.transform); }*/
             FindObjectOfType<WindArea>().isStop = false;
@@ -323,8 +335,9 @@ public class PennyController : MonoBehaviour, IPennyController
     }
     void Shoot()
     {
+        GetComponent<MeshRenderer>().enabled = false;
         UIManager.instance._swipeHand.gameObject.SetActive(false);
-        test.SetActive(true);
+        startfalsing = true;
         if (playe_state == state.user)
         {
             // PowerBar.instance.anim.speed=0;
@@ -336,6 +349,9 @@ public class PennyController : MonoBehaviour, IPennyController
             //rb.AddForce(new Vector3(Force.x, Force.y, Force.y) * ForceMultiplayer);
             AudioHandler.instance.ArmMovementSound();
             isShoot = true;
+            test.SetActive(true);
+            test.GetComponent<CameraController>().startAnim = true;
+            camPos.GetComponent<Animator>().Play("CamRotate");
             //test.SetActive(true);
             //transform.GetChild(0).gameObject.SetActive(true);
             //transform.GetChild(0).gameObject.SetActive(true);
@@ -348,16 +364,17 @@ public class PennyController : MonoBehaviour, IPennyController
             //If bool is already active mean penny is thrown return from this function 
             if (isShoot)
                 return;
-            transform.GetComponent<MeshRenderer>().enabled = true;
+            //transform.GetComponent<MeshRenderer>().enabled = true;
             test.SetActive(true);
-            test.GetComponent<CameraController>().lookAtBoss = true;
+            test.GetComponent<CameraController>().startAnim = true;
             //if bool is not active apply force to penny
             //rb.AddForce(new Vector3(Force.y, Force.z, Force.x) * ForceMultiplayer);
             //rb.AddForce(new Vector3(Force.x, Force.y, Force.y) * ForceMultiplayer);
             //rb.AddForce(-direction.x * throwForceInXandY, -direction.y * throwForceInXandY, throwForceInZ / timeInterval);
             int selectP = Random.Range(60, 240);
             int selectR = Random.Range(-20, 20);
-            rb.AddForce(new Vector3(selectR, selectP, selectP));
+            int multiple = Random.Range(1, 2);
+            rb.AddForce(new Vector3(selectR * multiple, selectP * multiple, selectP * multiple));
             PowerBar.instance.gameObject.SetActive(false);
             //PosBar.instance.GetComponent<CanvasGroup>().alpha = Mathf.Lerp(PosBar.instance.GetComponent<CanvasGroup>().alpha, 0.5f, Mathf.Sin(1f));
         }
@@ -381,9 +398,6 @@ public class PennyController : MonoBehaviour, IPennyController
         HandTransform.GetComponent<Animator>().SetBool("HandAnimbool", true);
         stopCrountimeBoss = true;
         HandTransform.GetComponent<Animator>().speed = 0.8f;
-        GetComponent<MeshRenderer>().enabled = false;
-        test.SetActive(true);
-        test.GetComponent<CameraController>().isBoss = true;
         if (LevelSelection.instance.nowModel != null) { LevelSelection.instance.nowModel.GetComponent<CharacterProperite>().coinHand.gameObject.SetActive(true); }
         if (LevelSelection.instance.nowModel != null) { LevelSelection.instance.nowModel.GetComponent<Animator>().Play("throw"); }
         StartCoroutine(playanimation());
@@ -415,6 +429,12 @@ public class PennyController : MonoBehaviour, IPennyController
 
         if (collision.transform.CompareTag("Ground"))
         {
+            test.GetComponent<CameraController>().startAnim = false;
+            GetComponent<PennyShoot>().up = false;
+            startfalsing = false;
+            thol.SetBool("rot", false);
+            GetComponent<MeshRenderer>().enabled = true;
+            thol.GetComponent<MeshRenderer>().enabled = false;
             CoinSoundController.instance.PlayCoinSound(collision.transform.name);
             PosBar.instance.enabled = false;
             PosBar.instance.stopFollow = true;
@@ -438,7 +458,7 @@ public class PennyController : MonoBehaviour, IPennyController
             // {
             //     Destroy(parentObject.transform.GetChild(0).gameObject);
             // }
-            Destroy(test, 1);
+            Destroy(test, 1.5f);
             //point.distanceTxt.text=distance.ToString("0")+" Meter";
             //Debug.Log("Point instantiat");
             //FindObjectOfType<CameraController>().gameObject.SetActive(false);
@@ -673,7 +693,8 @@ public class PennyController : MonoBehaviour, IPennyController
     //Animation event attached to the hand thrown animation
     public void OnAnimationEventTrigger()
     {
-        GetComponent<MeshRenderer>().enabled = true;
+        thol.SetBool("rot", true);
+        thol.GetComponent<MeshRenderer>().enabled = true;
         if (LevelSelection.instance.nowModel != null) { LevelSelection.instance.nowModel.GetComponent<CharacterProperite>().coinHand.gameObject.SetActive(false); }
         UIManager.instance._swipeHand.gameObject.SetActive(false);
         transform.parent = null;

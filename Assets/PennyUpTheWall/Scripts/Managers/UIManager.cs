@@ -38,7 +38,7 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         RestartButton.onClick.AddListener(RestartButtonClicked);
-        PennyImage.gameObject.SetActive(false);
+        //PennyImage.gameObject.SetActive(false);
         if (PlayerPrefs.GetString("Handed") != "Left" && PlayerPrefs.GetString("Handed") != "Right")
         {
             PlayerPrefs.SetInt("sounds", 1);

@@ -44,7 +44,7 @@ namespace MySpace
         {
             if (other.GetComponent<Rigidbody>() != null)
             {
-                other.GetComponent<Rigidbody>().velocity += windDir;
+                other.GetComponent<Rigidbody>().velocity += (windDir / 4);
             }
         }
     }

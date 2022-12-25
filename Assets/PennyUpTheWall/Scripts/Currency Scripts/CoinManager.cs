@@ -15,7 +15,7 @@ public class CoinManager : MonoBehaviour {
     [SerializeField] NumberFormatter n; // For Not Enough Coin_Dailogue panel
     [SerializeField] GameObject Watch_Ad1_panel; // For Not Enough Coin_Dailogue panel
     int Coins =0;
-
+    public bool isMainMenu;
     //**Call like this for adding coins
     //CoinManager.instance.AddCoins(100);
     //*** Call like this for subtract coins
@@ -43,7 +43,7 @@ public class CoinManager : MonoBehaviour {
 
         PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") + 100000);
 
-        UpdateCoinsText();
+        if (isMainMenu) { UpdateCoinsText(); }
     }
     public void AddCoins(int addValue)
     {
@@ -101,6 +101,8 @@ public class CoinManager : MonoBehaviour {
     }
     public void UpdateCoinsText()
     {
+        if (!isMainMenu)
+            return;
         Coins = PlayerPrefs.GetInt("Coins");
         CoinText.text = n.numberFormat(Coins);
         LevelSelection_CoinText.text = CoinText.text;

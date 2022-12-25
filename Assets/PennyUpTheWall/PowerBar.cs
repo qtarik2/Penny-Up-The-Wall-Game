@@ -15,6 +15,10 @@ public class PowerBar : MonoBehaviour
     public bool isConstructor;
     public Slider powerBarSlider;
     public float SetSpeed;
+    public float speed;
+    [HideInInspector]
+    public int bossNow;
+    private int last;
 
     private void Awake()
     {
@@ -51,7 +55,9 @@ public class PowerBar : MonoBehaviour
 
     private void Update()
     {
-        if(LevelSelection._clickedLevelNo > 5)
+        anim.SetFloat("Speed", speed);
+
+        if (LevelSelection._clickedLevelNo > 5)
         {
             GetComponent<Image>().enabled = false;
             handle.gameObject.SetActive(false);
