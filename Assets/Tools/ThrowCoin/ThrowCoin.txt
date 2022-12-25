@@ -1,0 +1,17 @@
+Errors :
+
+	1- Fixing When Drop The Coin, Its Going So Hight Than The Line
+	2- Fixing When Drag The Coin, The Line Not Showing good At The Beginner
+	3- Fixing When Drag The Line, Its Going More Than The Screen
+
+Scripts :
+
+	1- Editing Script Called ("PennyController")
+	2- Editing Script Called ("PowerBar")
+	3- Some Edit In Front-End
+
+What I Do :
+
+	1- Replace The Old Drag Line Script With My Script Called ("UpdateTrajectory")
+	2- Add New Script For Throw IN The Coin Called ("PennyShoot")
+	2- Integrate It To Script Called ("PennyController")

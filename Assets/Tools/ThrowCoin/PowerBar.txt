@@ -1,0 +1,14 @@
+Errors :
+
+	1- Fixing Throw Coin Not Accurate To The Power Bar
+
+Scripts :
+
+	1-  Editing Script Called ("PowerBar")
+	1-  Editing Script Called ("PennyController")
+
+What I Do :
+
+	1- Remove The Old Calculation From Script ("PowerBar") And ("PennyController")
+	2- New Calculate For More Accurate To The Power Bar
+	3- Set UP The New Calculate To The Script("PennyController")

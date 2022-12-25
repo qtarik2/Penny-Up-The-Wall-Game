@@ -1,0 +1,19 @@
+Errors :
+
+	1- Fixing The Wind Going Wrong
+	2- Fixing The Wind Direction Going Wrong
+
+Scripts :
+
+	1- Editing Script Called ("PennyShoot")
+	2- Editting Script Called ("WindArea")
+
+What I Do :
+
+	1- Calculate The Good Wind Direction
+	2- Integrate It To Script Called ("PennyShoot")
+
+How To Use :
+
+	1- Can Edit The Random Of Direction Time
+	(By Changing The Value In WindArea Called ("Every"))

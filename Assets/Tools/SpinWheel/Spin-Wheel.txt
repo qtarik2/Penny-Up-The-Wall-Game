@@ -1,0 +1,41 @@
+So in the First I Remove the script in The SpinWheel and i replace it with my script Called (" SpinWheel ")
+thats working very good
+
+Its advantages :
+	
+	1- Smoothly Rotate
+	2- Smoothly Sound And Consistent
+	3- Clean Code
+	4- Easy To SetUP
+	5- Easy To Use
+
+How To Use :
+
+	1- You can adjust how many laps you want and how long it takes to complete
+	(By Editing The Value In (" SpinTurne "))
+
+	2- You can adjust how long it takes to complete
+	(By Editing The Value In (" SmoothTime "))
+
+	3- You can adjust The Smooth Time When Complet
+	(By Editing The Value In (" SmoothToComplet "))
+
+	4- You can adjust How Many Item You Need
+	(By Editing The Value In (" Items "))
+
+	5- You can adjust The Percentage of any items you need
+	(By Editing The Value In (" Items/Min & Max  Percentage "))
+
+	5- You can adjust The Sound Of Wheel You Need
+	(By Replacing The Sound In (" SpinSound ")) (Also You Can Find 3 different wheel sound in (" Assets/SpinWheel/SFX "))
+
+	5- You can adjust The Sound Of Coin Wining You Need
+	(By Replacing The Sound In (" WinnerAudio "))
+
+	5- You can adjust The Claim Panel Show/Hide
+	(By Editing The Value In (" ShowClaimPanel "))
+
+
+Thats 'it, Thank You !!
+
+Best Regards, Edam Derbel

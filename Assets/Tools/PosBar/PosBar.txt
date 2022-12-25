@@ -1,0 +1,29 @@
+So After I Stop Follow Coin
+
+I made a new bar with her ("MaxPosUI") and ("MinPosUI")
+i mean tha bar have first position and the last position
+ 
+in scene you will see 2 sphere with yellow collow the first sphere called ("MinPos") her position is the minimum position of the coin
+and the second sphere called ("Max Position") her position is the maximum position of the coin
+
+so what i do is calculate the percentage of the coin between (max and min pos)
+and after that i instatitate new image (the icon of the player or boss) and i set the percantage to the image between the MaxPosUI
+and MinPosUI to the percentage of the coin calculated
+
+Its advantages :
+
+	1- Smoothly Position Of The UI icon
+	2- Avoid Mistake By Making clamp Of The UI icon Position
+	(if the coin position larger than max position make the max of the icon is the max of MaxPosUI)
+
+How To Use :
+
+	1- You can adjust The Max and Min Position Of the Bar UI
+	(By Editing The Positions In (" MaxPosUI ") and (" MinPosUI "))
+
+	2- You can adjust The Max and Min Position Of the Coin Of The Coin In Space World
+	(By Editing The Positions In (" MaxPos ") and ("MinPos") (Yellow Sphere))
+
+Thats 'it, Thank You !!
+
+Best Regards, Edam Derbel
