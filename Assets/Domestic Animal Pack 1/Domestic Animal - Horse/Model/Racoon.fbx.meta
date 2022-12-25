@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 39c80b80e7cbd264a92c5afbac581f14
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: racoon1_Racoon_Mat
+    second: {fileID: 2100000, guid: e41dd685c421ffc4192a5ae11a3bbf58, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'b_Hip' has translation animation that will
+      be discarded.\n\t'b_Hip' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'b_Spine02' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 191
+      lastFrame: 225
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Racoon(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: racoon1:blend_root
+      parentName: Racoon(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: racoon1:Racoon
+      parentName: racoon1:blend_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: b_Root
+      parentName: Racoon(Clone)
+      position: {x: -0.014614255, y: 0.5266388, z: 0.39345247}
+      rotation: {x: -0.9997719, y: -0.00000003586734, z: -0.021361107, w: -0.0000019399447}
+      scale: {x: 0.82486665, y: 0.82486653, z: 0.82486653}
+    - name: b_Hip
+      parentName: b_Root
+      position: {x: 0.00004800364, y: 0.24551627, z: 0.4140635}
+      rotation: {x: 0.12491956, y: 0.6803864, z: 0.13040277, w: 0.71025664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: b_Spine01
+      parentName: b_Hip
+      position: {x: -0.128506, y: 0.000000024018464, z: 0.000000020317373}
+      rotation: {x: -0.00000017136337, y: 0.00000014901163, z: 0.59041584, w: 0.8070993}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: b_Spine02
+      parentName: b_Spine01
+      position: {x: -0.21655753, y: -0.0000011811433, z: 0.000000028122214}
+      rotation: {x: -0.0001819727, y: -0.0035864091, z: 0.058326006, w: 0.99829113}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: b_Neck
+      parentName: b_Spine02
+      position: {x: -0.25649145, y: 0, z: 7.3708406e-10}
+      rotation: {x: 0.012857045, y: 0.0013539664, z: -0.2900107, w: 0.9569361}
+      scale: {x: 1, y: 0.99999994, z: 1.0000005}
+    - name: b_Head
+      parentName: b_Neck
+      position: {x: -0.13376957, y: -0.000000035762785, z: 0.0000000012611906}
+      rotation: {x: -0.0010341209, y: 0.005371697, z: 0.28489462, w: 0.9585433}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.9999999}
+    - name: b_RightUpperArm
+      parentName: b_Spine02
+      position: {x: -0.18677905, y: -0.042973403, z: 0.069675736}
+      rotation: {x: -0.58068615, y: 0.39717832, z: 0.5889895, w: 0.39767382}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: b_RightForeArm
+      parentName: b_RightUpperArm
+      position: {x: -0.23045124, y: 0.0000000038853396, z: -0.000000003178914}
+      rotation: {x: 0.0014294084, y: 0.0031271868, z: -0.025670702, w: 0.9996646}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: b_RightHand
+      parentName: b_RightForeArm
+      position: {x: -0.19350052, y: -0.0014598268, z: -0.0000000012362444}
+      rotation: {x: -0.013650793, y: 0.01263644, z: -0.3106444, w: 0.9503442}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: b_LeftUpperArm
+      parentName: b_Spine02
+      position: {x: -0.1867791, y: -0.04297344, z: -0.06967988}
+      rotation: {x: 0.45622012, y: -0.534764, z: 0.4577305, w: 0.54440206}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: b_LeftForeArm
+      parentName: b_LeftUpperArm
+      position: {x: -0.23045127, y: 0.000000020133125, z: -0.0000000040619463}
+      rotation: {x: -0.00082027895, y: -0.004679232, z: -0.038420163, w: 0.9992504}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: b_LeftHand
+      parentName: b_LeftForeArm
+      position: {x: -0.19350053, y: -0.0014598599, z: -0.000000005474797}
+      rotation: {x: 0.009487463, y: 0.011161514, z: 0.51368874, w: 0.8578516}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1}
+    - name: b_Tail01
+      parentName: b_Hip
+      position: {x: -0.042603817, y: 0.15958771, z: -0.000000114440915}
+      rotation: {x: 0.000000096857555, y: 0.0000003576279, z: 0.8591254, w: -0.5117652}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: b_Tail02
+      parentName: b_Tail01
+      position: {x: -0.12411915, y: 0.000000076293944, z: 0.0000000026728502}
+      rotation: {x: 0.00000002002825, y: 0.00000013630746, z: 0.06501667, w: 0.9978842}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: b_Tail03
+      parentName: b_Tail02
+      position: {x: -0.2424032, y: 0, z: 0.00000000635815}
+      rotation: {x: -0.000000014763101, y: -0.00000012651903, z: 0.022104114, w: 0.9997557}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: b_LeftLeg01
+      parentName: b_Hip
+      position: {x: -0.04813763, y: 0.051540174, z: -0.06968007}
+      rotation: {x: 0.05373855, y: -0.03217059, z: 0.8656806, w: -0.49666318}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: b_LeftLeg02
+      parentName: b_LeftLeg01
+      position: {x: -0.18944179, y: 0, z: 0.000000009360137}
+      rotation: {x: 0.004386179, y: -0.0070936996, z: 0.30476266, w: 0.95239186}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+    - name: b_LeftFoot01
+      parentName: b_LeftLeg02
+      position: {x: -0.1794281, y: -0.000000038146972, z: 0.0000000058280096}
+      rotation: {x: 0.0049535926, y: 0.04203724, z: -0.9307368, w: 0.36323196}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: b_LeftFoot02
+      parentName: b_LeftFoot01
+      position: {x: -0.15779938, y: 0.00000031224, z: -0.0000000021192763}
+      rotation: {x: -0.00000003294554, y: 0.000000068452216, z: -0.5472883, w: 0.83694416}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: b_RightLeg01
+      parentName: b_Hip
+      position: {x: -0.0481377, y: 0.051540222, z: 0.069675624}
+      rotation: {x: -0.033890948, y: 0.012592257, z: 0.86689, w: -0.49718663}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: b_RightLeg02
+      parentName: b_RightLeg01
+      position: {x: -0.18944179, y: -0.0000000017660633, z: 0.000000007594073}
+      rotation: {x: -0.0079069855, y: 0.007844579, z: 0.2948129, w: 0.95549005}
+      scale: {x: 0.99999976, y: 0.9999998, z: 1.0000001}
+    - name: b_RightFoot01
+      parentName: b_RightLeg02
+      position: {x: -0.17942806, y: -0.000000079119644, z: -0.0000000014128508}
+      rotation: {x: -0.032198407, y: -0.03875642, z: -0.7145248, w: 0.6977933}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.99999994}
+    - name: b_RightFoot02
+      parentName: b_RightFoot01
+      position: {x: -0.15779941, y: 0.00000025678563, z: 5.298191e-10}
+      rotation: {x: -0.000000037718564, y: -0.000000041443855, z: -0.54728836, w: 0.83694416}
+      scale: {x: 1.0000006, y: 1, z: 1.0000006}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
