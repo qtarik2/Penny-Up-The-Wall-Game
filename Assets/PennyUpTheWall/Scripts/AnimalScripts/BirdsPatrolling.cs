@@ -13,7 +13,7 @@ public class BirdsPatrolling : MonoBehaviour
     
     void Start()
     {
-        //myPositions = LevelSelection.instance.birdPoints;
+        myPositions = LevelSelection.instance.birdPoints;
         posIndex = 0;
         transform.LookAt(myPositions[posIndex].transform.position);
     

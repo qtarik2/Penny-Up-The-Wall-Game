@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
+    public AudioSource audioo;
+    public AudioSource audiooo;
     [SerializeField] public List<GameObject> Panels = new List<GameObject>();
     [SerializeField] public GameObject _speedoMeter;
     [SerializeField] public GameObject _DragSpeed;
@@ -208,6 +210,8 @@ public class UIManager : MonoBehaviour
     }
     public void ExitButtonClicked()
     {
+        DialogueManager.instance.roundnow = 0;
+        cross(10);
         _WindDialPanel.SetActive(false);
         _PlayerBossImagePanel.SetActive(false);
         Time.timeScale = 1;
@@ -215,8 +219,12 @@ public class UIManager : MonoBehaviour
         BossAI.instance.user_count = 0;
         BossAI.instance.Total_count = 0;
         PennyController.instance.For_exit();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Destroy(Spawner.instance.SpawnedObject);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Destroy(PennyController.instance);
+        Destroy(PennyController.instance.test);
         SetActivePanel(4);
+        Spawner.instance.ReGenerateOnDestroy();
     }
     public void RateUsClicked()
     {
@@ -322,6 +330,10 @@ public class UIManager : MonoBehaviour
     public void Pause_function()
     {
         Time.timeScale = 0;
+        audioo.ignoreListenerPause = true;
+        audioo.ignoreListenerVolume = true;
+        audiooo.ignoreListenerPause = true;
+        audiooo.ignoreListenerVolume = true;
     }
     public void Vibrate_on_Off(int value)
     {

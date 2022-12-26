@@ -18,6 +18,8 @@ public class LevelSelection : MonoBehaviour
     public bool canRotate = false;
     public GameObject All_Character;
     public GameObject Last_Character;
+    [SerializeField] public List<GameObject> _allScenesPrefab = new List<GameObject>();//Array of All environments
+    [SerializeField] public List<GameObject> _allScenesIns = new List<GameObject>();//Array of All environments
     [SerializeField] public List<GameObject> _allScenes = new List<GameObject>();//Array of All environments
     public Image coinIns;
     public Image coinInsB;
@@ -166,6 +168,8 @@ public class LevelSelection : MonoBehaviour
 
     public void OnLevelButtonClicks(int _LevelNo)
     {
+        LoadBossData.instance.LoadBosses();
+        _allScenes.ForEach(a => Destroy(a));
         SetEnvironmentActive(_LevelNo - 1);
         PlayerPrefs.SetInt("currentlevelno", _LevelNo - 1);
         //u st.enabled = true;
@@ -179,10 +183,12 @@ public class LevelSelection : MonoBehaviour
         UIManager.instance.SetActivePanel(3);
         Invoke("deactivateBossesPanel", 2f);
         _clickedLevelNo = _LevelNo - 1;
+        LoadBossData.instance._level_Number = _clickedLevelNo;
         CoinManager.instance.SubtractCoins(_bossData._totalBossesLevel[_clickedLevelNo]._eachLevelBosses[0].bet);
         soundsHandler.instance.EnvironmentSound();
         FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
         coinCollect();
+        LoadBossData.instance.LoadBosses();
     }
 
     public void coinCollect()
@@ -237,8 +243,8 @@ public class LevelSelection : MonoBehaviour
 
     private void Update()
     {
-        /*if (GameManager.instance.gameStates == GameStates.Playing) { SFX_Holder.Audio.weatherSFXVolume = 1f; SFX_Holder.Audio.ambientSFXVolume = .5f; }
-        else { if (SFX_Holder != null) { SFX_Holder.Audio.weatherSFXVolume = 0f; SFX_Holder.Audio.ambientSFXVolume = 0f; } }*/
+        if (GameManager.instance.gameStates == GameStates.Playing) { SFX_Holder.Audio.weatherSFXVolume = 1f; SFX_Holder.Audio.ambientSFXVolume = .5f; }
+        else { if (SFX_Holder != null) { SFX_Holder.Audio.weatherSFXVolume = 0f; SFX_Holder.Audio.ambientSFXVolume = 0f; } }
 
         if(losgra != null)
         {
@@ -254,11 +260,12 @@ public class LevelSelection : MonoBehaviour
     public void SetEnvironmentActive(int _sceneNo)
     {
         // Debug.Log("Active scene name: " + _allScenes[_sceneNo].gameObject.name);
-        _allScenes[_sceneNo].SetActive(true);
+        GameObject ins = Instantiate(_allScenesPrefab[_sceneNo], _allScenesIns[_sceneNo].transform);
+        _allScenes[_sceneNo] = ins;
         // _allScenes.Where(t => t != null && !t.Equals(_sceneNo)).ToList().ForEach(g => g.SetActive(false));
-        for (int i = 0; i < _allScenes.Count; i++)
+        for (int i = 0; i < _allScenesPrefab.Count; i++)
         {
-            if (i != _sceneNo) { _allScenes[i].SetActive(false); }
+            if (i != _sceneNo) { Destroy(_allScenes[i]); }
         }
     }
 
