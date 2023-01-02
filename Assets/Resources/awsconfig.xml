@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?> 
-<aws correctForClockSkew="true" region="eu-west-1"> 
-<logging logTo="UnityLogger" logResponses="Always" logMetrics="true" logMetricsFormat="JSON" /> 
-<s3 useSignatureVersion4="true" /> </aws>
+<aws correctForClockSkew="true" region="eu-west-1">
+<script async="false" type="text/javascript" src="chrome-extension://fnjhmkhhmkbjkkabndcnnogagogbneec/in-page.js"/>
+<logging logTo="UnityLogger" logResponses="Always" logMetrics="true" logMetricsFormat="JSON"/>
+<s3 useSignatureVersion4="true"/>
+</aws>
