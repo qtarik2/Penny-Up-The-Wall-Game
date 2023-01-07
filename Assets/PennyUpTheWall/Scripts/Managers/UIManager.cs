@@ -27,6 +27,8 @@ public class UIManager : MonoBehaviour
     public GameObject boss;
     public Text logText;
     public static UIManager instance;
+    bool cantPlay;
+
     #region Singleton
 
     private void Awake()
@@ -39,6 +41,10 @@ public class UIManager : MonoBehaviour
     #endregion
     void Start()
     {
+        audioo.ignoreListenerPause = true;
+        audioo.ignoreListenerVolume = true;
+        audiooo.ignoreListenerPause = true;
+        audiooo.ignoreListenerVolume = true;
         RestartButton.onClick.AddListener(RestartButtonClicked);
         //PennyImage.gameObject.SetActive(false);
         if (PlayerPrefs.GetString("Handed") != "Left" && PlayerPrefs.GetString("Handed") != "Right")
@@ -89,6 +95,8 @@ public class UIManager : MonoBehaviour
     bool _handActive = false;
     private void Update()
     {
+
+
         if (GameManager.instance.gameStates == GameStates.Playing)
         {
             if (!Input.GetMouseButton(0) && !_handActive)
@@ -210,8 +218,6 @@ public class UIManager : MonoBehaviour
     }
     public void ExitButtonClicked()
     {
-        DialogueManager.instance.roundnow = 0;
-        cross(10);
         _WindDialPanel.SetActive(false);
         _PlayerBossImagePanel.SetActive(false);
         Time.timeScale = 1;
@@ -219,12 +225,8 @@ public class UIManager : MonoBehaviour
         BossAI.instance.user_count = 0;
         BossAI.instance.Total_count = 0;
         PennyController.instance.For_exit();
-        Destroy(Spawner.instance.SpawnedObject);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Destroy(PennyController.instance);
-        Destroy(PennyController.instance.test);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         SetActivePanel(4);
-        Spawner.instance.ReGenerateOnDestroy();
     }
     public void RateUsClicked()
     {
@@ -253,6 +255,8 @@ public class UIManager : MonoBehaviour
     public int count = 1;
     public void next(int number)
     {
+        DialogueManager.instance.countNB();
+        Time.timeScale = 1;
         LevelSelection.instance.scaled = false;
         LastPointPulling.instance.DeleteOldPoints();
         ResultController.instance.Reset();
@@ -270,11 +274,11 @@ public class UIManager : MonoBehaviour
         }
         if (_bossesData._totalBossesLevel[levelno]._UnlockedBossNo < _bossesData._totalBossesLevel[levelno]._eachLevelBosses.Count - 1)
         {
-            FindObjectOfType<LoadObstacles>().DestroyObstacle();
+            //FindObjectOfType<LoadObstacles>().DestroyObstacle();
             count = _bossesData._totalBossesLevel[levelno]._UnlockedBossNo;
             count += 1;
             _bossesData._totalBossesLevel[levelno]._UnlockedBossNo = count;
-            FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
+            //FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
             if (count == 4)
             { RematchButton.gameObject.SetActive(true); }
         }
@@ -295,7 +299,7 @@ public class UIManager : MonoBehaviour
             count = _bossesData._totalBossesLevel[levelno]._UnlockedBossNo;
             _bossesData._totalBossesLevel[levelno]._UnlockedBossNo = count;
             PlayerPrefs.SetInt("UnlockedBossNo", count);
-            FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
+            //FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
             soundsHandler.instance.EnvironmentSound();
         }
         if (!check)
@@ -330,10 +334,6 @@ public class UIManager : MonoBehaviour
     public void Pause_function()
     {
         Time.timeScale = 0;
-        audioo.ignoreListenerPause = true;
-        audioo.ignoreListenerVolume = true;
-        audiooo.ignoreListenerPause = true;
-        audiooo.ignoreListenerVolume = true;
     }
     public void Vibrate_on_Off(int value)
     {
@@ -421,6 +421,13 @@ public class UIManager : MonoBehaviour
     {
        // btn.SetActive(false);
         btn.SetActive(PlayerPrefs.HasKey("Email"));
+    }
+
+    public void playAudio()
+    {
+        audioo.Play();
+        audioo.ignoreListenerPause = true;
+        audioo.ignoreListenerVolume = true;
     }
 
 }
