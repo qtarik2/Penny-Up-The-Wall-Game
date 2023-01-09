@@ -1047,30 +1047,13 @@ MonoBehaviour:
     type: 3}
   resizeIconVerticalOnly: {fileID: 21300000, guid: a9fd8f6b461461f4a92eafc60921ee78,
     type: 3}
-  collapseButtonNormalColor:
-    r: 0.31617647
-    g: 0.31617647
-    b: 0.31617647
-    a: 1
-  collapseButtonSelectedColor:
-    r: 0.44117647
-    g: 0.4346886
-    b: 0.4346886
-    a: 1
-  filterButtonsNormalColor:
-    r: 0.31617647
-    g: 0.31617647
-    b: 0.31617647
-    a: 1
-  filterButtonsSelectedColor:
-    r: 0.44117647
-    g: 0.4346886
-    b: 0.4346886
-    a: 1
+  collapseButtonNormalColor: {r: 0.31617647, g: 0.31617647, b: 0.31617647, a: 1}
+  collapseButtonSelectedColor: {r: 0.44117647, g: 0.4346886, b: 0.4346886, a: 1}
+  filterButtonsNormalColor: {r: 0.31617647, g: 0.31617647, b: 0.31617647, a: 1}
+  filterButtonsSelectedColor: {r: 0.44117647, g: 0.4346886, b: 0.4346886, a: 1}
   commandSuggestionHighlightStart: <color=orange>
   commandSuggestionHighlightEnd: </color>
   logWindowTR: {fileID: 2070174870}
-  canvasTR: {fileID: 0}
   logItemsContainer: {fileID: 791311892}
   commandSuggestionsContainer: {fileID: 1960496387}
   commandInputField: {fileID: 276045710}
@@ -1091,40 +1074,7 @@ MonoBehaviour:
   logWindowCanvasGroup: {fileID: 2070174867}
   popupManager: {fileID: 1283242814}
   logItemsScrollRect: {fileID: 1655831460}
-  logItemsScrollRectTR: {fileID: 0}
-  logItemsScrollRectOriginalSize: {x: 0, y: 0}
   recycledListView: {fileID: 791311891}
-  isLogWindowVisible: 1
-  screenDimensionsChanged: 1
-  logWindowPreviousWidth: 0
-  infoEntryCount: 0
-  warningEntryCount: 0
-  errorEntryCount: 0
-  newInfoEntryCount: 0
-  newWarningEntryCount: 0
-  newErrorEntryCount: 0
-  isCollapseOn: 0
-  logFilter: 7
-  searchTerm: 
-  isInSearchMode: 0
-  snapToBottom: 1
-  indexOfLogEntryToSelectAndFocus: -1
-  shouldUpdateRecycledListView: 0
-  pendingLogToAutoExpand: 0
-  commandSuggestionInstances: []
-  visibleCommandSuggestionInstances: 0
-  commandCaretIndexIncrements: 
-  commandInputFieldPrevCommand: 
-  commandInputFieldPrevCommandName: 
-  commandInputFieldPrevParamCount: -1
-  commandInputFieldPrevCaretPos: -1
-  commandInputFieldPrevCaretArgumentIndex: -1
-  commandInputFieldAutoCompleteBase: 
-  commandInputFieldAutoCompletedNow: 0
-  pooledLogItems: []
-  commandHistoryIndex: -1
-  unfinishedCommand: 
-  isQuittingApplication: 0
 --- !u!114 &327555901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2271,10 +2221,10 @@ RectTransform:
   m_Father: {fileID: 115176278}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -500}
-  m_SizeDelta: {x: -640, y: -1402}
+  m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &633014800
 MonoBehaviour:
@@ -2716,33 +2666,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transformComponent: {fileID: 791311892}
   viewportTransform: {fileID: 1524115397}
-  logItemNormalColor1:
-    r: 0.23529412
-    g: 0.23529412
-    b: 0.23529412
-    a: 0.697
-  logItemNormalColor2:
-    r: 0.19607843
-    g: 0.19607843
-    b: 0.19607843
-    a: 0.697
-  logItemSelectedColor:
-    r: 0.32941177
-    g: 0.4862745
-    b: 0.7058824
-    a: 0.697
-  manager: {fileID: 0}
-  scrollView: {fileID: 0}
-  logItemHeight: 0
-  _1OverLogItemHeight: 0
-  viewportHeight: 0
-  indexOfSelectedLogEntry: 2147483647
-  positionOfSelectedLogEntry: 3.4028235e+38
-  heightOfSelectedLogEntry: 0
-  deltaHeightOfSelectedLogEntry: 0
-  isCollapseOn: 0
-  currentTopIndex: -1
-  currentBottomIndex: -1
+  logItemNormalColor1: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 0.697}
+  logItemNormalColor2: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.697}
+  logItemSelectedColor: {r: 0.32941177, g: 0.4862745, b: 0.7058824, a: 0.697}
 --- !u!224 &791311892
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5226,39 +5152,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cc4b1999716644c9308528e38e7081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popupTransform: {fileID: 0}
-  halfSize: {x: 0, y: 0}
-  backgroundImage: {fileID: 0}
-  canvasGroup: {fileID: 0}
   debugManager: {fileID: 327555900}
   newInfoCountText: {fileID: 1607448164}
   newWarningCountText: {fileID: 722633915}
   newErrorCountText: {fileID: 1091009424}
-  alertColorInfo:
-    r: 0.050980393
-    g: 0.32941177
-    b: 0.5647059
-    a: 1
-  alertColorWarning:
-    r: 0.59607846
-    g: 0.45490196
-    b: 0
-    a: 1
-  alertColorError:
-    r: 0.5647059
-    g: 0.050980393
-    b: 0.050980393
-    a: 1
-  newInfoCount: 0
-  newWarningCount: 0
-  newErrorCount: 0
-  normalColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
-  isPopupBeingDragged: 0
-  normalizedPosition: {x: 0, y: 0}
+  alertColorInfo: {r: 0.050980393, g: 0.32941177, b: 0.5647059, a: 1}
+  alertColorWarning: {r: 0.59607846, g: 0.45490196, b: 0, a: 1}
+  alertColorError: {r: 0.5647059, g: 0.050980393, b: 0.050980393, a: 1}
 --- !u!224 &1283242815
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6545,10 +6445,10 @@ RectTransform:
   m_Father: {fileID: 656587013}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 500}
-  m_SizeDelta: {x: -642, y: -1402}
+  m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1700386226
 MonoBehaviour:

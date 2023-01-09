@@ -241,7 +241,7 @@ public class DialogueManager : MonoBehaviour {
 	public IEnumerator StopBossing(float time)
 	{
 		yield return new WaitForSeconds(time);
-		StartDownloadingNextBoss();
+		//StartDownloadingNextBoss();
 		if (roundnow == 1) { LoadBossData.instance.SideAnimetionPlayFalse(); }
 		lastBossimage.SetActive(false);
 		startFading = true;
@@ -251,6 +251,7 @@ public class DialogueManager : MonoBehaviour {
 		Spawner.instance.SpawnedObject.GetComponent<MeshRenderer>().enabled = true;
 		if (roundnow == 1)
 		{
+			LoadNextBoss();
 			UIManager.instance.bossImage.fillAmount = 1f;
 			UIManager.instance.userImage.fillAmount = 1f;
 			Dialogue.gameObject.SetActive(true);
@@ -260,6 +261,49 @@ public class DialogueManager : MonoBehaviour {
 			StartCoroutine(hideit());
 		}
 		currentSprite = LevelSelection.instance.level[bossnow].Boss.Count - 1;
+	}
+
+	public void LoadNextBoss()
+    {
+		LevelSelection.instance.level[(bossnow + 1)].Boss.Clear();
+		LevelSelection.instance.level[(bossnow + 1)].Boss.Clear();
+		LevelSelection.instance.res = Resources.LoadAll("Level" + 1 + "/Boss" + (bossnow + 2), typeof(Texture2D));
+
+		List<int> listCalc = new List<int>();
+
+		foreach (var fileName in LevelSelection.instance.res)
+		{
+			string sentence = fileName.name;
+
+			string[] digits = Regex.Split(sentence, @"\D+");
+			int allcalc = 0;
+			foreach (string value in digits)
+			{
+				int number;
+				if (int.TryParse(value, out number))
+				{
+					allcalc = allcalc + number;
+				}
+			}
+
+			listCalc.Add(allcalc);
+		}
+
+		for (int i = 0; i < LevelSelection.instance.res.Length; i++)
+		{
+			LevelSelection.instance.level[(bossnow + 1)].Boss.Add(new Texture2D(50, 50));
+		}
+
+		for (int i = 0; i < listCalc.Count; i++)
+		{
+			int diff = listCalc[i];
+			int checkmin = 0;
+			for (int j = 0; j < listCalc.Count; j++)
+			{
+				if (diff < listCalc[j]) { checkmin++; }
+			}
+			LevelSelection.instance.level[(bossnow + 1)].Boss[(listCalc.Count - 1) - checkmin] = (Texture2D)LevelSelection.instance.res[i];
+		}
 	}
 
 	public void StartDownloadingNextBoss()

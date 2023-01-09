@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using Coffee.UIExtensions;
 using System.Collections;
-using UnityEngine.SceneManagement;
 using System.IO;
 using System;
 using System.Text.RegularExpressions;
@@ -47,6 +46,8 @@ public class LevelSelection : MonoBehaviour
     public CanvasGroup Waiting;
 
     public List<Texture2D> boss1;
+
+    public UnityEngine.Object[] res;
 
     //public Weather_sytem st;
     #region Singleton Region
@@ -187,14 +188,76 @@ public class LevelSelection : MonoBehaviour
             if (UIManager.instance.RematchButton.gameObject.activeInHierarchy == false)
                 return;
         }
-
-        Waiting.alpha = 1f;
-        Waiting.blocksRaycasts = true;
         if (isPlaying)
         {
             _LevelNo = DialogueManager.instance.levelnow + 1;
         }
-        StartCoroutine(StartLoadingFromDisk(_LevelNo, isPlaying));
+        //StartCoroutine(StartLoadingFromDisk(_LevelNo, isPlaying));
+        LoadBoss1FromRessources(1, _LevelNo);
+    }
+
+    public void LoadBoss1FromRessources(int boss, int _LevelNo)
+    {
+        level[0].Boss.Clear();
+        res = Resources.LoadAll("Level" + 1 + "/Boss" + boss, typeof(Texture2D));
+
+        List<int> listCalc = new List<int>();
+
+        foreach (var fileName in res)
+        {
+            string sentence = fileName.name;
+
+            string[] digits = Regex.Split(sentence, @"\D+");
+            int allcalc = 0;
+            foreach (string value in digits)
+            {
+                int number;
+                if (int.TryParse(value, out number))
+                {
+                    allcalc = allcalc + number;
+                }
+            }
+
+            listCalc.Add(allcalc);
+        }
+
+        for (int i = 0; i < res.Length; i++)
+        {
+            level[0].Boss.Add(new Texture2D(50,50));
+        }
+
+        for (int i = 0; i < listCalc.Count; i++)
+        {
+            int diff = listCalc[i];
+            int checkmin = 0;
+            for (int j = 0; j < listCalc.Count; j++)
+            {
+                if (diff < listCalc[j]) { checkmin++; }
+            }
+            level[0].Boss[(listCalc.Count - 1) - checkmin] = (Texture2D)res[i];
+        }
+
+        //LoadBossData.instance.LoadBosses();
+        _allScenes.ForEach(a => Destroy(a));
+        SetEnvironmentActive(_LevelNo - 1);
+        PlayerPrefs.SetInt("currentlevelno", _LevelNo - 1);
+        //u st.enabled = true;
+        //Set Deactive Level selection Panel
+        //UIManager.instance.SetDeActivatePanel(2);
+        if (CoinManager.instance.HasEnoughCoins_yes_No(_bossData._totalBossesLevel[_clickedLevelNo]._eachLevelBosses[0].bet).Equals(false))
+        {
+            return;
+        }
+        //Set active Bosses Panel
+        UIManager.instance.SetActivePanel(3);
+        Invoke("deactivateBossesPanel", 2f);
+        _clickedLevelNo = _LevelNo - 1;
+        LoadBossData.instance._level_Number = _clickedLevelNo;
+        CoinManager.instance.SubtractCoins(_bossData._totalBossesLevel[_clickedLevelNo]._eachLevelBosses[0].bet);
+        soundsHandler.instance.EnvironmentSound();
+        //FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
+        coinCollect();
+        LoadBossData.instance.LoadBosses();
     }
 
     IEnumerator StartLoadingFromDisk(int _LevelNow, bool isPlaying)
