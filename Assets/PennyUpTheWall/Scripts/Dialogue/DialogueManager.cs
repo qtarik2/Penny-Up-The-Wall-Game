@@ -9,7 +9,8 @@ using Amazon;
 using Amazon.S3;
 using System.Text.RegularExpressions;
 
-public class DialogueManager : MonoBehaviour {
+public class DialogueManager : MonoBehaviour
+{
 
 	public DownloadSpritesData downloadData;
 	public TextMeshProUGUI Dialogue;
@@ -113,8 +114,8 @@ public class DialogueManager : MonoBehaviour {
 
 	}
 
-    private void Update()
-    {
+	private void Update()
+	{
 		/*if(roundnow != 1)
         {
 			animator_of_DialoguePanel.GetComponent<CanvasGroup>().alpha = 0f;
@@ -122,7 +123,7 @@ public class DialogueManager : MonoBehaviour {
 			Fade[0].transform.GetChild(0).gameObject.SetActive(true);
 			Fade[0].transform.GetChild(1).gameObject.SetActive(true);
         }*/
-		
+
 		if (activePanel.activeInHierarchy == true && canAdd)
 		{
 			roundnow = 0;
@@ -209,7 +210,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 	IEnumerator StartBossing(float wait)
-    {
+	{
 		yield return new WaitForSeconds(wait);
 
 		for (int i = 0; i < esmo.Count; i++)
@@ -241,7 +242,7 @@ public class DialogueManager : MonoBehaviour {
 	public IEnumerator StopBossing(float time)
 	{
 		yield return new WaitForSeconds(time);
-		//StartDownloadingNextBoss();
+		StartDownloadingNextBoss();
 		if (roundnow == 1) { LoadBossData.instance.SideAnimetionPlayFalse(); }
 		lastBossimage.SetActive(false);
 		startFading = true;
@@ -251,7 +252,6 @@ public class DialogueManager : MonoBehaviour {
 		Spawner.instance.SpawnedObject.GetComponent<MeshRenderer>().enabled = true;
 		if (roundnow == 1)
 		{
-			LoadNextBoss();
 			UIManager.instance.bossImage.fillAmount = 1f;
 			UIManager.instance.userImage.fillAmount = 1f;
 			Dialogue.gameObject.SetActive(true);
@@ -263,60 +263,17 @@ public class DialogueManager : MonoBehaviour {
 		currentSprite = LevelSelection.instance.level[bossnow].Boss.Count - 1;
 	}
 
-	public void LoadNextBoss()
-    {
-		LevelSelection.instance.level[(bossnow + 1)].Boss.Clear();
-		LevelSelection.instance.level[(bossnow + 1)].Boss.Clear();
-		LevelSelection.instance.res = Resources.LoadAll("Level" + 1 + "/Boss" + (bossnow + 2), typeof(Texture2D));
-
-		List<int> listCalc = new List<int>();
-
-		foreach (var fileName in LevelSelection.instance.res)
-		{
-			string sentence = fileName.name;
-
-			string[] digits = Regex.Split(sentence, @"\D+");
-			int allcalc = 0;
-			foreach (string value in digits)
-			{
-				int number;
-				if (int.TryParse(value, out number))
-				{
-					allcalc = allcalc + number;
-				}
-			}
-
-			listCalc.Add(allcalc);
-		}
-
-		for (int i = 0; i < LevelSelection.instance.res.Length; i++)
-		{
-			LevelSelection.instance.level[(bossnow + 1)].Boss.Add(new Texture2D(50, 50));
-		}
-
-		for (int i = 0; i < listCalc.Count; i++)
-		{
-			int diff = listCalc[i];
-			int checkmin = 0;
-			for (int j = 0; j < listCalc.Count; j++)
-			{
-				if (diff < listCalc[j]) { checkmin++; }
-			}
-			LevelSelection.instance.level[(bossnow + 1)].Boss[(listCalc.Count - 1) - checkmin] = (Texture2D)LevelSelection.instance.res[i];
-		}
-	}
-
 	public void StartDownloadingNextBoss()
-    {
+	{
 		LevelSelection.instance.level.ForEach(l => l.Boss.Clear());
 		nbFile = 0;
 		if (bossnow < 5) { DownloadBosses(bossnow + 1); }
 	}
 
 	public void countNB()
-    {
+	{
 		nbFile = texturesURL.Count;
-    }
+	}
 
 	public List<string> texturesURL = new List<string>();
 	public List<int> listCalc = new List<int>();
@@ -408,7 +365,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 	IEnumerator StartDownloadTexture()
-    {
+	{
 		yield return new WaitForSeconds(0.5f);
 
 		DownloadTexture(texturesURL[nbFile], texturesURL);
@@ -435,7 +392,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 	IEnumerator hideit()
-    {
+	{
 		yield return new WaitForSeconds(5f);
 		LoadBossData.instance.SideAnimetionPlayFalse();
 	}
@@ -481,10 +438,10 @@ public class DialogueManager : MonoBehaviour {
 
 	[System.Serializable]
 	public class TransBoss
-    {
+	{
 		public Vector3 pos;
 		public Vector2 size;
-    }
+	}
 
 
 	public void resetInt()
@@ -495,7 +452,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 
 	public void resetSpeed()
-    {
+	{
 		PowerBar.instance.speed = 0.2f;
 
 	}

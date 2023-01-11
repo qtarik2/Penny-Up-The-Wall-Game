@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Coffee.UIExtensions;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using System.IO;
 using System;
 using System.Text.RegularExpressions;
@@ -12,6 +13,7 @@ using System.Text.RegularExpressions;
 /// </summary>
 public class LevelSelection : MonoBehaviour
 {
+    public bool isMainMenu;
     public bool isPlaying;
     public List<Level> level;
     public Transform[] birdPoints;
@@ -46,8 +48,8 @@ public class LevelSelection : MonoBehaviour
     public CanvasGroup Waiting;
 
     public List<Texture2D> boss1;
-
-    public UnityEngine.Object[] res;
+    public string[] fileInfo;
+    int inb = 0;
 
     //public Weather_sytem st;
     #region Singleton Region
@@ -69,21 +71,21 @@ public class LevelSelection : MonoBehaviour
         int level = 1 + PlayerPrefs.GetInt("LevelNumber");
         Level_Text.text = level.ToString();
         // set UI Price in multiplayer level selection 
-        SetQMLevelsCoin();
+        if (!isMainMenu) { SetQMLevelsCoin(); }
     }
     public void SetQMLevelsCoin()
     {
-        for(int i=0;i<QMLevelButtons.Length;i++)
+        for (int i = 0; i < QMLevelButtons.Length; i++)
         {
-            int levelPrice=_levelsData._LevelData[i].Price;
-            string levelPriceTxt=null;
-            if(levelPrice>=1000&&levelPrice<=999999)
+            int levelPrice = _levelsData._LevelData[i].Price;
+            string levelPriceTxt = null;
+            if (levelPrice >= 1000 && levelPrice <= 999999)
             {
-                levelPriceTxt=(levelPrice/1000).ToString("0")+"K";
+                levelPriceTxt = (levelPrice / 1000).ToString("0") + "K";
             }
-            else if(levelPrice>=1000000&&levelPrice<=999999999)
+            else if (levelPrice >= 1000000 && levelPrice <= 999999999)
             {
-                levelPriceTxt=(levelPrice/1000000).ToString("0")+"M";
+                levelPriceTxt = (levelPrice / 1000000).ToString("0") + "M";
             }
             QMLevelButtons[i].transform.GetChild(4).GetChild(0).GetChild(0).GetComponent<Text>().text = levelPriceTxt;
         }
@@ -141,12 +143,12 @@ public class LevelSelection : MonoBehaviour
             //Assign All Level Images from the LevelData scriptable object list
             LevelButtons[i].transform.GetComponent<Image>().sprite = _levelsData._LevelData[i].LevelImage;
             LevelButtons[i].transform.GetChild(3).GetComponent<Image>().sprite = _levelsData._LevelData[i].LevelNameImage;
-            
-            
+
+
 
             if (i <= currentLevelNo)
             {
-                 //LevelButtons[i].transform.GetChild(1).GetComponent<Image>().sprite = _levelsData._LevelData[i].UnlockImage;
+                //LevelButtons[i].transform.GetChild(1).GetComponent<Image>().sprite = _levelsData._LevelData[i].UnlockImage;
                 LevelButtons[i].transform.GetChild(1).GetComponent<Image>().enabled = false;
                 LevelButtons[i].transform.GetChild(2).GetComponent<Image>().enabled = false;     ///this is the level unlock comment
 
@@ -157,17 +159,17 @@ public class LevelSelection : MonoBehaviour
             else
             {
                 // This is also the level unlocking comment
-                 //LevelButtons[i].transform.GetChild(1).GetComponent<Image>().sprite = _levelsData._LevelData[i].LockImage;
+                //LevelButtons[i].transform.GetChild(1).GetComponent<Image>().sprite = _levelsData._LevelData[i].LockImage;
                 // LevelButtons[i].transform.GetComponent<Button>().interactable = false;
 
                 //Subhani::For testing only
-               LevelButtons[i].transform.GetComponent<Button>().interactable = true;
+                LevelButtons[i].transform.GetComponent<Button>().interactable = true;
 
             }
 
             //Subhani::For testing only
 
-           LevelButtons[i].transform.GetChild(1).GetComponent<Image>().enabled = false;
+            LevelButtons[i].transform.GetChild(1).GetComponent<Image>().enabled = false;
 
         }
 
@@ -188,59 +190,49 @@ public class LevelSelection : MonoBehaviour
             if (UIManager.instance.RematchButton.gameObject.activeInHierarchy == false)
                 return;
         }
+
         if (isPlaying)
         {
             _LevelNo = DialogueManager.instance.levelnow + 1;
         }
         //StartCoroutine(StartLoadingFromDisk(_LevelNo, isPlaying));
-        LoadBoss1FromRessources(1, _LevelNo);
+        Waiting.alpha = Mathf.Lerp(Waiting.alpha, 1, Mathf.Tan(1f));
+        Waiting.blocksRaycasts = true;
+        LoadBoss(_LevelNo);
     }
 
-    public void LoadBoss1FromRessources(int boss, int _LevelNo)
+    public void LoadBoss(int _levelNo)
     {
-        level[0].Boss.Clear();
-        res = Resources.LoadAll("Level" + 1 + "/Boss" + boss, typeof(Texture2D));
+        string path = (Application.persistentDataPath + "/BossesSprites" + "/Level" + _levelNo + "/Boss1");
+        fileInfo = Directory.GetFiles(path, "*.png");
+        level[(_levelNo - 1)].Boss.Clear();
+        StartCoroutine(LoadFromDisk(_levelNo));
+    }
 
-        List<int> listCalc = new List<int>();
-
-        foreach (var fileName in res)
+    IEnumerator LoadFromDisk(int _levelNo)
+    {
+        yield return new WaitForSeconds(0.1f);
+        byte[] textureBytes = File.ReadAllBytes(fileInfo[inb]);
+        Texture2D loadedTexture = new Texture2D(0, 0);
+        loadedTexture.LoadImage(textureBytes);
+        level[(_levelNo - 1)].Boss.Add(loadedTexture);
+        inb++;
+        if (inb < fileInfo.Length) { StartCoroutine(LoadFromDisk(_levelNo)); }
+        else
         {
-            string sentence = fileName.name;
+            Waiting.alpha = Mathf.Lerp(Waiting.alpha,0,Mathf.Tan(1f));
+            Waiting.blocksRaycasts = false;
 
-            string[] digits = Regex.Split(sentence, @"\D+");
-            int allcalc = 0;
-            foreach (string value in digits)
-            {
-                int number;
-                if (int.TryParse(value, out number))
-                {
-                    allcalc = allcalc + number;
-                }
-            }
-
-            listCalc.Add(allcalc);
+            StartLevel(_levelNo);
         }
+    }
 
-        for (int i = 0; i < res.Length; i++)
-        {
-            level[0].Boss.Add(new Texture2D(50,50));
-        }
-
-        for (int i = 0; i < listCalc.Count; i++)
-        {
-            int diff = listCalc[i];
-            int checkmin = 0;
-            for (int j = 0; j < listCalc.Count; j++)
-            {
-                if (diff < listCalc[j]) { checkmin++; }
-            }
-            level[0].Boss[(listCalc.Count - 1) - checkmin] = (Texture2D)res[i];
-        }
-
+    public void StartLevel(int _levelNo)
+    {
         //LoadBossData.instance.LoadBosses();
         _allScenes.ForEach(a => Destroy(a));
-        SetEnvironmentActive(_LevelNo - 1);
-        PlayerPrefs.SetInt("currentlevelno", _LevelNo - 1);
+        SetEnvironmentActive(_levelNo - 1);
+        PlayerPrefs.SetInt("currentlevelno", _levelNo - 1);
         //u st.enabled = true;
         //Set Deactive Level selection Panel
         //UIManager.instance.SetDeActivatePanel(2);
@@ -251,7 +243,7 @@ public class LevelSelection : MonoBehaviour
         //Set active Bosses Panel
         UIManager.instance.SetActivePanel(3);
         Invoke("deactivateBossesPanel", 2f);
-        _clickedLevelNo = _LevelNo - 1;
+        _clickedLevelNo = _levelNo - 1;
         LoadBossData.instance._level_Number = _clickedLevelNo;
         CoinManager.instance.SubtractCoins(_bossData._totalBossesLevel[_clickedLevelNo]._eachLevelBosses[0].bet);
         soundsHandler.instance.EnvironmentSound();
@@ -377,26 +369,26 @@ public class LevelSelection : MonoBehaviour
     }
     public void OnQMLevelButtonClicks(int _LevelNo)
     {
-        if(Application.internetReachability==NetworkReachability.NotReachable)
+        if (Application.internetReachability == NetworkReachability.NotReachable)
         {
             UIManager.instance.noInternetPanel.SetActive(true);
             return;
         }
-       // SetEnvironmentActive(_LevelNo - 1);
+        // SetEnvironmentActive(_LevelNo - 1);
         PlayerPrefs.SetInt("currentlevelno", _LevelNo - 1);
-        if(CoinManager.instance.HasEnoughCoins(_levelsData._LevelData[_LevelNo-1].Price))
+        if (CoinManager.instance.HasEnoughCoins(_levelsData._LevelData[_LevelNo - 1].Price))
         {
             UIManager.instance.OnLevelSelected(_LevelNo);
         }
     }
     public void OnPrivatLevelSelectionClicked(int _LevelNo)
     {
-        if(Application.internetReachability==NetworkReachability.NotReachable)
+        if (Application.internetReachability == NetworkReachability.NotReachable)
         {
             UIManager.instance.noInternetPanel.SetActive(true);
             return;
         }
-       // SetEnvironmentActive(_LevelNo - 1);
+        // SetEnvironmentActive(_LevelNo - 1);
         UIManager.instance.OnPrivatLevelSelected(_LevelNo);
 
     }
@@ -410,10 +402,13 @@ public class LevelSelection : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.instance.gameStates == GameStates.Playing) { SFX_Holder.Audio.weatherSFXVolume = 1f; SFX_Holder.Audio.ambientSFXVolume = .5f; }
-        else { if (SFX_Holder != null) { SFX_Holder.Audio.weatherSFXVolume = 0f; SFX_Holder.Audio.ambientSFXVolume = 0f; } }
+        if (!isMainMenu)
+        {
+            if (GameManager.instance.gameStates == GameStates.Playing) { SFX_Holder.Audio.weatherSFXVolume = 1f; SFX_Holder.Audio.ambientSFXVolume = .5f; }
+            else { if (SFX_Holder != null) { SFX_Holder.Audio.weatherSFXVolume = 0f; SFX_Holder.Audio.ambientSFXVolume = 0f; } }
+        }
 
-        if(losgra != null)
+        if (losgra != null)
         {
             if (scaled || losgra.activeInHierarchy == true || pausegra.activeInHierarchy == true)
             {

@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d760485b0d199aa41ab585515fc33203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 1
+  sceneIndex: 2
   transitionTime: 1
   anim: {fileID: 2286030697089938621}
   logo: {fileID: 2286030697601013962}
