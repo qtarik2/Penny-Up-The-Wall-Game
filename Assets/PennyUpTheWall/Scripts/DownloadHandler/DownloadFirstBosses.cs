@@ -15,6 +15,7 @@ public class DownloadFirstBosses : MonoBehaviour
     [Header("Downloaded Data")]
     public DownloadSpritesData downloadData;
 
+    [HideInInspector]
     public List<string> LastFileNameOfBosses1 = new List<string>();
 
     [Header("Referances")]
