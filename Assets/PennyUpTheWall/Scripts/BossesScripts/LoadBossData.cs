@@ -64,8 +64,6 @@ public class LoadBossData : MonoBehaviour
         var CurrentBossNo = _bossesData._totalBossesLevel[CurrentLevelNo]._UnlockedBossNo;
         _Boss_number = CurrentBossNo;
         //Boss Image In For dialoge panel show
-        DialogueManager.instance.boss_image_for_load.sprite = _bossesData._totalBossesLevel[CurrentLevelNo]._eachLevelBosses[CurrentBossNo].BossImage;
-        DialogueManager.instance.boss_name_for_load = _bossesData._totalBossesLevel[CurrentLevelNo]._eachLevelBosses[CurrentBossNo].BossName;
         PowerBar.instance.bossNow = CurrentBossNo;
         LevelSelection.instance.boss_Now.text = "Boss : " + (CurrentBossNo + 1);
         DialogueManager.instance.bossnow = CurrentBossNo;

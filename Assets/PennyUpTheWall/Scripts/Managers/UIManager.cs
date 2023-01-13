@@ -255,7 +255,6 @@ public class UIManager : MonoBehaviour
     public int count = 1;
     public void next(int number)
     {
-        DialogueManager.instance.countNB();
         Time.timeScale = 1;
         LevelSelection.instance.scaled = false;
         LastPointPulling.instance.DeleteOldPoints();

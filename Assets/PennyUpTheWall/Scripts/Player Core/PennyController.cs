@@ -181,7 +181,6 @@ public class PennyController : MonoBehaviour, IPennyController
 
     private void LateUpdate()
     {
-        print("coin position" + transform.position);
         //Check if penny is released and not grounded yet rotate the penny 
         if (isShoot && !collisonOccured)
             transform.RotateAround(transform.position, Vector3.right, 540 * Time.deltaTime);

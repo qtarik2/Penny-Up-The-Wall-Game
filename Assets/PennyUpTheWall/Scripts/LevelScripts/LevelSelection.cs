@@ -15,7 +15,6 @@ public class LevelSelection : MonoBehaviour
 {
     public bool isMainMenu;
     public bool isPlaying;
-    public List<Level> level;
     public Transform[] birdPoints;
     [SerializeField] GameObject[] LevelButtons;//List of all level buttons in content child
     [SerializeField] GameObject[] QMLevelButtons;//List of all QM level buttons in content child
@@ -195,36 +194,7 @@ public class LevelSelection : MonoBehaviour
         {
             _LevelNo = DialogueManager.instance.levelnow + 1;
         }
-        //StartCoroutine(StartLoadingFromDisk(_LevelNo, isPlaying));
-        Waiting.alpha = Mathf.Lerp(Waiting.alpha, 1, Mathf.Tan(1f));
-        Waiting.blocksRaycasts = true;
-        LoadBoss(_LevelNo);
-    }
-
-    public void LoadBoss(int _levelNo)
-    {
-        string path = (Application.persistentDataPath + "/BossesSprites" + "/Level" + _levelNo + "/Boss1");
-        fileInfo = Directory.GetFiles(path, "*.png");
-        level[(_levelNo - 1)].Boss.Clear();
-        StartCoroutine(LoadFromDisk(_levelNo));
-    }
-
-    IEnumerator LoadFromDisk(int _levelNo)
-    {
-        yield return new WaitForSeconds(0.1f);
-        byte[] textureBytes = File.ReadAllBytes(fileInfo[inb]);
-        Texture2D loadedTexture = new Texture2D(0, 0);
-        loadedTexture.LoadImage(textureBytes);
-        level[(_levelNo - 1)].Boss.Add(loadedTexture);
-        inb++;
-        if (inb < fileInfo.Length) { StartCoroutine(LoadFromDisk(_levelNo)); }
-        else
-        {
-            Waiting.alpha = Mathf.Lerp(Waiting.alpha,0,Mathf.Tan(1f));
-            Waiting.blocksRaycasts = false;
-
-            StartLevel(_levelNo);
-        }
+        StartLevel(_LevelNo);
     }
 
     public void StartLevel(int _levelNo)
@@ -250,104 +220,6 @@ public class LevelSelection : MonoBehaviour
         //FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
         coinCollect();
         LoadBossData.instance.LoadBosses();
-    }
-
-    IEnumerator StartLoadingFromDisk(int _LevelNow, bool isPlaying)
-    {
-        yield return new WaitForSeconds(1f);
-        LoadBoss1Texture(_LevelNow, isPlaying);
-    }
-
-    public void LoadBoss1Texture(int _leveNow, bool isPlaying)
-    {
-        string path = (Application.persistentDataPath + "/BossesSprites" + "/Level" + _leveNow + "/Boss1");
-        var fileNames = Directory.GetFiles(path, "*.png");
-
-        List<string> listPath = new List<string>();
-        List<int> listCalc = new List<int>();
-
-        foreach (var fileName in fileNames)
-        {
-            listPath.Add(fileName);
-            string sentence = fileName;
-
-            string[] digits = Regex.Split(sentence, @"\D+");
-            int allcalc = 0;
-            foreach (string value in digits)
-            {
-                int number;
-                if (int.TryParse(value, out number))
-                {
-                    allcalc = allcalc + number;
-                }
-            }
-
-            listCalc.Add(allcalc);
-        }
-
-        SetUpOrderPath(listPath, listCalc, _leveNow, isPlaying);
-    }
-
-    public void SetUpOrderPath(List<string> listPath, List<int> listCalc, int _LevelNo, bool isPlaying)
-    {
-        List<string> correct = new List<string>();
-
-        for (int i = 0; i < listCalc.Count; i++)
-        {
-            correct.Add("");
-        }
-
-        for (int i = 0; i < listCalc.Count; i++)
-        {
-            int diff = listCalc[i];
-            int checkmin = 0;
-            for (int j = 0; j < listCalc.Count; j++)
-            {
-                if (diff < listCalc[j]) { checkmin++; }
-            }
-            correct[(listCalc.Count - 1) - checkmin] = listPath[i];
-        }
-
-        foreach (string filePath in correct)
-        {
-            LoadImage(filePath);
-        }
-
-        if (!isPlaying)
-        {
-            Waiting.alpha = 0f;
-            Waiting.blocksRaycasts = false;
-
-            //LoadBossData.instance.LoadBosses();
-            _allScenes.ForEach(a => Destroy(a));
-            SetEnvironmentActive(_LevelNo - 1);
-            PlayerPrefs.SetInt("currentlevelno", _LevelNo - 1);
-            //u st.enabled = true;
-            //Set Deactive Level selection Panel
-            //UIManager.instance.SetDeActivatePanel(2);
-            if (CoinManager.instance.HasEnoughCoins_yes_No(_bossData._totalBossesLevel[_clickedLevelNo]._eachLevelBosses[0].bet).Equals(false))
-            {
-                return;
-            }
-            //Set active Bosses Panel
-            UIManager.instance.SetActivePanel(3);
-            Invoke("deactivateBossesPanel", 2f);
-            _clickedLevelNo = _LevelNo - 1;
-            LoadBossData.instance._level_Number = _clickedLevelNo;
-            CoinManager.instance.SubtractCoins(_bossData._totalBossesLevel[_clickedLevelNo]._eachLevelBosses[0].bet);
-            soundsHandler.instance.EnvironmentSound();
-            //FindObjectOfType<LoadObstacles>().LoadLevelObstacles();
-            coinCollect();
-            LoadBossData.instance.LoadBosses();
-        }
-    }
-
-    public void LoadImage(string path)
-    {
-        byte[] textureBytes = File.ReadAllBytes(path);
-        Texture2D loadedTexture = new Texture2D(0, 0);
-        loadedTexture.LoadImage(textureBytes);
-        level[0].Boss.Add(loadedTexture);
     }
 
     public void coinCollect()
@@ -430,12 +302,6 @@ public class LevelSelection : MonoBehaviour
         {
             if (i != _sceneNo) { Destroy(_allScenes[i]); }
         }
-    }
-
-    [Serializable]
-    public class Level
-    {
-        public List<Texture2D> Boss;
     }
 
 }
